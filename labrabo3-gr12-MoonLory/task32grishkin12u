@@ -1,0 +1,509 @@
+Script started on 2020-09-22 05:14:50-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="104" LINES="38"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ screen
+
+Command 'screen' not found, but can be installed with:
+
+sudo apt install screen
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ screen[Ksudo apt install screen
+[sudo] password for grishkin12: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libasn1-8-heimdal:i386 libavahi-client3:i386 libavahi-common-data:i386 libavahi-common3:i386
+  libbrotli1:i386 libbsd0:i386 libdbus-1-3:i386 libexif12:i386 libexpat1:i386 libffi7:i386
+  libfontconfig1:i386 libfprint-2-tod1 libfreetype6:i386 libgdbm-compat4:i386 libgdbm6:i386
+  libgmp10:i386 libgnutls30:i386 libgphoto2-port12:i386 libgssapi-krb5-2:i386 libgssapi3-heimdal:i386
+  libhcrypto4-heimdal:i386 libheimbase1-heimdal:i386 libheimntlm0-heimdal:i386 libhogweed5:i386
+  libhx509-5-heimdal:i386 libicu66:i386 libieee1284-3:i386 libjbig0:i386 libjpeg-turbo8:i386
+  libjpeg8:i386 libk5crypto3:i386 libkeyutils1:i386 libkrb5-26-heimdal:i386 libkrb5-3:i386
+  libkrb5support0:i386 libltdl7:i386 libnettle7:i386 libnghttp2-14:i386 libp11-kit0:i386 libpci3:i386
+  libperl5.30:i386 libpng16-16:i386 libpsl5:i386 libroken18-heimdal:i386 librtmp1:i386
+  libsensors5:i386 libsqlite3-0:i386 libssl1.1:i386 libstdc++6:i386 libtasn1-6:i386 libtiff5:i386
+  libusb-1.0-0:i386 libwebp6:i386 libwind0-heimdal:i386 libwrap0:i386 libxau6:i386 libxcb1:i386
+  libxdmcp6:i386 libxml2:i386
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libutempter0
+Suggested packages:
+  byobu | screenie | iselect
+The following NEW packages will be installed:
+  libutempter0 screen
+0 upgraded, 2 newly installed, 0 to remove and 31 not upgraded.
+Need to get 585 kB of archives.
+After this operation, 1,073 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m
+            Get:1 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libutempter0 amd64 1.1.6-4 [8,256 B]
+[33m0% [1 libutempter0 0 B/8,256 B 0%][0m[33m                                  11% [Working][0m             Get:2 http://us.archive.ubuntu.com/ubuntu focal/main amd64 screen amd64 4.8.0-1 [577 kB]
+[33m11% [2 screen 0 B/577 kB 0%][0m[33m30% [2 screen 141 kB/577 kB 25%][0m[33m57% [2 screen 339 kB/577 kB 59%][0m[33m84% [2 screen 534 kB/577 kB 93%][0m[33m                                100% [Working][0m              Fetched 585 kB in 2s (259 kB/s)
+
+7[0;37r8[1ASelecting previously unselected package libutempter0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 221033 files and directories currently installed.)
+Preparing to unpack .../libutempter0_1.1.6-4_amd64.deb ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................] 87[38;0f[42m[30mProgress: [ 11%][49m[39m [#########.........................................................................] 8Unpacking libutempter0:amd64 (1.1.6-4) ...
+7[38;0f[42m[30mProgress: [ 22%][49m[39m [##################................................................................] 8Selecting previously unselected package screen.
+Preparing to unpack .../screen_4.8.0-1_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 33%][49m[39m [###########################.......................................................] 8Unpacking screen (4.8.0-1) ...
+7[38;0f[42m[30mProgress: [ 44%][49m[39m [####################################..............................................] 8Setting up libutempter0:amd64 (1.1.6-4) ...
+7[38;0f[42m[30mProgress: [ 56%][49m[39m [#############################################.....................................] 87[38;0f[42m[30mProgress: [ 67%][49m[39m [######################################################............................] 8Setting up screen (4.8.0-1) ...
+7[38;0f[42m[30mProgress: [ 78%][49m[39m [###############################################################...................] 87[38;0f[42m[30mProgress: [ 89%][49m[39m [########################################################################..........] 8Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for install-info (6.7.0.dfsg.2-5) ...
+Processing triggers for libc-bin (2.31-0ubuntu9) ...
+Processing triggers for systemd (245.4-4ubuntu3.2) ...
+
+7[0;38r8[1A[J]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ screen
+[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;38r[H[2J[H[2J[H[2J
+GNU Screen version 4.08.00 (GNU) 05-Feb-20
+
+Copyright (c) 2018-2020 Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2015-2017 Juergen Weigert, Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2010-2014 Juergen Weigert, Sadrul Habib Chowdhury
+Copyright (c) 2008-2009 Juergen Weigert, Michael Schroeder, Micah Cowan, Sadrul Habib Chowdhury
+Copyright (c) 1993-2007 Juergen Weigert, Michael Schroeder
+Copyright (c) 1987 Oliver Laumann
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation; either version 3, or (at your
+option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program (see the
+file COPYING); if not, see https://www.gnu.org/licenses/, or contact Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02111-1301  USA.
+
+Send bugreports, fixes, enhancements, t-shirts, money, beer & pizza to screen-devel@gnu.org
+
+
+Capabilities:
++copy +remote-detach +power-detach +multi-attach +multi-user +font +color-256 +utf8 +rxvt
++builtin-telnet[37;37H[Press Space or Return to end.]
+[H[2J[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [H[2J[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$[18B[7m   0 bash                                                                                               [19B  --                                                                                                    [1;22H[27m[H[2J[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$[18B[7m   0 bash                                                                                               [19B  --                                                                                                    [1;22H[27m[1m[32m[0m[1m[34m[0m[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [19B[H[2J[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$[18B[7m   0 bash                                                                                               [19B   1 bash                                                                                               [18A[27m[1m[32m[0m[1m[34m[0m[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [17B[7mSet window's title to: [27m[K[7mbash[27m    [7mt[27m[7mt[27m[7my[27m[7m2[27m                                                                                                        [20;22H[18B[K[7m   1 tty2                                                                                               [20;22H[19A[27m[17B[7mSet window's title to: [27m[K[7mbash[27m    [7mt[27m[7mt[27m[7my[27m[7m1[27m                                                                                                        [1;22H[18B[K[7m   0 tty1                                                                                               [1;22H[27m())w)h)i)l)e) )t)r)u)e);) )t)o) )d)o)[K)[K)[K)[K)[K)d)o) )e)c)h)o) )-)n) )A) )>)>)l)o)g);) )s)l)e)e)p) )1);) )d)o)n)e)[1m[32mg
+[0m [20;22Htail -d[Kf log[1m[32mg
+[0mAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAA AAAAA[2;1H[21;40HA[2;1H[21;41HA[2;1H[1m[32m[0m[1m[34m[0m^Z
+[1]+  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ bg[1m[32m[0m[1m[34m[0m[1m[32mg
+[0m[1]+ ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [21;42HA[10;22H[21;43HA[10;22H[21;44HA[10;22H[21;45HA[10;22H[21;46HA[10;22H[21;47HA[10;22H[21;48HA[10;22H[21;49HA[10;22H[21;50HA[10;22Hbg[21;51HA[10;24H(while true; do echo -n A >>log; sleep 1; done)[21;52HA[10;69H)enod [21;53HA[10;63H;1 peels ;gol>>[21;54HA[10;48H [21;55HA[10;47H[K >>log; sleep 1; done)[22D[KB >>log; sleep 1; done)[22D[21;56HA[10;47H[1m[32mg
+[0m [21;57HB[10A[21;58HA[10A[21;59HB[10A[21;60HA[10A[21;61HB[10A[21;62HA[10A[21;63HB[10A[21;64HA[10A[21;65HB[10A[21;66HA[10A[21;67HB[10A[21;68HA[10A[21;69HB[10A[21;70HA[10A[21;71HB[10A[21;72HA[10A[21;73HB[10A[21;74HA[10A[21;75HB[10A[21;76HA[10A[21;77HB[10A[21;78HA[10A[21;79HB[10A[21;80HA[10A[1m[32m[0m[1m[34m[0m^Z
+[2]+  Stopped                 ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [21;81HA[15;22Hbg[21;82HA[15;24H[H[K^Z
+[K[1]+  Stopped[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ bg
+[K[1]+ ( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ (while true; do echo -n B >>log; sleep 1; done)
+[K^Z
+[K[2]+  Stopped[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ bg
+[K[2]+ ( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[21;83HB[3A[1m[32m[0m[1m[34m[0m[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [21;84HA[18;22H[21;85HB[18;22Hj[21;86HA[18;23Ho[21;87HB[18;24Hbs[1m[32m[0m[1m[34m[0m[H[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ (while true; do echo -n B >>log; sleep 1; done)
+[K^Z
+[K[2]+  Stopped[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ bg
+[K[2]+ ( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs
+[K[1]-  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [21;88HA[18;22H[21;89HB[18;22H[21;90HA[18;22H[21;91HB[18;22H[21;92HA[18;22H[21;93HB[18;22H[21;94HA[18;22H[21;95HB[18;22H[21;96HA[18;22H[21;97HB[18;22Hjobs[4D[Kbg(while true; do echo -n B >>log; sleep 1; done)[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ bg(while true; do echo -n A >>log; sleep 1; done)[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ exit[4D./script5_indiv.sh /usr/ 1000  1010 [17D[K. 0  10100 [21;98HA[18;52H[21;99HB[18;52H[48C
+
+
+A[18;52H[49C
+
+
+B[18;52H[50C
+
+
+A[18;52H[51C
+
+
+B[18;52H[52C
+
+
+A[18;52H
+
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ tail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABAAABABABABABABABABABABABA
+[K[21;104HAB
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[18;52H[22;2HA[18;52H[22;3HB[18;52H[22;4HA[18;52H[22;5HB[18;52H[22;6HA[18;52H[22;7HB[18;52H[22;8HA[18;52H[22;9HB[18;52H[22;10HA[18;52H[22;11HB[18;52H[22;12HA[18;52H[22;13HB[18;52H[22;14HA[18;52H[22;15HB[18;52H[22;16HA[18;52H[22;17HB[18;52H[22;18HA[18;52H[22;19HB[18;52H[22;20HA[18;52H[22;21HB[18;52H[22;22HA[18;52H[22;23HB[18;52H[22;24HA[18;52H[22;25HB[18;52H[22;26HA[18;52H[22;27HB[18;52H[22;28HA[18;52H[22;29HB[18;52H[22;30HA[18;52H[22;31HB[18;52H[22;32HA[18;52H[22;33HB[18;52H[22;34HA[18;52H[22;35HB[18;52H[22;36HA[18;52H[22;37HB[18;52H[22;38HA[18;52H[22;39HB[18;52H[22;40HA[18;52H[22;41HB[18;52H[22;42HA[18;52H[22;43HB[18;52H[22;44HA[18;52H[22;45HB[18;52H[22;46HA[18;52H[22;47HB[18;52H[22;48HA   [4A[4BB  [4A[4BA [4A[4BB[4A[4BA[4A [4BB[4A  [4BA[4A   [4BB[18;52H[22;56HA[18;52H[22;57HB[18;52H[22;58HA[18;52H[22;59HB[18;52H[22;60HA[18;52H[22;61HB[18;52H[22;62HA[18;52H[22;63HB[18;52H[22;64HA[18;52H[22;65HB[18;52H[22;66HA[18;52H[22;67HB[18;52H[22;68HA[18;52H[22;69HB[18;52H[22;70HA[18;52H[22;71HB[18;52H[22;72HA[18;52H[22;73HB[18;52H[22;74HA[18;52H[22;75HB[18;52H[22;76HA[18;52H[22;77HB[18;52H[22;78HA[18;52H[22;79HB[18;52H[22;80HA[18;52H[22;81HB[18;52H[K[22;82HA[18;51H[22;83HB[18;51H[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[22;84HA[18;31H[22;85HB[18;31H[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[22;86HA[18;22H[22;87HB[18;22Hjo[22;88HA[18;24H[22;89HB[18;24Hbs[22;90HA[18;26H[22;91HB[18;26H -[22;92HA[18;28H[22;93HB[18;28Hl[1m[32m[0m[1m[34m[0m[H[K[2]+ ( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs
+[K[1]-  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [22;94HA[18;22H[22;95HB[18;22H[22;96HA[18;22H[22;97HB[18;22H[22;98HA[18;22H[22;99HB[18;22H[22;100HA[18;22H[22;101HB[18;22H[22;102HA[18;22H[22;103HB[18;22H[22;104HA[18;22H
+
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ tail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABAAABABABABABABABABABABABA
+[K[21;104HABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[22;104HAB
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[18;22Hr[23;2HA[18;23H[23;3HB[18;23Henice[23;4HA[18;28H[23;5HB[18;28H[23;6HA[18;28H[23;7HB[18;28H 1[23;8HA[18;30H[23;9HB[18;30H0 [23;10HA[18;32H[23;11HB[18;32H-p[23;12HA[18;34H[23;13HB[18;34H [23;14HA[18;35H[23;15HB[18;35H[23;16HA[18;35H[23;17HB[18;35H[23;18HA[18;35H[23;19HB[18;35H[23;20HA[18;35H[23;21HB[18;35H[23;22HA[18;35H[23;23HB[18;35H[23;24HA[18;35H[23;25HB[18;35H[23;26HA[18;35H[23;27HB[18;35H[23;28HA[18;35H[23;29HB[18;35H202[23;30HA[18;38H[23;31HB[18;38H29[23;32HA[18;40H[23;33HB[18;40H[H[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs
+[K[1]-  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10[H[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs
+[K[1]-  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32m[0m[1m[34m[0m[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [23;34HA[18;22H[23;35HB[18;22H[23;36HA[18;22H[23;37HB[18;22H[23;38HA[18;22H[23;39HB[18;22H[23;40HA[18;22H[23;41HB[18;22H[23;42HB[18;22H[23;43HA[18;22H[23;44HB[18;22H[23;45HA[18;22H[23;46HB[18;22H[23;47HA[18;22H[23;48HB[18;22H[23;49HA[18;22H[23;50HB[18;22H[23;51HA[18;22H[23;52HB[18;22H[23;53HA[18;22H[23;54HB[18;22H[23;55HA[18;22Hrenice 10 -p 20229[23;56HB[18;40H[23;57HA[18;40H92[23;58HB[18;38H[23;59HA[18;38H299 [23;60HB[18;40H[23;61HA[18;40H[K[K[K[K[23;62HB[18;36H[23;63HA[18;36H[K[23;64HB[18;35H0[23;65HA[18;36H[23;66HB[18;36H[23;67HA[18;36H[H[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs
+[K[1]-  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10[H[K[1]-  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32m[0m[1m[34m[0m[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [23;68HB[18;22H[23;69HA[18;22H[23;70HB[18;22H[23;71HA[18;22H[23;72HB[18;22H[23;73HA[18;22Hrenice 10 -p 0[23;74HB[18;36H[23;75HA[18;36H[23;76HB[18;36H[23;77HA[18;36H[23;78HB[18;36H[23;79HA[18;36H[23;80HB[18;36H[23;81HA[18;36H0 p-[23;82HB[18;32H[23;83HA[18;32H [K -p 0[5D[K -p 0[5D[23;84HB[18;29H[23;85HA[18;29H[K0 -p 0[5D -[23;86HB[18;31H[23;87HA[18;31H-pp  00 [23;88HB[18;35H[23;89HA[18;35H[6D10 -p 20229[18D[Kjobs -l[23;90HB[18;29H[23;91HA[18;29H[7Drenice 10 -p 202299220[23;92HB[18;36H[23;93HA[18;36H2 p- 0[23;94HB[18;30H[23;95HA[18;30H[K0 -p 20229[10D[H[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied[H[Kdone ) &
+[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32m[0m[1m[34m[0m[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [23;96HB[18;22H[23;97HA[18;22Hrenice 0 -p 20229[23;98HB[18;39H[23;99HA[18;39H[23;100HB[18;39H[23;101HA[18;39H[23;102HB[18;39H[5D[K0[23;103HA[18;35H[6D10 -p 20229[23;104HB[18;40H
+
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ tail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABAAABABABABABABABABABABABA
+[K[21;104HABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[22;104HABABABABABABABABABABABABABABABABABABABABABBABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABAB
+[K[23;104HBA
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[18;40H[24;2HB[18;40H[24;3HA[18;40H[K[24;4HB[18;39H[24;5HA[18;39H[K[K[24;6HB[18;37H[24;7HA[18;37H4[24;8HB[18;38H[24;9HA[18;38H[24;10HB[18;38H[24;11HA[18;38H[24;12HB[18;38H[24;13HA[18;38H94[24;14HB[18;40H[H[K[2]+  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+[K[24;15HA[6A20494 (process ID) old priority 0, new priority 10[H[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+[K20494 (process ID) old priority 0, new priority 10
+[K[1m[32m[0m[1m[34m[0m[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [24;16HB[18;22H[24;17HA[18;22H[24;18HB   [6A[6BA  [6A[6BB [6A[6BA[6A[6BB[6A [6BA[6A  [6BB[6A   [6BA[18;22H[24;26HB[18;22H[24;27HA[18;22H[24;28HB[18;22H[24;29HA[18;22H[24;30HB[18;22H[24;31HA[18;22H[24;32HB[18;22H[24;33HA[18;22H[24;34HB[18;22H[24;35HA[18;22H[24;36HB[18;22H[24;37HA[18;22H[24;38HB[18;22H[24;39HA[18;22H[24;40HB[18;22H[24;41HA[18;22H[24;42HB[18;22H[24;43HA[18;22H[24;44HB[18;22H[24;45HA[18;22H[24;46HB[18;22H[24;47HA[18;22H[24;48HB[18;22H[24;49HA[18;22Hkill[24;50HB[18;26H[24;51HA[18;26H[24;52HB[18;26H[24;53HA[18;26H[24;54HB[18;26H[24;55HA[18;26H[24;56HB[18;26H[24;57HA[18;26H[24;58HB[18;26H[24;59HA[18;26H[24;60HB[18;26H[24;61HA[18;26H[24;62HB[18;26H[24;63HA[18;26H[24;64HB[18;26H[24;65HA[18;26H[24;66HB[18;26H[24;67HA[18;26H[24;68HB[18;26H[24;69HA[18;26H[24;70HB[18;26H[24;71HA[18;26H[24;72HB[18;26H[24;73HA[18;26H[24;74HB[18;26H[24;75HA[18;26H[24;76HB[18;26H[24;77HA[18;26H[24;78HB[18;26H[24;79HA[18;26H [24;80HB[18;27H[24;81HA[18;27H20[24;82HB[18;29H[24;83HA[18;29H[24;84HB[18;29H[24;85HA[18;29H494[24;86HB[18;32H[24;87HA[18;32H[24;88HB[18;32H[24;89HA[18;32H[1m[32m[0m[1m[34m[0m[H[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+[K20494 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20494
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [24;90HA[18;22H[24;91HA[18;22H[24;92HA[18;22Hjo[24;93HA[18;24Hbs [24;94HA[18;27H-l[1m[32m[0m[1m[34m[0m[H[Kdone ) &
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+[K20494 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20494
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [24;95HA[18;22H[24;96HA[18;22H[24;97HA[18;22H[24;98HA[18;22H[24;99HA[18;22H[24;100HA[18;22H[24;101HA[18;22H[24;102HA[18;22H[24;103HA[18;22H[24;104HA[18;22H
+
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ tail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABAAABABABABABABABABABABABA
+[K[21;104HABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[22;104HABABABABABABABABABABABABABABABABABABABABABBABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABAB
+[K[23;104HBABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAAAAAAAAAA
+[K[24;104HAA
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[18;22H[25;2HA[18;22H[25;3HA[18;22H[25;4HA[18;22H[25;5HA[18;22H[25;6HA[18;22H[25;7HA[18;22H[25;8HA[18;22H[25;9HA[18;22H[25;10HA[18;22H[25;11HA[18;22H[25;12HA[18;22H[25;13HA[18;22H[25;14HA[18;22H[25;15HA[18;22H[25;16HA[18;22H[25;17HA[18;22H[25;18HA   [7A[7BA  [7A[7BA [7A[7BA[7A[7BA[7A [7BA[7A  [7BA[7A   [7BA[18;22Hk   [7BA[18;23Hill [7BA[7A  [7BA[7A  [7BA[7A20 [7BA[7A229[7BA[7A[7BA[7A [7BA[7A[1m[32m[0m[1m[34m[0m[H[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20229
+[K20229 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 0
+[K0 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+[K20494 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20494
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20229
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20229[10D[Kjobs -l[1m[32m[0m[1m[34m[0m[H[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+[K20494 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20494
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20229
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]+ 20229 Terminated[14C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ [25;34H[1m[32m[0m[1m[34m[0m[70C[AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA^Z
+[1]+  Stopped                 tail -f log
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ exit[1m[32m[0m[1m[34m[0m[1m[32mg
+[0mexit
+There are stopped jobs.
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ exit[1m[32mg
+[0mexit
+ [H[2J[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 0 -p 20229
+renice: failed to set priority for 20229 (process ID): Permission denied
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+20494 (process ID) old priority 0, new priority 10
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20494
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[1]- 20229 Running[17C( while true; do[8;5Hecho -n A >> log; sleep 1;
+done ) &
+[2]+ 20494 Terminated[14C( while true; do[47D
+echo -n B >> log; sleep 1;
+done )
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20229
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[1]+ 20229 Terminated[14C( while true; do[47D
+echo -n A >> log; sleep 1;
+done )
+[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$
+[7m   0 tty1                                                                                               [19B  --                                                                                                    [27m[18A[18;22Hjobs -l[1m[32m[0m[1m[34m[0m[H[Krenice: failed to set priority for 20229 (process ID): Permission denied
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ renice 10 -p 20494
+[K20494 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20494
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20229
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]+ 20229 Terminated[14C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ exit[H[K20494 (process ID) old priority 0, new priority 10
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20494
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]- 20229 Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]+ 20494 Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ kill 20229
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1]+ 20229 Terminated[14C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ jobs -l
+[K[1m[32mgrishkin12@ubuntu[0m:[1m[34m~[0m$ exit
+[Kexit
+[K[?1l>[38;1H
+[?1049l[23;0;0t[screen is terminating]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-09-22 05:25:12-07:00 [COMMAND_EXIT_CODE="0"]

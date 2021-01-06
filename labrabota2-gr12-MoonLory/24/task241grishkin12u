@@ -1,0 +1,380 @@
+Script started on 2020-09-15 03:33:36-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR{[K [1] =ane
+ARR: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR [1] =ane[1Pneone
+ARR: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ bash
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls/mnt/hgfs[1Pmnt/hgfsgit pushmnt/hgfs/mnt/hgfsls[K[KARR [1]=a[Kone
+ARR: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR [1]=onels[KARR [1]=one
+ARR: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR [1]=one[1P[1]=one
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR[1]=one[C[C[C[C[C[K[K[Ktwo
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR[1]=two[C[C[1Po[1Po[Cne
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR[1]=one[1P]=one2]=one[C[C[C[C[1Pe[1Pe[C[Ktwo
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR[2]=two[C[1P]=two3]=two[C[C[C[C[C[K[K[Kthree
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ARR=()z)e)r)o) )o)n)e) )t)w)o) )t)h)r)e)e)
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo ${}A}R}R}[}0}]}[C ${}A}R}R}[}1}]}
+zero one
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ unset ARR[1]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ unset ARR[1][K[K[K
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ allias c='clear'
+allias: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ allias c='clear'[1P
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ alias c='clear'[K[K[K[K[K[K[K[K[K[K
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias c='clear'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ vim .bashrc
+
+Command 'vim' not found, but can be installed with:
+
+sudo apt install vim         # version 2:8.1.2269-1ubuntu5, or
+sudo apt install vim-tiny    # version 2:8.1.2269-1ubuntu5
+sudo apt install neovim      # version 0.4.3-3
+sudo apt install vim-athena  # version 2:8.1.2269-1ubuntu5
+sudo apt install vim-gtk3    # version 2:8.1.2269-1ubuntu5
+sudo apt install vim-nox     # version 2:8.1.2269-1ubuntu5
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ vi .bashrs[Kc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H".bashrc" 117 lines, 3771 characters[1;1H# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;[8;7H*) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[23;1Hshopt -s checkwinsize[24;1H[K[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# If set, the pattern "**" used in a pathname expansion context will[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# match all files and zero or more directories and subdirectories.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#shopt -s globstar[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# make less more friendly for non-text input files, see lesspipe(1)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# set variable identifying the chroot you work in (used in the prompt below)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hdebian_chroot=$(cat /etc/debian_chroot)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# set a fancy prompt (non-color, unless we know we "want" color)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hcase "$TERM" in[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hxterm-color|*-256color) color_prompt=yes;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hesac[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# uncomment for a colored prompt, if the terminal has the capability; turned[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# off by default to not distract the user: the focus in a terminal window[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# should be on the output of commands, not on the prompt[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#force_color_prompt=yes[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -n "$force_color_prompt" ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hif [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# We have color support; assume it's compliant with Ecma-48[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# (ISO/IEC-6429). (Lack of such support is extremely rare, and such[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# a case would tend to support setf rather than setaf.)[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hcolor_prompt=yes[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Helse[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hcolor_prompt=[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ "$color_prompt" = yes ]; then[?25h[?25l[1;23r[1;1H[2M[1;24r[22;5HPS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\00[23;1H33[01;34m\]\w\[\033[00m\]\$ '[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Helse[?25h[?25l[1;23r[23;1H
+[1;24r[23;5HPS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hunset color_prompt force_color_prompt[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# If this is an xterm set the title to user@host:dir[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hcase "$TERM" in[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hxterm*|rxvt*)[?25h[?25l[1;23r[23;1H
+[1;24r[23;5HPS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H*)[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hesac[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# enable color support of ls and also add handy aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -x /usr/bin/dircolors ]; then[?25h[?25l[1;23r[1;1H[2M[1;24r[22;5Htest -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircoo[23;1Hlors -b)"[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Halias ls='ls --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H#alias dir='dir --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H#alias vdir='vdir --color=auto'[?25h[?25l[1;23r[1;1H[2M[1;24r[23;5Halias grep='grep --color=auto'[22;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;5Halias fgrep='fgrep --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Halias egrep='egrep --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# colored GCC warnings and errors[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quu[23;1Hote=01'[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# some more ls aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias ll='ls -alF'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias la='ls -A'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias l='ls -CF'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Add an "alert" alias for long running commands.  Use like so:[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#   sleep 10; alert[?25h[?25l[1;23r[1;1H[3M[1;24r[21;1Halias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echoo[22;1H error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\''[23;1H')"'[21;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Alias definitions.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# You may want to put all your additions into a separate file like[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# ~/.bash_aliases, instead of adding them here directly.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# See /usr/share/doc/bash-doc/examples in the bash-doc package.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -f ~/.bash_aliases ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. ~/.bash_aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[22;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;1H# sources /etc/bash.bashrc).[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif ! shopt -oq posix; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hif [ -f /usr/share/bash-completion/bash_completion ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. /usr/share/bash-completion/bash_completion[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Helif [ -f /etc/bash_completion ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. /etc/bash_completion[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[1;1H[?25l[1;23r[1;1H[L[1;24r[1;1H#   sleep 10; alert[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# Add an "alert" alias for long running commands.  Use like so:[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias l='ls -CF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias la='ls -A'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias ll='ls -alF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# some more ls aliases[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[2L[1;24r[1;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quu[2;1Hote=01'[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# colored GCC warnings and errors[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias egrep='egrep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias fgrep='fgrep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias grep='grep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H#alias vdir='vdir --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H#alias dir='dir --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias ls='ls --color=auto'[?25h[?25l[1;23r[1;1H[2L[1;24r[1;5Htest -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircoo[2;1Hlors -b)"[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hif [ -x /usr/bin/dircolors ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# enable color support of ls and also add handy aliases[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hesac[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H*)[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;5HPS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hxterm*|rxvt*)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hcase "$TERM" in[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H# If this is an xterm set the title to user@host:dir[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hunset color_prompt force_color_prompt[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5HPS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Helse[?25h[?25l[1;23r[1;1H[2L[1;24r[1;5HPS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\00[2;1H33[01;34m\]\w\[\033[00m\]\$ '[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hif [ "$color_prompt" = yes ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hfi[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;9Hcolor_prompt=[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Helse[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hcolor_prompt=yes[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H# a case would tend to support setf rather than setaf.)[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H# (ISO/IEC-6429). (Lack of such support is extremely rare, and such[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H# We have color support; assume it's compliant with Ecma-48[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hif [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hif [ -n "$force_color_prompt" ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H#force_color_prompt=yes[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# should be on the output of commands, not on the prompt[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# off by default to not distract the user: the focus in a terminal window[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# uncomment for a colored prompt, if the terminal has the capability; turned[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hesac[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hxterm-color|*-256color) color_prompt=yes;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hcase "$TERM" in[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# set a fancy prompt (non-color, unless we know we "want" color)[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hdebian_chroot=$(cat /etc/debian_chroot)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hif [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# set variable identifying the chroot you work in (used in the prompt below)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# make less more friendly for non-text input files, see lesspipe(1)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H#shopt -s globstar[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# match all files and zero or more directories and subdirectories.[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# If set, the pattern "**" used in a pathname expansion context will[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hshopt -s checkwinsize[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# update the values of LINES and COLUMNS.[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# check the window size after each command and, if necessary,[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HHISTFILESIZE=2000[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HHISTSIZE=1000[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hshopt -s histappend[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# append to the history file, don't overwrite it[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HHISTCONTROL=ignoreboth[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# See bash(1) for more options[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# don't put duplicate lines or lines starting with space in the history.[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hesac[?25h[?25l[1;23r[1;1H[L[1;24r[1;7H*) return;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H*i*) ;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hcase $- in[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# If not running interactively, don't do anything[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# for examples[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# ~/.bashrc: executed by bash(1) for non-login shells.[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[23;1Hshopt -s checkwinsize[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# If set, the pattern "**" used in a pathname expansion context will[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# match all files and zero or more directories and subdirectories.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#shopt -s globstar[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# make less more friendly for non-text input files, see lesspipe(1)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# set variable identifying the chroot you work in (used in the prompt below)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hdebian_chroot=$(cat /etc/debian_chroot)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# set a fancy prompt (non-color, unless we know we "want" color)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hcase "$TERM" in[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hxterm-color|*-256color) color_prompt=yes;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hesac[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# uncomment for a colored prompt, if the terminal has the capability; turned[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# off by default to not distract the user: the focus in a terminal window[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# should be on the output of commands, not on the prompt[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#force_color_prompt=yes[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -n "$force_color_prompt" ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hif [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# We have color support; assume it's compliant with Ecma-48[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# (ISO/IEC-6429). (Lack of such support is extremely rare, and such[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# a case would tend to support setf rather than setaf.)[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hcolor_prompt=yes[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Helse[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hcolor_prompt=[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ "$color_prompt" = yes ]; then[?25h[?25l[1;23r[1;1H[2M[1;24r[22;5HPS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\00[23;1H33[01;34m\]\w\[\033[00m\]\$ '[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Helse[?25h[?25l[1;23r[23;1H
+[1;24r[23;5HPS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hunset color_prompt force_color_prompt[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# If this is an xterm set the title to user@host:dir[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hcase "$TERM" in[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hxterm*|rxvt*)[?25h[?25l[1;23r[23;1H
+[1;24r[23;5HPS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H*)[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hesac[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# enable color support of ls and also add handy aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -x /usr/bin/dircolors ]; then[?25h[?25l[1;23r[1;1H[2M[1;24r[22;5Htest -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircoo[23;1Hlors -b)"[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Halias ls='ls --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H#alias dir='dir --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H#alias vdir='vdir --color=auto'[?25h[?25l[1;23r[1;1H[2M[1;24r[23;5Halias grep='grep --color=auto'[22;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;5Halias fgrep='fgrep --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Halias egrep='egrep --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# colored GCC warnings and errors[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quu[23;1Hote=01'[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# some more ls aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias ll='ls -alF'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias la='ls -A'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias l='ls -CF'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Add an "alert" alias for long running commands.  Use like so:[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#   sleep 10; alert[?25h[?25l[1;23r[1;1H[3M[1;24r[21;1Halias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echoo[22;1H error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\''[23;1H')"'[21;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Alias definitions.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# You may want to put all your additions into a separate file like[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# ~/.bash_aliases, instead of adding them here directly.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# See /usr/share/doc/bash-doc/examples in the bash-doc package.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -f ~/.bash_aliases ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. ~/.bash_aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[22;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;1H# sources /etc/bash.bashrc).[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif ! shopt -oq posix; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hif [ -f /usr/share/bash-completion/bash_completion ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. /usr/share/bash-completion/bash_completion[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Helif [ -f /etc/bash_completion ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. /etc/bash_completion[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[1;1H[?25l[1;23r[1;1H[L[1;24r[1;1H#   sleep 10; alert[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# Add an "alert" alias for long running commands.  Use like so:[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias l='ls -CF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias la='ls -A'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias ll='ls -alF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# some more ls aliases[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[2L[1;24r[1;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quu[2;1Hote=01'[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# colored GCC warnings and errors[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[22;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;1H# sources /etc/bash.bashrc).[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif ! shopt -oq posix; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hif [ -f /usr/share/bash-completion/bash_completion ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. /usr/share/bash-completion/bash_completion[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Helif [ -f /etc/bash_completion ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. /etc/bash_completion[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[1;1H[?25l[1;23r[1;1H[L[1;24r[1;1H#   sleep 10; alert[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# Add an "alert" alias for long running commands.  Use like so:[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias l='ls -CF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias la='ls -A'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias ll='ls -alF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# some more ls aliases[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[2L[1;24r[1;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quu[2;1Hote=01'[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# colored GCC warnings and errors[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias egrep='egrep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias fgrep='fgrep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias grep='grep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H#alias vdir='vdir --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H#alias dir='dir --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias ls='ls --color=auto'[?25h[?25l[1;23r[1;1H[2L[1;24r[1;5Htest -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircoo[2;1Hlors -b)"[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hif [ -x /usr/bin/dircolors ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# enable color support of ls and also add handy aliases[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[23;1H#   sleep 10; alert[?25h[?25l[1;23r[1;1H[3M[1;24r[21;1Halias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echoo[22;1H error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\''[23;1H')"'[21;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Alias definitions.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# You may want to put all your additions into a separate file like[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# ~/.bash_aliases, instead of adding them here directly.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# See /usr/share/doc/bash-doc/examples in the bash-doc package.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -f ~/.bash_aliases ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. ~/.bash_aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[22;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;1H# sources /etc/bash.bashrc).[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif ! shopt -oq posix; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hif [ -f /usr/share/bash-completion/bash_completion ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. /usr/share/bash-completion/bash_completion[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Helif [ -f /etc/bash_completion ]; then[?25h[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[4;1H[3;1H[2;1H[1;1H[?25l[1;23r[1;1H[L[1;24r[1;1Halias l='ls -CF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias la='ls -A'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Halias ll='ls -alF'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# some more ls aliases[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[2L[1;24r[1;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quu[2;1Hote=01'[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# colored GCC warnings and errors[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias egrep='egrep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias fgrep='fgrep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias grep='grep --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H#alias vdir='vdir --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H#alias dir='dir --color=auto'[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Halias ls='ls --color=auto'[?25h[?25l[1;23r[1;1H[2L[1;24r[1;5Htest -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircoo[2;1Hlors -b)"[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hif [ -x /usr/bin/dircolors ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# enable color support of ls and also add handy aliases[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hesac[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H*)[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;5HPS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hxterm*|rxvt*)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hcase "$TERM" in[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H# If this is an xterm set the title to user@host:dir[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hunset color_prompt force_color_prompt[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5HPS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Helse[?25h[?25l[1;23r[1;1H[2L[1;24r[1;5HPS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\00[2;1H33[01;34m\]\w\[\033[00m\]\$ '[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hif [ "$color_prompt" = yes ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hfi[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;9Hcolor_prompt=[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Helse[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hcolor_prompt=yes[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H# a case would tend to support setf rather than setaf.)[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H# (ISO/IEC-6429). (Lack of such support is extremely rare, and such[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H# We have color support; assume it's compliant with Ecma-48[1;8H[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hif [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hif [ -n "$force_color_prompt" ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H#force_color_prompt=yes[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# should be on the output of commands, not on the prompt[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# off by default to not distract the user: the focus in a terminal window[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# uncomment for a colored prompt, if the terminal has the capability; turned[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hesac[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hxterm-color|*-256color) color_prompt=yes;;[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hcase "$TERM" in[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# set a fancy prompt (non-color, unless we know we "want" color)[23;1H[94m@                                                                               [1;1H[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hfi[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hdebian_chroot=$(cat /etc/debian_chroot)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hif [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# set variable identifying the chroot you work in (used in the prompt below)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# make less more friendly for non-text input files, see lesspipe(1)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H#shopt -s globstar[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# match all files and zero or more directories and subdirectories.[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# If set, the pattern "**" used in a pathname expansion context will[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hshopt -s checkwinsize[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# update the values of LINES and COLUMNS.[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# check the window size after each command and, if necessary,[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HHISTFILESIZE=2000[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HHISTSIZE=1000[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r

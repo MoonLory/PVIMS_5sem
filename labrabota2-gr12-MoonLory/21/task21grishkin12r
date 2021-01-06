@@ -1,0 +1,127 @@
+Script started on 2020-09-05 20:43:32+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cat packages1.txt [K
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cat
+das
+das
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m tr 'aeiou'
+tr: missing operand after ‘aeiou’
+Two strings must be given when translating.
+Try 'tr --help' for more information.
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m tr 'aeiou' 'AEIOU'
+asdf
+Asdf
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cat packeges1.txt[1Pges1.txtages1.txt[C[C[Cges1.txtCges1.txtCges1.txtCges1.txtCges1.txtCges1.txt[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kages1.txt > packages1.catfile
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cat packages1.catfile 
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m diff packages1.txt packages1.catfile 
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m ls -l packages1*
+-rw-r--r-- 1 pi pi 64 Sep  5 20:50 packages1.catfile
+-rw-r--r-- 1 pi pi 64 Sep  5 20:46 packages1.txt
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cat packages2.txt ?[K>> packages1.catfile
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cat packages1.catfile 
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squidanaconda
+openssh
+gnome-core
+samba
+sendmail
+xscreensaver]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m ssh grishkin12@192.168.171[K4.14[K31
+grishkin12@192.168.174.131's password: 
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-47-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+9 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Sun Sep  6 12:22:57 2020 from 192.168.174.134
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cat > typedin.txt
+asfasf
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls -l typedin.txt 
+-rw-rw-r-- 1 grishkin12 grishkin12 7 Sep 14 03:38 typedin.txt
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls -l typedin.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat typedin.txt 
+asfasf
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tr ''a'e'i'o'u'[C 'AEIOU' > trfile.txt
+as  this text
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tr 'aeiou' 'AEIOU' > trfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pcat typedin.txt tr 'aeiou' 'AEIOU' > trfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ktr 'aeiou' 'AEIOU' > trfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pcat typedin.txt [2@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@r[1@f[1@i[1@l[1@e
+-rw-rw-r-- 1 grishkin12 grishkin12 10 Sep 14 03:39 trfile.txt
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls -l trfile.txt [1P[1P[1P[1P[1P[1@c[1@a[1@t
+thIs tExt
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tr[K[Kcat [K [K[K[K[K[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cat packages1.txt [K
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cat packages1.txt<packages1.txt packages1.txt
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tr ""[K[K''a'e'i'o'u'[C 'AEIOU' < packeges.txt
+-bash: packeges.txt: No such file or directory
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tr 'aeiou' 'AEIOU' < packeges.txt[C[C[C[C[C[C[C > packages1.r[Ktrfile.txt
+-bash: packeges.txt: No such file or directory
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tr 'aeiou' 'AEIOU' < packeges.txt > packages1.trfile.txt[1P[1@a[C[C[C[1@1eges.txt[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pcat < packages1.txt[2Ppackages1.txt< packages1.txttr 'aeiou' 'AEIOU' < packeges.txtages1.txt > packages1.trfile.txteges.txt[K1.txt[1Pges1.txtages1.txt
+AmAndA
+gAlEOn
+mEtAcIty
+mOzIllA
+pOstgrEsql
+prOcInfO
+rpmfInd
+sqUId
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tr 'aeiou' 'AEIOU' < packages1.txt > packages1.trfile.txt
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls -l packages1.txt packages1.trfile.txt 
+-rw-rw-r-- 1 grishkin12 grishkin12 66 Sep 14 03:58 packages1.trfile.txt
+-rw-rw-r-- 1 grishkin12 grishkin12 66 Sep 14 03:42 packages1.txt
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls -l packages1.txt packages1.trfile.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat packages1.trfile.txt 
+AmAndA
+gAlEOn
+mEtAcIty
+mOzIllA
+pOstgrEsql
+prOcInfO
+rpmfInd
+sqUId
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ logu[Kout
+Connection to 192.168.174.131 closed.
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m exit
+exit
+
+Script done on 2020-09-05 21:20:00+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,14 @@
+<resources>
+    <string name="number_edit_text_hint">Enter the number</string>
+    <string name="info_text_view_init">Guess the number from 1 to 200</string>
+    <string name="button_play_text">Check</string>
+    <string name="button_win_text">Check again</string>
+    <string name="no_input">Enter something</string>
+    <string name="error_less_than_1">Less than 1</string>
+    <string name="error_more_than_200">More than 200</string>
+    <string name="error_less">It`s less</string>
+    <string name="error_more">It`s more</string>
+    <string name="win">Win! Play again?</string>
+    <string name="history">History</string>
+    <string name="app_name">Find number</string>
+</resources>

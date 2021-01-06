@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab9_3_2</string>
+    <string name="show">Show all records</string>
+    <string name="add">Add record</string>
+    <string name="change">Change record</string>
+    <string name="carNumber">Car number</string>
+    <string name="carMark">Car mark</string>
+    <string name="carColor">Car color</string>
+    <string name="carYear">Car year</string>
+    <string name="carCost">Car cost</string>
+</resources>

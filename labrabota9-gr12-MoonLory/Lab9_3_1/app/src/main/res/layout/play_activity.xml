@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="28dp"
+    android:paddingStart="28dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="373dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/infoGroup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:max="10"
+                android:progress="10"
+                android:theme="@style/ProgressBarTheme" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <FrameLayout
+            android:id="@+id/inputGroup"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/numberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:hint="@string/number_edit_text_hint"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tryButton"
+        android:layout_width="251dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/button_play_text"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#F44336"
+        android:textColorLink="#F44336"
+        app:backgroundTint="#FF9800" />
+
+    <TextView
+        android:id="@+id/resView"
+        android:layout_width="382dp"
+        android:layout_height="326dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="160dp" />
+
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureOverlayView"
+        android:layout_width="345dp"
+        android:layout_height="358dp"
+        android:layout_below="@id/linearLayout"
+        android:layout_marginTop="84dp"
+        android:eventsInterceptionEnabled="true"
+        android:gestureColor="@color/colorOrange"
+        android:gestureStrokeType="multiple" />
+
+</RelativeLayout>

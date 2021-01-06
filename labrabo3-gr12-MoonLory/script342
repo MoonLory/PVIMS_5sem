@@ -1,0 +1,3 @@
+#! /bin/bash
+(while true; do ls >> ans.txt; sleep 1; done) &
+(while true; do wc ans.txt >> ans.txt; sleep 1; done) &

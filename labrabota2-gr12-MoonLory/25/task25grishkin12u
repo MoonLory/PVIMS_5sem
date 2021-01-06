@@ -1,0 +1,786 @@
+Script started on 2020-09-15 06:16:05-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="79" LINES="29"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls - AIS[K[Kis>Fil[K[K[Kfile_list.txt
+ls: cannot access '-': No such file or directory
+ls: cannot access 'Ais': No such file or directory
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls - Ais>file_list.txt[1PAis>file_list.txt
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ awk ''N'R' '5'2'='='0'{'}'p}'r}'i}'n}'t}'f}' }'"}'"}'%"}'d"}':"}' "}'%"}'s"}' "}'%"}'s"}' "}'%"}'s"}' "}'%"}'s"}' "}'%"}'s"}'\"}'n"}'[C,}'N}'R}'.}'t}'o}'u}'p}'p}'e}'r}'(}'$}' [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1}'[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)}',}'$}'2}',}'$}'3}'<}'[1P}',}'$}'4}',}'$}'5}'[C[C cars.txt 
+awk: 1: unexpected character '.'
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ awk 'NR 52==0{printf "%d: %s %s %s %s %s\n",NR.toupper($1),$2,$3,$4,$5}' cars.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctoupper($1),$[1P[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,toupper($1),[1@$[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ^C
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ awk 'NR 52==0{printf "%d: %s %s %s %s %s\n",NR,toupper($1),$2,$3,$4,$5}' cars.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.toupper($1),[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,toupper($1),[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2==0{printf "%d: %s %s %s %s %s\n",NR,toupper($1),$[1P[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C%2==0{printf "%d: %s %s %s %s %s\n",NR,toupper($1),[1@$[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C
+
+2: CHEVY malibu 1999 60 3000
+4: VOLVO s80 1998 102 9850
+6: CHEVY malibu 2000 50 3500
+8: HONDA accord 2001 30 6000
+10: TOYOTA rav4 2002 180 750
+12: FORD explor 2003 25 9500
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ tocu[K[Kuch task3[K[K[K[K[Kfile3.[K
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ vi[K[Kci file3[C[1P[1@v
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[29;1H"file3" 0 lines, 0 characters[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [1;1H[?25h[?25l[m[29;1H[K[29;1H:[?2004h[?25h [1;1H[?2004l[>4;m[?25ls[?25h[?25lf[?25h[?25la[?25h[?25ls[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25l[1;28r[1;1H[L[1;29r[1;1HC[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25l[1;28r[1;1H[L[1;29r[1;1HB[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;28r[1;1H[L[1;29r[1;1HA[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;28r[1;1H[L[1;29r[1;1HB[?25h[?2004h[>4;2m[?25l[29;1H:[?2004h[?25hq![?25l[?2004l[29;1H[K[29;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sed -n '/^Today/p' task[K[K[K[Kfile3
+Today 1
+Today 2
+Today 5
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sed -n '/^Today/p' file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksed -n '/^Today/p' file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pvi[C[C[C[C[C[C[3@touch[C[C[C[C[C[Cawk 'NR %2==0{printf "%d: %s %s %s %s %s\n",NR,toupper($1),$2,$3,$4,$5}' cars.txt [A[C[C[C[C[C5
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.toupper($1),[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[37Pls -Ais>file_list.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Ais>file_list.txtogout[Kscript -ttime_log243grishkin12u task243grishkin12u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./script_9.sh 7[C[C[C[C[9Pcd .../script_7.sh [6Pmcd tempfunction mcd() { mkdir $1 &&cd $1;}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmcd temp[Kfunction mcd() { mkdir $1 &&cd $1;}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmcd temp[Kfunction mcd() { mkdir$1 &&cd $1;}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19P./script_12.sh [8@chmod u+x [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./script_11.sh asfa asf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u+x script_12.sh [C[C[C[C[C[C[C[C[1P [1P [1P [1P [1P [1P [1P t4_indiv.sh 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ chmod u+x script4_indiv.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psed -n '/^Today/p' file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u+x script4_indiv.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kchmod u+x script4_indiv.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psed -n '/^Today/p' file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pvi[C[C[C[C[C[C[3@touch[C[C[C[C[C[Cawk 'NR %2==0{printf "%d: %s %s %s %s %s\n",NR,toupper($1),$2,$3,$4,$5}' cars.txt [Atouch file3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pvi[C[C[C[C[C[C[16@sed -n '/^Today/p'[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/[K./script4_indiv.sh 
+fileFor4^[[D^[[D            for4
+u+ 
+[sudo] password for grishkin12: 
+chmod: invalid mode: ‘u’
+Try 'chmod --help' for more information.
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script4_indiv.sh [8@chmod u+x [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+filefor4
+u+x
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script4_indiv.sh [8@chmod u+x [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psed -n '/^Today/p' file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u+x script4_indiv.sh [1P[1@5
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ chmod u+x script5_indiv.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kchmod u+x script5_indiv.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P./script4[C[C[C[C[C[C[C[C[C[C[1P[1@5
+find: Invalid argument `+c' to -size
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh [C1000 1010
+find: Invalid argument `-c' to -size
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh 1000 1010 /[K`[K~/us[K[K[K[K/usr/
+find: Invalid argument `-/usr/c' to -size
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh 1000 1010 /usr/[1P/[C[K[K[K[K[1@/[1@u[1@s[1@r[1@/[1@ 
+find: ‘/usr/-type’: No such file or directory
+find: ‘f’: No such file or directory
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh /usr/ 1000 1010 [C[C[C[C[C[1P[1P[1P[1P[1P[1@.[1P[1@`[1P[1@~[1@/
+andrei_grishkin_lsof.txt        records
+andrei_grishkin_man_vmstat.txt  rsync-backup/
+answer.txt                      script4_indiv.sh
+appends                         script5_indiv.sh
+archive.tar.gz                  simple/
+awkfile                         snap/
+.bash_history                   .ssh/
+.bash_logout                    .sudo_as_admin_successful
+.bashrc                         task241_2grishkin12u
+books                           task242grishkin12u
+.cache/                         task243grishkin12u
+cars.txt                        task25grishkin12u
+.config/                        task3grishkin12u
+copy.txt                        task4grishkin12u
+Desktop/                        task5/
+Documents/                      task5grishkin12u
+Downloads/                      task6grishkin12u
+examples/                       task6grishkin12u_2
+file3                           task7grishkin12u
+filefor4                        task8grishkin12u
+file_list.txt                   task9grishkin12u
+fortask8/                       Templates/
+.gitconfig                      time_log241_2grishkin12u
+.gnupg/                         time_log242grishkin12u
+grishkin/                       time_log243grishkin12u
+insert                          time_log25grishkin12u
+.local/                         time_log3grishkin12u
+.mozilla/                       time_log4grishkin12u
+--More--^C
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh /usr/ 1000 1010 [1@b[3@in/
+find: ‘/usr/bin/-type’: No such file or directory
+find: ‘f’: No such file or directory
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh /usr/bin/ 1000 1010 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@.[1@0[1@0[1P[1P[C[C[C[C[C[1P[1P[1P[1P[2@^[[3@[2~[1P[1P[1P[2P[1P[C[1@ [1@0[C[1@ [C[C[C[C[C0 
+find: ‘.-type’: No such file or directory
+find: ‘f’: No such file or directory
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh . 0  10100 [C[C[C[C[1P[1P[1P[C[1@ [C[C[C[C[C[C[C[C[C . 
+find: Invalid argument `-.c' to -size
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh 0  10100 . 
+find: Invalid argument `-.c' to -size
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh 0  10100 . . 0  10100[C
+.. books. 118
+.. file_list.txt. 1844
+.. trfile.txt. 10
+.. time_log25grishkin12u. 8192
+.. andrei_grishkin_man_vmstat.txt. 6085
+.. .bashrc. 3771
+.. time_log6grishkin12u_2. 5043
+./.cache/update-manager-core. meta-release-lts. 4386
+./.cache/tracker. last-crawl.txt. 10
+./.cache/tracker. db-locale.txt. 11
+./.cache/tracker. locale-for-miner-apps.txt. 11
+./.cache/tracker. parser-version.txt. 1
+./.cache/tracker. first-index.txt. 5
+./.cache/tracker. db-version.txt. 2
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash346507584. 991220216. 172
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash346507584. 1742464386. 101
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash346507584. 966344522. 176
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash346507584. 600704578. 123
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash346507584. 1072397766. 179
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 4C863284CDA7F859EB300BED16DBCEF9517F1824. 299
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 0EDDF8C091E2FED62E44BEDDDC1723F5BF38FE4F. 102
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. CB5E54E4C6C7D47BC566FED888EEE2CCD9944013. 1276
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. FA76B1579F04596A95B261A74689CCFEACAE1CB2. 8030
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. CA7B107E288F94EB98B38094E8C5546E41A7B930. 10008
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 340A10D652987DF5E54312E31F5C22F6E8DBA574. 10008
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. EDE68AB7511ECAD726DB4522ABC4305017F04FFE. 1274
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 4903E7ABE348ED39D98D1C844FB81A906D5ECA16. 9986
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 412D29622F5BBBF8AA5F306D2CA9E83E95C058B8. 9307
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 51CC64196C1DA17D1CBC82E4FF6777FA58431A8E. 1276
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 3CE4314CD89ED72CE3B4331C908C5C355F7A5771. 1086
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. CC272A84C437C06018182F241F266FFC52770F69. 9978
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. B555235EB5230B93242A83F624CFE5AF42CB966B. 10000
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 88A0C4D55373D1DCC0BA506535FDBA59567DAD8E. 1087
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 4E204442A123354FFC1EEA89F035282BFE1B0C7A. 1276
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. F631D6457D268A2CED5C48E2C0A15994C1CEA8EB. 1087
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 3666BCDD0A882ACCF73C4987C8BB3E4C30AC536A. 101
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/entries. 2F84D0A7F12AEB7DD61DD8E03DF3FB791416249F. 10014
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1968921185. 661663823. 176
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1968921185. 665784040. 85
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1968921185. 1479646596. 179
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1968921185. 958607615. 175
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1968921185. 1221875217. 172
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1888558038. 230473181. 85
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1888558038. 615943125. 176
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1888558038. 185187392. 175
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1888558038. 1697755512. 179
+./.cache/mozilla/firefox/rtxndboi.default-release/cache2/trash1888558038. 856235085. 172
+./.cache/ubuntu-report. ubuntu.20.04. 16
+./.cache/fontconfig. CACHEDIR.TAG. 200
+./.cache/fontconfig. a41116dafaf8b233ac2c61cb73f2ea5f-le64.cache-7. 2632
+./.cache/fontconfig. 09ec2397-421c-42f1-9681-079609415792-le64.cache-7. 2416
+.. task6grishkin12u_2. 3443
+.. time_log9grishkin12u. 3744
+.. time_log241_2grishkin12u. 4126
+.. cars.txt. 304
+./rsync-backup. answer.txt. 202
+./rsync-backup. answer1.txt. 206
+.. .bash_logout. 220
+.. script5_indiv.sh. 74
+.. time_log5grishkin12u. 188
+.. time_log8grishkin12u. 7471
+.. time_log6grishkin12u. 9062
+.. task3grishkin12u. 7764
+.. time_log242grishkin12u. 1889
+./.gnupg. trustdb.gpg. 1200
+./.gnupg. pubring.kbx. 32
+.. awkfile. 90
+.. task241_2grishkin12u. 9440
+.. answer.txt. 206
+.. task9grishkin12u. 5791
+.. packages2.txt. 56
+./examples. script_8.sh. 165
+./examples. list_students. 239
+./examples. script_6.sh. 283
+./examples. script_10.sh. 137
+./examples. script_4.sh. 92
+./examples. script_12.sh. 52
+./examples. script_5.sh. 248
+./examples. example.awk. 152
+./examples. script_7.sh. 151
+./examples. output.txt. 49
+./examples. script_9.sh. 148
+./examples. script_11.sh. 84
+./examples. colours.csv. 154
+.. records. 5
+.. insert. 20
+.. packages1.txt. 66
+./simple/lvl1. lvl1.txt. 6
+./simple/lvl1/lvl2. lvl2.txt. 6
+./simple/lvl1/lvl2/lvl3/lvl4. lvl4.txt. 6
+./simple/lvl1/lvl2/lvl3/lvl4. lvl4_1.txt. 6
+./simple/lvl1/lvl2/lvl3. lvl3.txt. 6
+.. task4grishkin12u. 9679
+.. time_log7grishkin12u. 5213
+./.mozilla/firefox/rtxndboi.default-release. pkcs11.txt. 482
+./.mozilla/firefox/rtxndboi.default-release. shield-preference-experiments.json. 18
+./.mozilla/firefox/rtxndboi.default-release. addons.json. 24
+./.mozilla/firefox/rtxndboi.default-release. times.json. 50
+./.mozilla/firefox/rtxndboi.default-release/storage/default/moz-extension+++44e85919-9aa7-454a-b115-9b24d637e529^userContextId=4294967295. .metadata-v2. 193
+./.mozilla/firefox/rtxndboi.default-release/storage/permanent/chrome. .metadata-v2. 42
+./.mozilla/firefox/rtxndboi.default-release. containers.json. 939
+./.mozilla/firefox/rtxndboi.default-release. sessionCheckpoints.json. 288
+./.mozilla/firefox/rtxndboi.default-release. prefs.js. 6067
+./.mozilla/firefox/rtxndboi.default-release/datareporting. state.json. 51
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599129405092.8877d257-29bf-457b-b45a-25d34502dc2c.new-profile.jsonlz4. 2665
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599129404832.a60dc621-63b9-4804-b871-694d27e51742.health.jsonlz4. 453
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599139189212.9f2b6934-f8ce-4b53-916d-4ba5d18064f4.main.jsonlz4. 9984
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599129405195.d0f3dc98-90f3-497b-a24b-c192c6b114b4.health.jsonlz4. 450
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599139013348.27af407b-40f3-4589-aecd-fbdcdc4ff50d.event.jsonlz4. 2995
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599139013303.1cb5be37-b4e5-46e4-9fb5-30f630dfceab.new-profile.jsonlz4. 2771
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599139189071.5e3507d6-0374-4dec-b1ed-00d6c84f4ea7.health.jsonlz4. 451
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599139013411.0c2b8f15-f52d-4517-9ac9-ecd42bf7adf5.first-shutdown.jsonlz4. 9744
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599139189185.1cfb06c6-916a-458f-80bc-c7d642af0281.health.jsonlz4. 452
+./.mozilla/firefox/rtxndboi.default-release/datareporting/archived/2020-09. 1599139013398.76dfdd5d-c3af-43a8-bad9-4eba17f9d8ee.main.jsonlz4. 9740
+./.mozilla/firefox/rtxndboi.default-release/datareporting. session-state.json. 161
+./.mozilla/firefox/rtxndboi.default-release. handlers.json. 540
+./.mozilla/firefox/rtxndboi.default-release. SiteSecurityServiceState.txt. 437
+./.mozilla/firefox/rtxndboi.default-release/saved-telemetry-pings. 27af407b-40f3-4589-aecd-fbdcdc4ff50d. 5747
+./.mozilla/firefox/rtxndboi.default-release/saved-telemetry-pings. a60dc621-63b9-4804-b871-694d27e51742. 495
+./.mozilla/firefox/rtxndboi.default-release/saved-telemetry-pings. d0f3dc98-90f3-497b-a24b-c192c6b114b4. 494
+./.mozilla/firefox/rtxndboi.default-release/saved-telemetry-pings. 1cb5be37-b4e5-46e4-9fb5-30f630dfceab. 5180
+./.mozilla/firefox/rtxndboi.default-release/saved-telemetry-pings. 8877d257-29bf-457b-b45a-25d34502dc2c. 4969
+./.mozilla/firefox/rtxndboi.default-release/saved-telemetry-pings. 1cfb06c6-916a-458f-80bc-c7d642af0281. 494
+./.mozilla/firefox/rtxndboi.default-release/saved-telemetry-pings. 5e3507d6-0374-4dec-b1ed-00d6c84f4ea7. 495
+./.mozilla/firefox/rtxndboi.default-release. extension-settings.json. 206
+./.mozilla/firefox/rtxndboi.default-release. compatibility.ini. 160
+./.mozilla/firefox/rtxndboi.default-release. search.json.mozlz4. 344
+./.mozilla/firefox/rtxndboi.default-release. xulstore.json. 218
+./.mozilla/firefox/rtxndboi.default-release/sessionstore-backups. previous.jsonlz4. 1154
+./.mozilla/firefox/rtxndboi.default-release/sessionstore-backups. upgrade.jsonlz4-20200720193547. 503
+./.mozilla/firefox/rtxndboi.default-release. extension-preferences.json. 1019
+./.mozilla/firefox/rtxndboi.default-release. sessionstore.jsonlz4. 1474
+./.mozilla/firefox/rtxndboi.default-release. addonStartup.json.lz4. 2763
+./.mozilla/firefox/rtxndboi.default-release. storage.sqlite. 4096
+./.mozilla/firefox/Crash Reports. InstallTime20200720193547. 10
+./.mozilla/firefox. installs.ini. 62
+./.mozilla/firefox. profiles.ini. 259
+./.mozilla/firefox/2nnsvvri.default. times.json. 47
+./.local/share/Trash/info. grishkin.trashinfo. 77
+./.local/share/Trash/info. time_log.trashinfo. 77
+./.local/share/Trash/info. time_log9grishkin12u.trashinfo. 89
+./.local/share/Trash/info. andrei_grishkin_lsof.txt.trashinfo. 127
+./.local/share/Trash/info. andrei_grishkin_man_vmstat.txt.trashinfo. 133
+./.local/share/Trash/info. file1.txt.trashinfo. 84
+./.local/share/Trash/info. time_log3grishkin12u.trashinfo. 89
+./.local/share/Trash/info. task3grishkin12u.trashinfo. 85
+./.local/share/Trash/info. task9grishkin12u.trashinfo. 85
+./.local/share/Trash/info. answer.txt.trashinfo. 113
+./.local/share/Trash/info. time_log9grishkin12u.2.trashinfo. 123
+./.local/share/Trash/info. task3grishkin12u.2.trashinfo. 85
+./.local/share/Trash/info. task9grishkin12u.2.trashinfo. 119
+./.local/share/Trash/info. ps.log.trashinfo. 109
+./.local/share/Trash/info. time_log4grishkin12u.trashinfo. 89
+./.local/share/Trash/info. task4grishkin12u.trashinfo. 85
+./.local/share/Trash/files. andrei_grishkin_man_vmstat.txt. 6085
+./.local/share/Trash/files. time_log9grishkin12u. 200
+./.local/share/Trash/files. time_log9grishkin12u.2. 532
+./.local/share/Trash/files. task3grishkin12u. 7207
+./.local/share/Trash/files. answer.txt. 206
+./.local/share/Trash/files. task9grishkin12u. 286
+./.local/share/Trash/files. task4grishkin12u. 259
+./.local/share/Trash/files. task3grishkin12u.2. 259
+./.local/share/Trash/files. time_log3grishkin12u. 68
+./.local/share/Trash/files. ps.log. 7205
+./.local/share/Trash/files. time_log4grishkin12u. 67
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory. task3grishkin12u. 7207
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git. config. 286
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git. description. 73
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git. HEAD. 23
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/info. exclude. 240
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-rebase.sample. 4898
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. prepare-commit-msg.sample. 1492
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. fsmonitor-watchman.sample. 3079
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-commit.sample. 1638
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. commit-msg.sample. 896
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. post-update.sample. 189
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-receive.sample. 544
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-push.sample. 1348
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-merge-commit.sample. 416
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. applypatch-msg.sample. 478
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-applypatch.sample. 424
+./.local/share/Trash/files/grishkin/labrabota1-gr12-MoonLory/.git/hooks. update.sample. 3610
+./.local/share/Trash/files. task9grishkin12u.2. 475
+./.local/share/Trash/files. time_log. 67
+./.local/share/gvfs-metadata. starred:. 164
+./.local/share/gvfs-metadata. root. 220
+./.local/share/gvfs-metadata. home. 3136
+./.local/share/gvfs-metadata. trash:. 108
+./.local/share/evolution/tasks/system. tasks.ics. 173
+./.local/share/gnome-shell. application_state. 615
+./.local/share/keyrings. user.keystore. 207
+./.local/share/keyrings. login.keyring. 105
+./.local/share. session_migration-ubuntu. 160
+./papka. file.txt. 11
+.. task242grishkin12u. 1392
+.. file3. 28
+.. time_log3grishkin12u. 1330
+.. script4_indiv.sh. 95
+./.config/gedit. accels. 102
+./.config. gnome-initial-setup-done. 3
+./.config. user-dirs.dirs. 633
+./.config/pulse. cookie. 256
+./.config/pulse. 8b7f2f3e0b6744bd9463541704911372-default-sink. 1
+./.config/pulse. 8b7f2f3e0b6744bd9463541704911372-default-source. 1
+./.config/ibus/bus. 8b7f2f3e0b6744bd9463541704911372-unix-0. 384
+./.config/nautilus. search-metadata. 98
+./.config/evolution/sources. system-calendar.source. 2605
+./.config/evolution/sources. birthdays.source. 3324
+./.config/evolution/sources. system-proxy.source. 1909
+./.config. user-dirs.locale. 5
+./.config/dconf. user. 7110
+./.config/gtk-3.0. bookmarks. 162
+./.config. mimeapps.list. 71
+.. time_log4grishkin12u. 9215
+.. .gitconfig. 58
+./grishkin/labrabota1-gr12-MoonLory/task6. time_log6grishkin12u. 9062
+./grishkin/labrabota1-gr12-MoonLory/task9. time_log9grishkin12u. 3744
+./grishkin/labrabota1-gr12-MoonLory/task9. task9grishkin12r. 2360
+./grishkin/labrabota1-gr12-MoonLory/task9. time_log9grishkin12r. 1460
+./grishkin/labrabota1-gr12-MoonLory/task9. task9grishkin12u. 5791
+./grishkin/labrabota1-gr12-MoonLory/task4. task4grishkin12u. 9679
+./grishkin/labrabota1-gr12-MoonLory/task4. time_log4grishkin12u. 9215
+./grishkin/labrabota1-gr12-MoonLory/task7. time_log7grishkin12u. 5213
+./grishkin/labrabota1-gr12-MoonLory/.git. config. 286
+./grishkin/labrabota1-gr12-MoonLory/.git. description. 73
+./grishkin/labrabota1-gr12-MoonLory/.git. HEAD. 23
+./grishkin/labrabota1-gr12-MoonLory/.git/logs. HEAD. 1409
+./grishkin/labrabota1-gr12-MoonLory/.git/logs/refs/heads. master. 1409
+./grishkin/labrabota1-gr12-MoonLory/.git/logs/refs/remotes/origin. master. 1200
+./grishkin/labrabota1-gr12-MoonLory/.git. index. 2668
+./grishkin/labrabota1-gr12-MoonLory/.git/info. exclude. 240
+./grishkin/labrabota1-gr12-MoonLory/.git. COMMIT_EDITMSG. 7
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-rebase.sample. 4898
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. prepare-commit-msg.sample. 1492
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. fsmonitor-watchman.sample. 3079
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-commit.sample. 1638
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. commit-msg.sample. 896
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. post-update.sample. 189
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-receive.sample. 544
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-push.sample. 1348
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-merge-commit.sample. 416
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. applypatch-msg.sample. 478
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. pre-applypatch.sample. 424
+./grishkin/labrabota1-gr12-MoonLory/.git/hooks. update.sample. 3610
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/cc. 7a2f5855ac877a970c84c0de57d614ebd496d5. 5877
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/a4. cf5561e8ca10e100c7fd2c9e243800cf70627d. 145
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/b3. 027344a4f7b552d122b4e72b9091eedd438389. 145
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/2c. 04f51e66f29e11899ff40bf0c5be7795c1bc91. 3797
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/9c. c1f00dd6af9368c7ccde7992870e399395cf70. 578
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/b1. 77a97fe1c09aaa82b915a426c89cf0713f040c. 163
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/b1. dd01ceb5607c7d0e4304ca53b5fc731b47c4c8. 198
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/8d. 51184bc7bd13f54975337ffbe928d4b569ff1c. 2065
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/15. 1c9d5dcbcefc3a39ea48d59ff55e799b19287b. 144
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/ab. c208ef8c85fd662fe8719885b41e237eec40c9. 146
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/86. b220c115b63edfe13185ffb38e01eeb53ee4fd. 162
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/0b. 09581f5e3482ba2fd9a6c11447fbbe34bd3b05. 145
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/6c. 31965c6ab599902092559d9fdc39acc3ba28ae. 303
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/87. babad46399aa683cc0308161eef15b54347ed1. 2475
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/d0. 6a55ed3a2aab31339714e6e848cb0ca77593bc. 1075
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/29. aac07be1e49af0fbf6e09928b4ac76684a990f. 405
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/29. 74ff9411b4d74c8d0ba3c988fbd7ab93449d39. 3091
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/e0. e2dbb3b11ebfaeba0b200d8d95f7ca601a1170. 510
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/57. ef9030343b1951590dad848a07a5fb168aaa81. 135
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/21. b8390339d31b6df9ccaf4a9b966ec9ddffb4e6. 1465
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/5e. 2de42a28f90130409b0d551cd957551db21964. 169
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/16. 7e84e49b6618de7ff171b9371d8bdaa7b2c754. 718
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/9e. 7dded18f62d97df3b56d8880721d24618577a6. 137
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/9e. 4fd6b0b3aa0c7b232d7becf0bcf68a0746714b. 164
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/7b. 5aedaa792ee93cef984a3ac03788c6dcd89c87. 6600
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/d5. 056f52a3622110e1bf8c0ebffe889df8af7a23. 615
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/d5. 3d559ffc8079772a1a6d8c982bf25d0de0c04c. 2366
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/a0. fdee5ab68e9ca254a2204fa7b5136aa3fe4b91. 563
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/eb. cc23879ffdd21a14b94207302b6bdb8c2aba1f. 163
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/06. 305043df6c12702aaed3c9c30d64eb7acf8df9. 7721
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/06. 3c14cb1f6ce378bcdc668ca70acc1a46b2e12f. 120
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/76. 65bec20f57d72d5027bcaed6e3592da1b9297e. 1618
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/c5. b91c5f8a068551ce959011f2e8b80dad771b31. 2933
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/92. a471057f5311dde8d36e6bc2657b48962d8e11. 2669
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/84. 857f19025eca03822d3b61e174d1551e4cdd7f. 162
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/80. 6d4747a68c9ebb77411eaf14fed158148341c3. 2194
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/66. f7327035a8a4b00a6d67a56ab1ec5d2f87a176. 199
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/66. 4ce3107ba3c44ddf05cbd1d19461de5db427eb. 3625
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/bf. 4f0b7cdfc5619e175b596c7976a6cfd7df2dfe. 3921
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/dc. e8bd6a1788a3e9a5d588914d765f71b4d84fd0. 669
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/db. 4f910f7a83297777c309127d177028da9bf937. 145
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/df. 7b6c6f6bc25dc128b05480b8c32cb60234731f. 1199
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/bb. a97a1d3ba6e028b414fb99a950de527c32c2d7. 93
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/9f. 10c60b88c7e2d27cb74a0313fedd166c2abdc6. 460
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/5f. 2a58e617dbb3c8228759ec23d42cc7fa0a9932. 3717
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/96. 8e8f9f1d4744c0d551930c1892fe4f57616109. 159
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/23. bd360a7f02660815e9d4fbf4bf51601852c985. 1343
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/cf. 11ef3941f5bf9bf321a339b8a6703bde2c32f7. 162
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/00. 2fabb88d5879de23803b9599a85b321475c267. 591
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/35. dd08299209cdd9c378863a0c1179fec4fd0dbd. 2647
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/1d. f162bef53e2a381219a8ede0158edf9dbaade1. 618
+./grishkin/labrabota1-gr12-MoonLory/.git/objects/a1. 6c7c18959f1d2ec7483c98f19f5936923319e2. 2676
+./grishkin/labrabota1-gr12-MoonLory/.git/refs/heads. master. 41
+./grishkin/labrabota1-gr12-MoonLory/.git/refs/remotes/origin. master. 41
+./grishkin/labrabota1-gr12-MoonLory/task3. task3grishkin12u. 7764
+./grishkin/labrabota1-gr12-MoonLory/task3. time_log3grishkin12u. 1330
+./grishkin/labrabota1-gr12-MoonLory/task3. time_log3grishkin12r. 5604
+./grishkin/labrabota1-gr12-MoonLory/task8. task8grishkin12r. 6821
+./grishkin/labrabota1-gr12-MoonLory/task8. time_log8grishkin12u. 7471
+./grishkin/labrabota1-gr12-MoonLory/task8. time_log8grishkin12r. 3492
+./grishkin/labrabota1-gr12-MoonLory/task5. time_log5grishkin12u. 188
+.. archive.tar.gz. 277
+./fortask8. simple.txt. 23
+./fortask8. simple.txt.gz. 37
+.. packages1.trfile.txt. 66
+./snap/snap-store/467. .last_revision. 31
+./snap/snap-store/467/.local/share/icons/LoginIcons. icon-theme.cache. 628
+./snap/snap-store/467/.local/share/icons/hicolor. icon-theme.cache. 1636
+./snap/snap-store/467/.config. user-dirs.dirs.md5sum. 36
+./snap/snap-store/467/.config. user-dirs.dirs. 721
+./snap/snap-store/467/.config. user-dirs.locale.md5sum. 36
+./snap/snap-store/467/.config. user-dirs.locale. 5
+./snap/snap-store/467/.config/fontconfig. fonts.conf. 415
+./snap/snap-store/common/.cache/gio-modules. giomodule.cache. 150
+./snap/snap-store/common/.cache/gnome-software/icons. bc8864c7ceac1496c8e23f6985c18a4c6fb3f6b3-ags.png. 1380
+./snap/snap-store/common/.cache/gnome-software/icons. f36a897ce58dcaf3c5b723c53f321f68a75a51b7-icon.ico.png. 2390
+./snap/snap-store/common/.cache/gnome-software/icons. 56a7fe4a0819f942c28843cf0183354b133bab86-Powershell_black.ico.png. 2993
+./snap/snap-store/common/.cache/gnome-software/icons. e975fa491976348e9faebf3ed6fee01307fc0dd8-snap.png. 626
+./snap/snap-store/common/.cache/gnome-software/icons. 8638f0eb382cd9756cff50de3eb44273e1cf184c-codium_blue_light.png. 4012
+./snap/snap-store/common/.cache/gnome-software/icons. 754d0fb2bd027051754eb620ceaa1e45d524cb8e-66000339_1.jpeg.png. 8510
+./snap/snap-store/common/.cache/gnome-software/icons. ae09ea1f8f718850c95396da5399b04f7d3fa54d-512x512_VFFOVrB.png. 2616
+./snap/snap-store/common/.cache/gnome-software/icons. 188057e048861a471cf090ec081e0eaafe8f4e88-PyCharmEdu256.png. 4082
+./snap/snap-store/common/.cache/gnome-software/icons. 1fda18d20714a95e6f3f50b3d1e058b371b147fb-obs-studio.png. 2727
+./snap/snap-store/common/.cache/gnome-software/icons. 88de8c9fb4a19bf7979980f672d1867545063d51-icon_6lKgubE.png. 5157
+./snap/snap-store/common/.cache/gnome-software/icons. e91882d78b3deb47b9f3cb4b46055f7bcfd15ec1-snap-icon.png. 3385
+./snap/snap-store/common/.cache/gnome-software/icons. 1857091653adb45576997ca5037f97c32cb12bcb-icon_jxGcedk.png. 2430
+./snap/snap-store/common/.cache/gnome-software/icons. 7ab7c4238f6405db206b617f54d33f88813518a2-dune.png. 7082
+./snap/snap-store/common/.cache/gnome-software/icons. 951c86b2db946776ef142aea4286283eb44eb41a-bashtop_2.png. 5605
+./snap/snap-store/common/.cache/gnome-software/icons. 830e941d0b2e4c2f9a9c062bbfd05a946926fa58-icon_pcRQ6cN.png. 1388
+./snap/snap-store/common/.cache/gnome-software/icons. c2a15fc9fb49faf5b96e93849d6105f0bdc64238-512.png. 3285
+./snap/snap-store/common/.cache/gnome-software/icons. 72b4257abe4ab1540a07a847e002896ccae6ca5f-moonlight.png. 3719
+./snap/snap-store/common/.cache/gnome-software/icons. 9a2416be9513b0183e00ef958e0c8d38892b1109-mars-256_etORXwv.png. 5898
+./snap/snap-store/common/.cache/gnome-software/icons. 495d04ed773a4d8c0452cc59af3f9354537cc81e-Todoist_logo.png. 2917
+./snap/snap-store/common/.cache/gnome-software/icons. 0969b943845a7ed7e6431176739582f96451fd5f-sublime-text.png. 2084
+./snap/snap-store/common/.cache/gnome-software/icons. e4bb7fe3c845d8809bdbcb046a9ce71cbae332f3-openscad-256.png. 5083
+./snap/snap-store/common/.cache/gnome-software/icons. 6b96ae718dd1bb30451d50b4ee9b52184be62251-scummvm_icon_512.png. 3430
+./snap/snap-store/common/.cache/gnome-software/icons. e7c9e6bc82979f341c279c8c179f434ed8202614-minuet.png. 1444
+./snap/snap-store/common/.cache/gnome-software/icons. add6bd406402a766b889ec48a49aafbffecc7abd-hisc-apps-kturtle.svg.png. 2761
+./snap/snap-store/common/.cache/gnome-software/icons. ac6ec322b8471e2a8c270df31b69ddb36b342860-icon_UmBaEG4.png. 1996
+./snap/snap-store/common/.cache/gnome-software/icons. a21b349e81c58ee2f3d34fc6bad76423bce67467-icon_512.png. 2469
+./snap/snap-store/common/.cache/gnome-software/icons. 06e84da66e094d2a3fe3e88c4bd6ac111d01c2a7-WickrMe.png.png. 1336
+./snap/snap-store/common/.cache/gnome-software/icons. 895068db1063e82ec50be18cf63a9bd782415da0-dosbox-x.png. 8848
+./snap/snap-store/common/.cache/gnome-software/icons. 98267a46a8e6192e924e498952e10c084eae0d8c-io.snapcraft.Store.png. 2175
+./snap/snap-store/common/.cache/gnome-software/icons. 28d52c442c3a253e2212da1b293a2a003b39f94a-blender.png. 2415
+./snap/snap-store/common/.cache/gnome-software/icons. ae5a7cf11bc1927a8961d7e4aa575a3972a4fc54-icon-256x256.png. 1525
+./snap/snap-store/common/.cache/gnome-software/icons. c8626a65d3351c9cba41078c2b859b04a3cce8da-citra.png. 4366
+./snap/snap-store/common/.cache/gnome-software/icons. 529f91f5a7f62f5961c1c8c56485ed59a8c3a3eb-cointop_logo_twitter.png. 715
+./snap/snap-store/common/.cache/gnome-software/icons. e6427d74ac3247fd5f3b333e980f408d03d7aa3e-x16emu.png. 3839
+./snap/snap-store/common/.cache/gnome-software/icons. 55f43239a9a98aa66c70f294b64609ca5e239ac7-snapd.png. 2339
+./snap/snap-store/common/.cache/gnome-software/icons. 54eefa65638f877585eaec0f7cbea100dc189867-logo-mark.png. 2706
+./snap/snap-store/common/.cache/gnome-software/icons. 2e86f2d51785dd3dd53aac753ca6afdf13ff2d5d-icon.svg_TZIs0cC.png. 4042
+./snap/snap-store/common/.cache/gnome-software/icons. e869627a7b90632cc1c4b25b9bab047be148bc8e-Snapcraft_256x256.png. 2589
+./snap/snap-store/common/.cache/gnome-software/icons. 7172c35f9999131b024d7239ed874cbf2229bf79-shotcut-logo-256x256_1.png. 403
+./snap/snap-store/common/.cache/gnome-software/icons. 6e1b49b8ab3d90d684268c9f9527725f2acd62b7-librepcb.png. 1857
+./snap/snap-store/common/.cache/gnome-software/icons. 80e285a06518153157425239fe43c0904a31c6d7-cmd_logo_512x512.png. 2071
+./snap/snap-store/common/.cache/gnome-software/icons. 585a05690d4071534681d140002184d77bdd4be2-get-iplayer_256.png. 1175
+./snap/snap-store/common/.cache/gnome-software/icons. bb09826e06999e558434b7f8b0cc2f13ac0fc275-256-GTK_logo.png. 3482
+./snap/snap-store/common/.cache/gnome-software/icons. 2489a08a8062b843075cf2cd102fddc18b3c9c22-opera-beta_zhNGHul.png. 5582
+./snap/snap-store/common/.cache/gnome-software/icons. 3d194bb3f4a5b2316c8e71a1937a69264475f8e2-the-powder-toy.png. 5522
+./snap/snap-store/common/.cache/gnome-software/icons. c8a6c82feb3a29a830e6fffb2edf1dd52e37555c-yuzu.png. 1803
+./snap/snap-store/common/.cache/gnome-software/fwupd/remotes.d/lvfs. metadata.xml.gz.asc. 490
+./snap/snap-store/common/.cache/immodules. immodules.cache. 3257
+./snap/snap-store/common/.cache. gdk-pixbuf-loaders.cache. 3855
+./snap/snap-store/common/.cache/fontconfig. CACHEDIR.TAG. 200
+./snap/snap-store/common/.cache/fontconfig. 5020610b0bd7dd0f83a05a37379ddbbb-le64.cache-7. 304
+./snap/snap-store/common/.cache/fontconfig. 4794a0821666d79190d59a36cb4f44b5-le64.cache-7. 2368
+./snap/snap-store/common/.cache/fontconfig. f7c0ce566c704486ba1312d13a22a931-le64.cache-7. 208
+./snap/snap-store/common/.cache/fontconfig. 822cfad4c52d8af309b99e0da07d9f16-le64.cache-7. 2648
+./snap/snap-store/common/.cache/fontconfig. 6d0d4fc8577f1bb1af8d832e2c0ee112-le64.cache-7. 176
+./snap/snap-store/common/.cache/fontconfig. 74cc4c87186742e59fd20601e917c3db-le64.cache-7. 192
+./snap/tree/common/.local/lib/locale/en_US.UTF-8/LC_MESSAGES. SYS_LC_MESSAGES. 57
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_MONETARY. 286
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_TELEPHONE. 59
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_MEASUREMENT. 23
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_ADDRESS. 155
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_TIME. 2454
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_NAME. 77
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_NUMERIC. 54
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_IDENTIFICATION. 361
+./snap/tree/common/.local/lib/locale/en_US.UTF-8. LC_PAPER. 34
+.. copy.txt. 10
+./.ssh. known_hosts. 1550
+./Documents/labrabota2-gr12-MoonLory. task21grishkin12r. 7060
+./Documents/labrabota2-gr12-MoonLory. time_log241grishkin12u. 4096
+./Documents/labrabota2-gr12-MoonLory. time_log241_2grishkin12u. 4126
+./Documents/labrabota2-gr12-MoonLory. time_log21grishkin12r. 8945
+./Documents/labrabota2-gr12-MoonLory. time_log242grishkin12u. 1889
+./Documents/labrabota2-gr12-MoonLory. task241_2grishkin12u. 9440
+./Documents/labrabota2-gr12-MoonLory. time_log23grishkin12r. 9443
+./Documents/labrabota2-gr12-MoonLory/.git. config. 286
+./Documents/labrabota2-gr12-MoonLory/.git. description. 73
+./Documents/labrabota2-gr12-MoonLory/.git. HEAD. 23
+./Documents/labrabota2-gr12-MoonLory/.git/logs. HEAD. 1119
+./Documents/labrabota2-gr12-MoonLory/.git/logs/refs/heads. master. 1119
+./Documents/labrabota2-gr12-MoonLory/.git/logs/refs/remotes/origin. master. 1050
+./Documents/labrabota2-gr12-MoonLory/.git. index. 1802
+./Documents/labrabota2-gr12-MoonLory/.git/info. exclude. 240
+./Documents/labrabota2-gr12-MoonLory/.git. COMMIT_EDITMSG. 15
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. pre-rebase.sample. 4898
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. prepare-commit-msg.sample. 1492
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. fsmonitor-watchman.sample. 3079
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. pre-commit.sample. 1638
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. commit-msg.sample. 896
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. post-update.sample. 189
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. pre-receive.sample. 544
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. pre-push.sample. 1348
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. pre-merge-commit.sample. 416
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. applypatch-msg.sample. 478
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. pre-applypatch.sample. 424
+./Documents/labrabota2-gr12-MoonLory/.git/hooks. update.sample. 3610
+./Documents/labrabota2-gr12-MoonLory/.git/objects/9a. 7c03ba288678fbbb683b75de96f09c5db5b451. 169
+./Documents/labrabota2-gr12-MoonLory/.git/objects/89. ead0a9da1e905166b534873b1e4de2d0ffbdc7. 167
+./Documents/labrabota2-gr12-MoonLory/.git/objects/89. 0394c83491b801754509e357118f7ad716153d. 474
+./Documents/labrabota2-gr12-MoonLory/.git/objects/b3. b1bbcb9ff997fba006790a5a768c2ad54cbc97. 833
+./Documents/labrabota2-gr12-MoonLory/.git/objects/8d. 943fea2afacd360c0aa7db13adf6e5d55372f2. 2694
+./Documents/labrabota2-gr12-MoonLory/.git/objects/0d. 03c72b3c9cce0e99a501e0e4387562931b05f8. 2820
+./Documents/labrabota2-gr12-MoonLory/.git/objects/87. bffbfccd13583b6676e29e63421688353762ce. 199
+./Documents/labrabota2-gr12-MoonLory/.git/objects/a3. 68476fafd5c242dca01828693bab5f84c60f12. 7005
+./Documents/labrabota2-gr12-MoonLory/.git/objects/af. 16360946cfc8929982ba6eb75079d0af4861cb. 4448
+./Documents/labrabota2-gr12-MoonLory/.git/objects/af. 47310299b435d387e4aa23dd819dc69f8d6c7e. 170
+./Documents/labrabota2-gr12-MoonLory/.git/objects/7d. e6c7bc09c9d56f12cb9fb4f275f754a6229d54. 167
+./Documents/labrabota2-gr12-MoonLory/.git/objects/43. 39f02dafb12f720c6e9988a0c071287cbf7a1d. 147
+./Documents/labrabota2-gr12-MoonLory/.git/objects/ed. cc6e4ba0098106e3bd073384c062e4d641c557. 5118
+./Documents/labrabota2-gr12-MoonLory/.git/objects/5e. dd3808b708b70954556ce19d9f0b9f7f6d34dc. 166
+./Documents/labrabota2-gr12-MoonLory/.git/objects/b0. 03c9d7872f0a1482347286f820aa96c919b094. 564
+./Documents/labrabota2-gr12-MoonLory/.git/objects/4e. e18531433712c9316ef1ad23f5839eead5af6c. 3890
+./Documents/labrabota2-gr12-MoonLory/.git/objects/16. 05857502a588ca80561da3467f46f21c033c3b. 462
+./Documents/labrabota2-gr12-MoonLory/.git/objects/c7. 20bcf9efaec9c0bd3db434324ab00824d9e96d. 1829
+./Documents/labrabota2-gr12-MoonLory/.git/objects/e7. 412ad00a4a65cc43af354e3082c771dd2cb92f. 3794
+./Documents/labrabota2-gr12-MoonLory/.git/objects/2d. 6bc31f74aaad605fd91b332e46ed3e8b473c73. 1636
+./Documents/labrabota2-gr12-MoonLory/.git/objects/4c. 60e44700d362e28572d61463e263b08c27d22d. 1826
+./Documents/labrabota2-gr12-MoonLory/.git/objects/3a. 164134baf0f4d5541d0b64e273ba0a5232ade9. 2191
+./Documents/labrabota2-gr12-MoonLory/.git/objects/3e. 30a4a1a787280a6439aabdd3fff70d8c7be6db. 4069
+./Documents/labrabota2-gr12-MoonLory/.git/objects/82. 1a6845bb70ac33b99cacd04ff6db529535d1a3. 8924
+./Documents/labrabota2-gr12-MoonLory/.git/objects/b9. eaad881c60354fe02e396d722cd4343769d353. 360
+./Documents/labrabota2-gr12-MoonLory/.git/objects/58. e6e3d291f7582b8317c2fc15876f0016ae068f. 3643
+./Documents/labrabota2-gr12-MoonLory/.git/objects/90. 17374cc8be69aa4c1ef462a7147cd3978d62dc. 164
+./Documents/labrabota2-gr12-MoonLory/.git/objects/a7. d5959c9eee69c3001ba929f9645da695621e0e. 133
+./Documents/labrabota2-gr12-MoonLory/.git/objects/60. 0ec475fa256e6aeef6d39f3ebf264e140c5c72. 94
+./Documents/labrabota2-gr12-MoonLory/.git/objects/23. 83330bc1ae2d6e46c13674b803c545d7eb74bd. 302
+./Documents/labrabota2-gr12-MoonLory/.git/objects/23. 1cd04ac8bc642f8a932ecc237de465a033fe3e. 7561
+./Documents/labrabota2-gr12-MoonLory/.git/objects/7c. 5434d3c0a6baf2bb90a03ca7841b5c8ac24a18. 5454
+./Documents/labrabota2-gr12-MoonLory/.git/refs/heads. master. 41
+./Documents/labrabota2-gr12-MoonLory/.git/refs/remotes/origin. master. 41
+./Documents/labrabota2-gr12-MoonLory. task242grishkin12u. 1392
+./Documents/labrabota2-gr12-MoonLory. time_log241grishkin12r. 8192
+./Documents/labrabota2-gr12-MoonLory. time_log242grishkin12r. 5098
+.. .profile. 807
+.. typedin.txt. 7
+.. appends. 20
+./myscripts. num1minusnum2. 80
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ./script5_indiv.sh . 0  10100 [C[1P[1@~[1@/[1@g[8@rishkin/[C[1P[1@/labrabota1-gr12-MoonLory/ 0  10100 [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 0 
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 0  10[1P[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 0  101[1P[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 0  1010[C[1P [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 0  10100[1P [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 0  10100 [K[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 0  10100  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[1P[1@1[1@0[1@0[1@-[1P[1@0[C[C[C[C[C[C[1P [C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@/[1@u[1@s[2@r/
+/usr/bin. dvipdf. 1007
+/usr/bin. spd-conf. 1003
+/usr/lib/python3.8. this.py. 1003
+/usr/lib/python3.8/encodings. utf_8.py. 1005
+/usr/lib/libreoffice/share/config/webcast. edit.asp. 1003
+/usr/lib/libreoffice/share/config/soffice.cfg/sfx/ui. charviewmenu.ui. 1009
+/usr/lib/libreoffice/share/gallery/txtshapes. Hexagon02-Blue.svg. 1002
+/usr/lib/libreoffice/share/gallery/bullets. Bullet19-Leaves-Red.svg. 1005
+/usr/lib/libreoffice/share/gallery/bullets. popcorn_1.gif. 1005
+/usr/lib/libreoffice/share/gallery/www-graf. redinfo.gif. 1002
+/usr/lib/libreoffice/share/gallery/www-graf. greplus.gif. 1009
+/usr/lib/libreoffice/share/gallery/www-graf. bluplus.gif. 1009
+/usr/lib/libreoffice/share/gallery/diagrams. Pyramid01.svg. 1002
+/usr/lib/python3/dist-packages/orca/scripts/apps/gedit. __init__.py. 1006
+/usr/lib/python3/dist-packages/orca/scripts/apps/rhythmbox. __init__.py. 1003
+/usr/lib/python3/dist-packages/libfuturize/fixes. fix_future_standard_library_urllib.py. 1001
+/usr/lib/terminfo/s. sun. 1004
+/usr/lib/x86_64-linux-gnu/perl5/5.30/Glib/Param. Int.pod. 1001
+/usr/share/gdb/system-gdbinit. wrs-linux.py. 1005
+/usr/share/zoneinfo/Asia. Aqtau. 1003
+/usr/share/zoneinfo/posix/Asia. Aqtau. 1003
+/usr/share/locale/af/LC_MESSAGES. iso_3166-3.mo. 1001
+/usr/share/guile/2.2/ice-9. unicode.scm. 1005
+/usr/share/sgml/html/dtd. html-0.dtd. 1005
+/usr/share/sgml/html/dtd/4.0. frameset.dtd. 1007
+/usr/share/libreoffice/help/media/icon-themes/res. sx18013.svg. 1006
+/usr/share/libreoffice/help/media/icon-themes/starmath/res. mi22015.svg. 1004
+/usr/share/libreoffice/help/media/icon-themes/cmd. lc_toggleformula.svg. 1002
+/usr/share/libreoffice/help/media/icon-themes/cmd. sc_pastespecial.svg. 1002
+/usr/share/libreoffice/help/media/icon-themes/cmd/32. dbsortingandgrouping.svg. 1004
+/usr/share/libreoffice/help/media/icon-themes/cmd/32. defaultbullet.svg. 1009
+/usr/share/libreoffice/help/media/icon-themes/cmd. lc_dbquerypropertiesdialog.svg. 1005
+/usr/share/libreoffice/help/media/icon-themes/cmd. sc_toggleanchortype.svg. 1002
+/usr/share/libreoffice/help/media/icon-themes/cmd. sc_symbolshapes.flower.svg. 1002
+/usr/share/libreoffice/help/media/icon-themes/cmd. sc_polygon.svg. 1007
+/usr/share/libreoffice/help/media/icon-themes/cmd. lc_diaeffect.svg. 1003
+/usr/share/libreoffice/help/media/icon-themes/cmd. sc_starshapes.concave-star6.svg. 1006
+/usr/share/libreoffice/help/media/icon-themes/cmd. sc_connect.svg. 1007
+/usr/share/libreoffice/help/media/icon-themes/cmd. sc_insertfootnote.svg. 1006
+/usr/share/libreoffice/help/media/icon-themes/cmd. lc_paste.svg. 1003
+/usr/share/help-langpack/en_GB/simple-scan. index.page. 1009
+/usr/share/help-langpack/en_GB/eog. formats-save.page. 1003
+/usr/share/help-langpack/en_GB/deja-dup. index.page. 1001
+/usr/share/help-langpack/en_AU/deja-dup. index.page. 1001
+/usr/share/help/lt/gnome-help. app-cheese.page. 1001
+/usr/share/help/ja/gnome-help. more-help.page. 1007
+/usr/share/help/C/simple-scan. reorder.page. 1007
+/usr/share/help/lv/gnome-help. more-help.page. 1002
+/usr/share/bash-completion/completions. autoreconf. 1009
+/usr/share/icons/Humanity/status/22. gpm-mouse-060.svg. 1009
+/usr/share/icons/Humanity/status/22. gpm-mouse-040.svg. 1009
+/usr/share/icons/Humanity/status/22. gpm-mouse-020.svg. 1009
+/usr/share/icons/ubuntu-mono-light/status/22. gnome-netstatus-rx.svg. 1003
+/usr/share/icons/ubuntu-mono-light/status/22. network-receive.svg. 1003
+/usr/share/icons/Yaru/32x32/mimetypes. text-x-arduino.png. 1007
+/usr/share/icons/Yaru/32x32/mimetypes. application-pgp-keys.png. 1001
+/usr/share/icons/Yaru/16x16@2x/apps. utilities-system-monitor.png. 1008
+/usr/share/icons/Yaru/16x16@2x/apps. system-monitor-app.png. 1008
+/usr/share/icons/Yaru/16x16@2x/apps. org.gnome.SystemMonitor.png. 1008
+/usr/share/icons/Yaru/16x16@2x/apps. gnome-system-monitor.png. 1008
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-genesis-32x-rom.png. 1003
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-gba-rom.png. 1003
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-sms-rom.png. 1003
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-n64-rom.png. 1003
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-nintendo-ds-rom.png. 1003
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-sqlite3.png. 1007
+/usr/share/icons/Yaru/16x16@2x/mimetypes. text-x-sql.png. 1007
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-nes-rom.png. 1003
+/usr/share/icons/Yaru/16x16@2x/mimetypes. office-database.png. 1007
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-gameboy-rom.png. 1003
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-sql.png. 1007
+/usr/share/icons/Yaru/16x16@2x/mimetypes. application-x-genesis-rom.png. 1003
+/usr/share/icons/Yaru/scalable/actions. appointment-new-symbolic.svg. 1001
+/usr/share/icons/Yaru/24x24/apps. session-properties.png. 1001
+/usr/share/icons/Yaru/24x24/mimetypes. application-x-bzpdf.png. 1009
+/usr/share/icons/Yaru/24x24/mimetypes. application-msaccess.png. 1005
+/usr/share/icons/Yaru/24x24/mimetypes. application-vnd.ms-access.png. 1005
+/usr/share/icons/Yaru/24x24/mimetypes. application-pdf.png. 1009
+/usr/share/icons/Yaru/24x24/mimetypes. application-x-pdf.png. 1009
+/usr/share/icons/Yaru/24x24/mimetypes. application-geo+json.png. 1009
+/usr/share/icons/Yaru/24x24/mimetypes. application-vnd.google-earth.kml+xml.png. 1009
+/usr/share/icons/Yaru/24x24/mimetypes. application-x-gzpdf.png. 1009
+/usr/share/icons/hicolor/16x16/animations. aptdaemon-action-downloading.png. 1002
+/usr/share/icons/hicolor/symbolic/apps. org.gnome.Todo-symbolic.svg. 1004
+/usr/share/icons/Humanity-Dark/status/22. gpm-mouse-060.svg. 1009
+/usr/share/icons/Humanity-Dark/status/22. gpm-mouse-040.svg. 1009
+/usr/share/icons/Humanity-Dark/status/22. gpm-mouse-080.svg. 1009
+/usr/share/icons/Humanity-Dark/status/22. gpm-mouse-020.svg. 1009
+/usr/share/icons/Adwaita/64x64/emotes. face-cool-symbolic.symbolic.png. 1001
+/usr/share/icons/Adwaita/96x96/actions. tools-check-spelling-symbolic.symbolic.png. 1003
+/usr/share/icons/Adwaita/scalable/emblems. emblem-synchronizing-symbolic.svg. 1004
+/usr/share/icons/Adwaita/scalable/actions. edit-redo-symbolic.svg. 1006
+/usr/share/icons/Adwaita/scalable/actions. edit-undo-symbolic-rtl.svg. 1006
+/usr/share/icons/Adwaita/scalable/status. folder-open-symbolic.svg. 1009
+/usr/share/icons/Adwaita/24x24/legacy. battery-low-charging.png. 1009
+/usr/share/icons/ubuntu-mono-dark/status/22. network-transmit.svg. 1007
+/usr/share/icons/HighContrast/256x256/actions. selection-start.png. 1007
+/usr/share/icons/HighContrast/32x32/actions. document-open-recent.png. 1005
+/usr/share/icons/HighContrast/48x48/actions. edit-clear-all.png. 1008
+/usr/share/icons/HighContrast/48x48/apps. system-users.png. 1002
+/usr/share/icons/HighContrast/48x48/devices. camera-video.png. 1007
+/usr/share/icons/HighContrast/48x48/status. call-missed.png. 1001
+/usr/share/icons/HighContrast/48x48/status. network-wireless-signal-excellent.png. 1005
+/usr/share/ufw/iptables. after.rules. 1004
+/usr/share/cups/ipptool. cancel-current-job.test. 1003
+/usr/share/X11/locale/iso8859-9e. XLC_LOCALE. 1004
+/usr/share/snmp/mib2c-data. generic-ctx-copy.m2i. 1007
+/usr/share/snmp/mib2c-data. generic-ctx-set.m2i. 1007
+/usr/share/doc/hicolor-icon-theme. copyright. 1007
+/usr/share/doc/python3-monotonic. copyright. 1007
+/usr/share/doc/syslinux-common/examples. Makefile. 1001
+/usr/share/doc/libpulse0. README. 1006
+/usr/share/doc/orca. changelog.Debian.gz. 1006
+/usr/share/doc/gir1.2-gdesktopenums-3.0. changelog.Debian.gz. 1002
+/usr/share/doc/findutils. changelog.Debian.gz. 1007
+/usr/share/doc/libgmp10. changelog.Debian.gz. 1006
+/usr/share/doc/fonts-smc-suruma. README. 1001
+/usr/share/doc/distro-info-data. copyright. 1008
+/usr/share/doc/sed. changelog.Debian.gz. 1008
+/usr/share/doc/aisleriot. AUTHORS. 1008
+/usr/share/doc/sound-icons. changelog.Debian.gz. 1006
+/usr/share/doc/python3-debian/examples/debfile. changelog_head. 1004
+/usr/share/doc/libaudit-common. changelog.Debian.gz. 1004
+/usr/share/doc/sgml-data/examples. svg-1.1.xml.gz. 1008
+/usr/share/doc/netcat-openbsd/examples. iscan. 1005
+/usr/share/applications. gnome-online-accounts-panel.desktop. 1002
+/usr/share/applications. gnome-info-overview-panel.desktop. 1001
+/usr/share/man/man1. fc-list.1.gz. 1002
+/usr/share/man/man1. git-verify-pack.1.gz. 1002
+/usr/share/man/man1. zless.1.gz. 1008
+/usr/share/man/man1. gtk-query-immodules-3.0.1.gz. 1007
+/usr/share/man/man1. cd-create-profile.1.gz. 1007
+/usr/share/man/man1. cat.1.gz. 1001
+/usr/share/man/man1. grub-mknetdir.1.gz. 1006
+/usr/share/man/cs/man5. passwd.5.gz. 1005
+/usr/share/man/man4. ram.4.gz. 1008
+/usr/share/man/man8. cupsctl.8.gz. 1005
+/usr/share/man/man8. plymouthd.8.gz. 1006
+/usr/share/man/man8. calibrate_ppa.8.gz. 1005
+/usr/share/speech-dispatcher/conf/desktop. speechd.desktop. 1007
+/usr/share/terminfo/d. d211-dg. 1005
+/usr/share/terminfo/s. sun-il. 1004
+/usr/share/terminfo/x. xnuppc+f2. 1002
+/usr/share/terminfo/x. xnuppc-m-f. 1008
+/usr/share/terminfo/a. adm21. 1007
+/usr/share/terminfo/v. vt100+4bsd. 1004
+/usr/share/terminfo/e. env230. 1008
+/usr/share/terminfo/e. excel62. 1004
+/usr/share/libwacom. intuos-m-p3-android.tablet. 1006
+/usr/share/apport/package-hooks. openssh-server.py. 1004
+/usr/share/groff/1.22.4/font/devps/generate. symbol.sed. 1001
+/usr/share/perl5/Date/Language. Italian.pm. 1006
+/usr/share/perl5/Date/Language. Norwegian.pm. 1004
+/usr/share/perl5/Debconf/Element/Editor. Boolean.pm. 1009
+/usr/share/ghostscript/9.50/Resource/ColorSpace. DefaultRGB. 1009
+/usr/share/glib-2.0/schemas. com.ubuntu.touch.sound.gschema.xml. 1006
+/usr/share/fontconfig/conf.avail. urw-c059.conf. 1003
+/usr/share/mime/audio. ogg.xml. 1008
+/usr/share/mime/audio. x-m4r.xml. 1002
+/usr/share/evince/icons/hicolor/24x24/actions. zoom-fit-height.png. 1001
+/usr/share/fonts/X11/encodings. microsoft-cp1255.enc.gz. 1004
+/usr/share/locale-langpack/en_GB/LC_MESSAGES. ibus-table.mo. 1003
+/usr/share/locale-langpack/en_CA/LC_MESSAGES. nautilus.mo. 1002
+/usr/share/locale-langpack/en_AU/LC_MESSAGES. zenmap.mo. 1002
+/usr/src/linux-headers-5.4.0-45/tools/perf/trace/beauty. usbdevfs_ioctl.sh. 1001
+/usr/src/linux-headers-5.4.0-45/include/sound/sof. pm.h. 1005
+/usr/src/linux-headers-5.4.0-45/include/dt-bindings/reset. amlogic,meson-g12a-audio-reset.h. 1001
+/usr/src/linux-headers-5.4.0-45/include/uapi/asm-generic. ipcbuf.h. 1003
+/usr/src/linux-headers-5.4.0-45/include/uapi/linux. adfs_fs.h. 1008
+/usr/src/linux-headers-5.4.0-45/include/linux/clk. renesas.h. 1001
+/usr/src/linux-headers-5.4.0-45/include/linux/crush. mapper.h. 1002
+/usr/src/linux-headers-5.4.0-45/include/linux/can. led.h. 1008
+/usr/src/linux-headers-5.4.0-45/include/linux. pda_power.h. 1005
+/usr/src/linux-headers-5.4.0-45/include/net/netfilter. nf_conntrack_synproxy.h. 1005
+/usr/src/linux-headers-5.4.0-45/arch/arm/include/asm. glue-pf.h. 1005
+/usr/src/linux-headers-5.4.0-45/arch/arm/include/asm. swab.h. 1005
+/usr/src/linux-headers-5.4.0-45/arch/arm/include/asm. jump_label.h. 1009
+/usr/src/linux-headers-5.4.0-45/arch/arm/include/debug. at91.S. 1002
+/usr/src/linux-headers-5.4.0-45/arch/openrisc/include/uapi/asm. ptrace.h. 1001
+/usr/src/linux-headers-5.4.0-45/arch/powerpc/include/asm. btext.h. 1006
+/usr/src/linux-headers-5.4.0-45/arch/powerpc/include/asm. sparsemem.h. 1004
+/usr/src/linux-headers-5.4.0-45/arch/c6x/include/uapi/asm. unistd.h. 1009
+/usr/src/linux-headers-5.4.0-45/arch/x86/include/uapi/asm. mman.h. 1002
+/usr/src/linux-headers-5.4.0-45/arch/sparc/include/uapi/asm. mman.h. 1008
+/usr/src/linux-headers-5.4.0-45/arch/csky/include/asm. checksum.h. 1003
+/usr/src/linux-headers-5.4.0-45/arch/mips/include/asm/mach-bcm63xx. bcm63xx_iudma.h. 1004
+/usr/src/linux-headers-5.4.0-45/arch/xtensa/include/uapi/asm. unistd.h. 1006
+/usr/src/linux-headers-5.4.0-45/arch/alpha/include/uapi/asm. reg.h. 1005
+/usr/src/linux-headers-5.4.0-45/arch/nios2/boot. Makefile. 1003
+/usr/src/linux-headers-5.4.0-45/arch/sh/include/asm. module.h. 1005
+/usr/src/linux-headers-5.4.0-45/arch/um/include/shared. registers.h. 1007
+/usr/src/linux-headers-5.4.0-45/drivers/scsi/libsas. Kconfig. 1006
+/usr/src/linux-headers-5.4.0-45/drivers/char/ipmi. Makefile. 1003
+/usr/src/linux-headers-5.4.0-45/drivers/gpu/drm/i2c. Kconfig. 1005
+/usr/src/linux-headers-5.4.0-45/drivers/gpu/drm/nouveau/nvkm/subdev. Kbuild. 1007
+/usr/src/linux-headers-5.4.0-45/drivers/iio. Makefile. 1003
+/usr/src/linux-headers-5.4.0-45/drivers/net/dsa/mv88e6xxx. Kconfig. 1005
+/usr/src/linux-headers-5.4.0-45/drivers/net/wimax/i2400m. Kconfig. 1001
+/usr/src/linux-headers-5.4.0-45/net/9p. Kconfig. 1003
+/usr/src/linux-headers-5.4.0-47/tools/perf/trace/beauty. usbdevfs_ioctl.sh. 1001
+/usr/src/linux-headers-5.4.0-47/include/sound/sof. pm.h. 1005
+/usr/src/linux-headers-5.4.0-47/include/dt-bindings/reset. amlogic,meson-g12a-audio-reset.h. 1001
+/usr/src/linux-headers-5.4.0-47/include/uapi/asm-generic. ipcbuf.h. 1003
+/usr/src/linux-headers-5.4.0-47/include/uapi/linux. adfs_fs.h. 1008
+/usr/src/linux-headers-5.4.0-47/include/linux/clk. renesas.h. 1001
+/usr/src/linux-headers-5.4.0-47/include/linux/crush. mapper.h. 1002
+/usr/src/linux-headers-5.4.0-47/include/linux/can. led.h. 1008
+/usr/src/linux-headers-5.4.0-47/include/linux. pda_power.h. 1005
+/usr/src/linux-headers-5.4.0-47/include/net/netfilter. nf_conntrack_synproxy.h. 1005
+/usr/src/linux-headers-5.4.0-47/arch/arm/include/asm. glue-pf.h. 1005
+/usr/src/linux-headers-5.4.0-47/arch/arm/include/asm. swab.h. 1005
+/usr/src/linux-headers-5.4.0-47/arch/arm/include/asm. jump_label.h. 1009
+/usr/src/linux-headers-5.4.0-47/arch/arm/include/debug. at91.S. 1002
+/usr/src/linux-headers-5.4.0-47/arch/openrisc/include/uapi/asm. ptrace.h. 1001
+/usr/src/linux-headers-5.4.0-47/arch/powerpc/include/asm. btext.h. 1006
+/usr/src/linux-headers-5.4.0-47/arch/powerpc/include/asm. sparsemem.h. 1004
+/usr/src/linux-headers-5.4.0-47/arch/c6x/include/uapi/asm. unistd.h. 1009
+/usr/src/linux-headers-5.4.0-47/arch/x86/include/uapi/asm. mman.h. 1002
+/usr/src/linux-headers-5.4.0-47/arch/sparc/include/uapi/asm. mman.h. 1008
+/usr/src/linux-headers-5.4.0-47/arch/csky/include/asm. checksum.h. 1003
+/usr/src/linux-headers-5.4.0-47/arch/mips/include/asm/mach-bcm63xx. bcm63xx_iudma.h. 1004
+/usr/src/linux-headers-5.4.0-47/arch/xtensa/include/uapi/asm. unistd.h. 1006
+/usr/src/linux-headers-5.4.0-47/arch/alpha/include/uapi/asm. reg.h. 1005
+/usr/src/linux-headers-5.4.0-47/arch/nios2/boot. Makefile. 1003
+/usr/src/linux-headers-5.4.0-47/arch/sh/include/asm. module.h. 1005
+/usr/src/linux-headers-5.4.0-47/arch/um/include/shared. registers.h. 1007
+/usr/src/linux-headers-5.4.0-47/drivers/scsi/libsas. Kconfig. 1006
+/usr/src/linux-headers-5.4.0-47/drivers/char/ipmi. Makefile. 1003
+/usr/src/linux-headers-5.4.0-47/drivers/gpu/drm/i2c. Kconfig. 1005
+/usr/src/linux-headers-5.4.0-47/drivers/gpu/drm/nouveau/nvkm/subdev. Kbuild. 1007
+/usr/src/linux-headers-5.4.0-47/drivers/iio. Makefile. 1003
+/usr/src/linux-headers-5.4.0-47/drivers/net/dsa/mv88e6xxx. Kconfig. 1005
+/usr/src/linux-headers-5.4.0-47/drivers/net/wimax/i2400m. Kconfig. 1001
+/usr/src/linux-headers-5.4.0-47/net/9p. Kconfig. 1003
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-09-15 07:08:01-07:00 [COMMAND_EXIT_CODE="0"]

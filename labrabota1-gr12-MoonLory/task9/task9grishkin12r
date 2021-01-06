@@ -1,0 +1,29 @@
+Script started on 2020-09-05 15:15:31+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mkdir 192.168.174.134[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krsynk-c[Kbackup[C[1P-backupc-backup
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;31marchive.tar.gz[0m  log.txt   [01;34mrsync-backup[0m      [01;34mTemplates[0m
+[01;34mDesktop[0m         [01;34mMagPi[0m     [01;31msimple.txt.gz[0m     time_log3grishkin12r
+[01;34mDocuments[0m       [01;34mMusic[0m     task3grishkin12r  time_log7grishkin12r
+[01;34mDownloads[0m       [01;34mPictures[0m  task7grishkin12r  time_log8grishkin12r
+[01;34mgrishkin[0m        ps.log    task8grishkin12r  time_log9grishkin12r
+logs.txt        [01;34mPublic[0m    task9grishkin12r  [01;34mVideos[0m
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd rsync-backup/
+]0;pi@raspberry: ~/rsync-backup[01;32mpi@raspberry[00m:[01;34m~/rsync-backup $[00m ls
+]0;pi@raspberry: ~/rsync-backup[01;32mpi@raspberry[00m:[01;34m~/rsync-backup $[00m ls
+]0;pi@raspberry: ~/rsync-backup[01;32mpi@raspberry[00m:[01;34m~/rsync-backup $[00m cd
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;31marchive.tar.gz[0m  log.txt   [01;34mrsync-backup[0m      [01;34mTemplates[0m
+[01;34mDesktop[0m         [01;34mMagPi[0m     [01;31msimple.txt.gz[0m     time_log3grishkin12r
+[01;34mDocuments[0m       [01;34mMusic[0m     task3grishkin12r  time_log7grishkin12r
+[01;34mDownloads[0m       [01;34mPictures[0m  task7grishkin12r  time_log8grishkin12r
+[01;34mgrishkin[0m        ps.log    task8grishkin12r  time_log9grishkin12r
+logs.txt        [01;34mPublic[0m    task9grishkin12r  [01;34mVideos[0m
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m lscd[K[Kcd rsync-backup/
+]0;pi@raspberry: ~/rsync-backup[01;32mpi@raspberry[00m:[01;34m~/rsync-backup $[00m ls
+answer.txt
+]0;pi@raspberry: ~/rsync-backup[01;32mpi@raspberry[00m:[01;34m~/rsync-backup $[00m ls
+answer1.txt  answer.txt
+]0;pi@raspberry: ~/rsync-backup[01;32mpi@raspberry[00m:[01;34m~/rsync-backup $[00m exit
+exit
+
+Script done on 2020-09-05 15:35:03+01:00 [COMMAND_EXIT_CODE="0"]

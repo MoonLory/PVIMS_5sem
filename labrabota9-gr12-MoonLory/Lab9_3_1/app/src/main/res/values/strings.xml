@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab9_part1</string>
+    <string name="number_edit_text_hint">Enter the number</string>
+    <string name="info_text_view_init">Guess the number from 1 to 100</string>
+    <string name="button_win_text">Repeat !!!</string>
+    <string name="no_input">Enter something</string>
+    <string name="error_less_than_1">Less than 1</string>
+    <string name="error_more_than_20">More than 100</string>
+    <string name="error_less">Omg, it`s less</string>
+    <string name="error_more">Omg, it`s more</string>
+    <string name="win">Win!!!! Play again?</string>
+    <string name="lose">You are lose((( Play again?</string>
+    <string name="history">Your history</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="end_game">Bye!)</string>
+    <string name="error_more_than_200">More than 200</string>
+    <string name="button_play_text">Try</string>
+</resources>

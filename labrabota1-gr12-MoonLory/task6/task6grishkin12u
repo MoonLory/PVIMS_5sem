@@ -1,0 +1,109 @@
+Script started on 2020-09-07 10:12:57-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sudo groupadd student12u
+[sudo] password for grishkin12: 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sudo gr[Kpasswd -a grishkin12 student12u
+Adding user grishkin12 to group student12u
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ chn[Kmod g+x `/[K[K~/
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ chmod g+x ~/[1P ~/r ~/w ~/[C[C[C[K/copy.txt 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sudo adduser student12u - [Kg student12u_user
+Option g is ambiguous (gecos, gid, group)
+adduser [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]
+[--firstuid ID] [--lastuid ID] [--gecos GECOS] [--ingroup GROUP | --gid ID]
+[--disabled-password] [--disabled-login] [--add_extra_groups]
+[--encrypt-home] USER
+   Add a normal user
+
+adduser --system [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]
+[--gecos GECOS] [--group | --ingroup GROUP | --gid ID] [--disabled-password]
+[--disabled-login] [--add_extra_groups] USER
+   Add a system user
+
+adduser --group [--gid ID] GROUP
+addgroup [--gid ID] GROUP
+   Add a user group
+
+addgroup --system [--gid ID] GROUP
+   Add a system group
+
+adduser USER GROUP
+   Add an existing user to an existing group
+
+general options:
+  --quiet | -q      don't give process information to stdout
+  --force-badname   allow usernames which do not match the
+                    NAME_REGEX[_SYSTEM] configuration variable
+  --extrausers      uses extra users as the database
+  --help | -h       usage message
+  --version | -v    version number and copyright
+  --conf | -c FILE  use FILE as configuration file
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sudo adduser student12u -g student12u_user[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K_user
+Adding user `student12u_user' ...
+Adding new group `student12u_user' (1002) ...
+Adding new user `student12u_user' (1001) with group `student12u_user' ...
+Creating home directory `/home/student12u_user' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for student12u_user
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cd //[K[K..
+]0;grishkin12@ubuntu: /home[01;32mgrishkin12@ubuntu[00m:[01;34m/home[00m$ ls
+[0m[01;34mgrishkin12[0m  [01;34mstudent12u_user[0m
+]0;grishkin12@ubuntu: /home[01;32mgrishkin12@ubuntu[00m:[01;34m/home[00m$ cd grishkin12/
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ gpasswd [1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C-a student12u_user student12u
+Adding user student12u_user to group student12u
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ps[K[Kcd papka/
+]0;grishkin12@ubuntu: ~/papka[01;32mgrishkin12@ubuntu[00m:[01;34m~/papka[00m$ chmod g+rw file.txt /[K[1@C[1@C[1@C[1@C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K/`[K[K`/gr[K[K[K[K~/grishkin/ps[Ka[Kapk[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfile.txt 
+chmod: changing permissions of 'file.txt': Operation not permitted
+]0;grishkin12@ubuntu: ~/papka[01;32mgrishkin12@ubuntu[00m:[01;34m~/papka[00m$ chmod g+rw file.txt [1@s[1@u[1@d[1@o[1@ 
+]0;grishkin12@ubuntu: ~/papka[01;32mgrishkin12@ubuntu[00m:[01;34m~/papka[00m$ sudo chmod g+rw file.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrp stusent12u[K[K[K[K[K[Kde[K[K[Kdent12u `[Kc[Kfile.txt [K[K[K[K[K[K[K[K[Kcopy[K[K[K[K~/copy.txt 
+]0;grishkin12@ubuntu: ~/papka[01;32mgrishkin12@ubuntu[00m:[01;34m~/papka[00m$ sudo chown file[K[K[K[Kstudent12u_user cop[K[K[Kfiletxt[K[K[K/txt[K[K[K[K.txt
+]0;grishkin12@ubuntu: ~/papka[01;32mgrishkin12@ubuntu[00m:[01;34m~/papka[00m$ ssh student12u_user [K@17[K92.17[K68.174.131
+The authenticity of host '192.168.174.131 (192.168.174.131)' can't be established.
+ECDSA key fingerprint is SHA256:PLMhs6qcLUEeIhBPxXyBFHAB8tbq1w0EMrBKcX/hjXQ.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.174.131' (ECDSA) to the list of known hosts.
+student12u_user@192.168.174.131's password: 
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+7 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+]0;student12u_user@ubuntu: ~[01;32mstudent12u_user@ubuntu[00m:[01;34m~[00m$ cd ..
+]0;student12u_user@ubuntu: /home[01;32mstudent12u_user@ubuntu[00m:[01;34m/home[00m$ gr[K[Kcd grishkin12/
+]0;student12u_user@ubuntu: /home/grishkin12[01;32mstudent12u_user@ubuntu[00m:[01;34m/home/grishkin12[00m$ vi copy.txt 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[29;1H"copy.txt" 0 lines, 0 characters[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [1;1H[?25h[?2004l[>4;m[?25l[ma[?25h[?25ls[?25h[?25lf[?25h[?25la[?25h[?25ls[?25h[?25lf[?25h[?25la[?25h[?25ls[?25h[?25lf[?25h[?2004h[>4;2m[?25l[29;1H[K[29;1H:[?2004h[?25hwq[?25l[?2004l"copy.txt" 1 line, 10 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;student12u_user@ubuntu: /home/grishkin12[01;32mstudent12u_user@ubuntu[00m:[01;34m/home/grishkin12[00m$ /[Kcd papka/
+]0;student12u_user@ubuntu: /home/grishkin12/papka[01;32mstudent12u_user@ubuntu[00m:[01;34m/home/grishkin12/papka[00m$ vi file.txt 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[29;1H"file.txt" 0 lines, 0 characters[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [1;1H[?25h[?2004l[>4;m[?25l[md[?25h[?25la[?25h[?25ls[?25h[?25lf[?25h[?25ls[?25h[?25la[?25h[?25lf[?25h[?25la[?25h[?25ls[?25h[?25lf[?25h[?2004h[>4;2m[?25l[29;1H[K[29;1H:[?2004h[?25hwq[?25l[?2004l"file.txt" 1 line, 11 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;student12u_user@ubuntu: /home/grishkin12/papka[01;32mstudent12u_user@ubuntu[00m:[01;34m/home/grishkin12/papka[00m$ exi[K[K[Klogut[K[Kout
+Connection to 192.168.174.131 closed.
+]0;grishkin12@ubuntu: ~/papka[01;32mgrishkin12@ubuntu[00m:[01;34m~/papka[00m$ cat file.txt 
+dasfsafasf
+]0;grishkin12@ubuntu: ~/papka[01;32mgrishkin12@ubuntu[00m:[01;34m~/papka[00m$ exit
+exit
+
+Script done on 2020-09-07 10:25:34-07:00 [COMMAND_EXIT_CODE="0"]

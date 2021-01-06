@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etCarCol"
+        android:layout_width="309dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/carColor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etCatMark"
+        app:layout_constraintTop_toBottomOf="@+id/etCatMark" />
+
+    <EditText
+        android:id="@+id/etCarCost"
+        android:layout_width="309dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:hint="@string/carCost"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etCarYear"
+        app:layout_constraintTop_toBottomOf="@+id/etCatMark" />
+
+    <EditText
+        android:id="@+id/etCarYear"
+        android:layout_width="309dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:hint="@string/carYear"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etCatMark"
+        app:layout_constraintTop_toBottomOf="@+id/etCatMark" />
+
+    <EditText
+        android:id="@+id/etCarNum"
+        android:layout_width="309dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/carNumber"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etCatMark"
+        app:layout_constraintTop_toBottomOf="@+id/etCatMark" />
+
+    <Button
+        android:id="@+id/shwBtn"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:text="@string/show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chgBtn"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:text="@string/change"
+        app:layout_constraintEnd_toEndOf="@+id/addBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addBtn" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/shwBtn"
+        app:layout_constraintTop_toBottomOf="@+id/shwBtn" />
+
+    <EditText
+        android:id="@+id/etCatMark"
+        android:layout_width="309dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="@string/carMark"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

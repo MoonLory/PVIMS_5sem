@@ -1,0 +1,54 @@
+Script started on 2020-09-06 09:57:11-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  [01;34msnap[0m              task4grishkin12u  time_log3grishkin12u  [01;34mVideos[0m
+[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    task3grishkin12u  [01;34mTemplates[0m         time_log4grishkin12u
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls[K[Kmkdir grishkin
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mMusic[0m     [01;34mPublic[0m  task3grishkin12u  [01;34mTemplates[0m             time_log4grishkin12u
+[01;34mDocuments[0m  [01;34mgrishkin[0m   [01;34mPictures[0m  [01;34msnap[0m    task4grishkin12u  time_log3grishkin12u  [01;34mVideos[0m
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ git version
+git version 2.25.1
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cd grishkin/
+]0;grishkin12@ubuntu: ~/grishkin[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin[00m$ git clone https://github.com/fpmi-pmvs2020/labrabota1-gr12-MoonLory.git
+Cloning into 'labrabota1-gr12-MoonLory'...
+Username for 'https://github.com': MoonLory
+Password for 'https://MoonLory@github.com': 
+warning: You appear to have cloned an empty repository.
+]0;grishkin12@ubuntu: ~/grishkin[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin[00m$ cp /[K[K[K[Kpwd
+/home/grishkin12/grishkin
+]0;grishkin12@ubuntu: ~/grishkin[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin[00m$ /h[K[Kcp home.[K/grishkin12/task[K[K[K[K[K/
+cp: missing destination file operand after 'home/grishkin12/'
+Try 'cp --help' for more information.
+]0;grishkin12@ubuntu: ~/grishkin[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin[00m$ cp home/grishkin12/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mMusic[0m     [01;34mPublic[0m  task3grishkin12u  [01;34mTemplates[0m             time_log4grishkin12u
+[01;34mDocuments[0m  [01;34mgrishkin[0m   [01;34mPictures[0m  [01;34msnap[0m    task4grishkin12u  time_log3grishkin12u  [01;34mVideos[0m
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ls[K[Kcp [K[K[K/griskin[K[K[Khkin
+bash: /grishkin: No such file or directory
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ gr[K[Kcd grishkin/
+]0;grishkin12@ubuntu: ~/grishkin[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin[00m$ cp home/gt[Kr[K[K[K[K[K[K[K/home/grishkin12/task3grishkin12u /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+]0;grishkin12@ubuntu: ~/grishkin[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin[00m$ cd labrabota1-gr12-MoonLory/
+]0;grishkin12@ubuntu: ~/grishkin/labrabota1-gr12-MoonLory[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin/labrabota1-gr12-MoonLory[00m$ ls
+task3grishkin12u
+]0;grishkin12@ubuntu: ~/grishkin/labrabota1-gr12-MoonLory[01;32mgrishkin12@ubuntu[00m:[01;34m~/grishkin/labrabota1-gr12-MoonLory[00m$ cd
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cd
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp[K[K[Kls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mMusic[0m     [01;34mPublic[0m  task3grishkin12u  [01;34mTemplates[0m             time_log4grishkin12u
+[01;34mDocuments[0m  [01;34mgrishkin[0m   [01;34mPictures[0m  [01;34msnap[0m    task4grishkin12u  time_log3grishkin12u  [01;34mVideos[0m
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp -[K-he[K[K-[K[Kh[K--help
+unknown option -- -
+usage: scp [-346BCpqrTv] [-c cipher] [-F ssh_config] [-i identity_file]
+            [-J destination] [-l limit] [-o ssh_option] [-P port]
+            [-S program] source ... target
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ s[Kscp pi@https://github.com/fpmi-pmvs2020/labrabota1-gr12-MoonLory.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K192/1[K[K.168.131.134:/home/pi/grishkin[K[K[K[K[K[K[K[Ktask3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3[K]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3grishkin12r grishkin12[K[K[K[K[K[K[K[K[K[K/home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+ssh: connect to host 192.168.131.134 port 22: Connection refused
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.131.134:/home/pi/task3grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/[1P[1P[1@7[1@4
+pi@192.168.174.134's password: 
+task3grishkin12r                                                                                0%    0     0.0KB/s   --:-- ETAtask3grishkin12r                                                                              100%   12KB   2.3MB/s   00:00    
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.174.134:/home/pi/task3grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/[1P[1P[1P[1@i[1@m[1@e[1@_[1@l[1@o[1@g
+pi@192.168.174.134's password: 
+time_log3grishkin12r                                                                            0%    0     0.0KB/s   --:-- ETAtime_log3grishkin12r                                                                          100% 5604     2.8MB/s   00:00    
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-09-06 10:09:11-07:00 [COMMAND_EXIT_CODE="0"]

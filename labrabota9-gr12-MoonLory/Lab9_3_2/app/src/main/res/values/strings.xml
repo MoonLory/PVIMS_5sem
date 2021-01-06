@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab9_3_2</string>
+    <string name="show">Show all records</string>
+    <string name="add">Add record</string>
+    <string name="change">Change record</string>
+    <string name="Fio">FIO</string>
+    <string name="phone">Phone</string>
+    <string name="card">Card</string>
+    <string name="date">B.date</string>
+    <string name="addr">Home</string>
+    <string name="mail">Mail</string>
+    <string name="aver">A.sum</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator3</string>
+    <string name="from_label">Z:</string>
+    <string name="to_label">Na:</string>
+    <string name="equals_button_text">=</string>
+    <string name="numbers_double_separator">,</string>
+    <string name="error">Wadliwie</string>
+</resources>

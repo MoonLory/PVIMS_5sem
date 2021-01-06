@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab9_task1</string>
+    <string name="username">Имя</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="logsuccess">Вход завершен успешно</string>
+    <string name="logfailed">Ошибка с вводом данных</string>
+    <string name="hello">"Привет, "</string>
+</resources>

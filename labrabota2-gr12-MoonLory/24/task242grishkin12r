@@ -1,0 +1,645 @@
+Script started on 2020-09-15 12:09:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m echo sp{}e}l},} }i}l},} }a}l}[Cl
+sp{el, il, al}l
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m spell spill spall
+bash: spell: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m spell spill spallecho sp{el, il, al}l[1Pal}l[1Pil,al}l
+spell spill spall
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat ~/message.txt
+cat: /home/pi/message.txt: No such file or directory
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m touch `[K~/message.txt
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m touch ~/message.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m echo #SHELL
+
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m echo #SHELL[1PSHELL$SHELL
+/bin/bash
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m echo $()d)a)t)e)
+Tue 15 Sep 2020 12:12:02 PM BST
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m history
+    1  ssh grishkin12@192.168.174.131
+    2  exit
+    3  ipconfig
+    4  ifconfig
+    5  cal
+    6  date
+    7  who
+    8  whoami
+    9  ls | tee logs.txt
+   10  vim logs.txt
+   11  vi logs.txt
+   12  cp -help
+   13  cp--help
+   14  cp --help
+   15  ls
+   16  mkdir grishkin
+   17  ls
+   18  cp logs.txt grishkin/
+   19  cd grishkin/
+   20  ls
+   21  unlink logs.txt 
+   22  ls
+   23  exit
+   24  script -ttime_log3grishkin12r task3grishkin12r
+   25  exit
+   26  script -a task3grishkin12r --time_log timelog3grishkin12r
+   27  script -a task3grishkin12r --ttime_log timelog3grishkin12r
+   28  script -a task3grishkin12r -ttime_log timelog3grishkin12r
+   29  mkdir grishkin
+   30  ls
+   31  cal
+   32  date
+   33  who
+   34  whoami
+   35  ls | tee log.txt
+   36  grishkin/
+   37  ls
+   38  cat log.txt
+   39  vi log.txt
+   40  cp -?
+   41  cp \?
+   42  cp/?
+   43  cp /?
+   44  cp --help
+   45  cp log.txt grishkin/
+   46  cd grishkin/
+   47  ls
+   48  unlimk --help
+   49  unlink --help
+   50  unlink log.txt
+   51  ls
+   52  cd
+   53  exit
+   54  ls
+   55  ps -a > ps.log
+   56  ps -e > ps.log
+   57  ps a > ps.log
+   58  ps x > ps.log
+   59  ps ax > ps.log
+   60  ssh grishkin12@192.168.174.131
+   61  exit
+   62  ssh grishkin12@192.168.174.131
+   63  scp grishkin12@192.168.174.131:/home/fortask8/simple.txt.gz /pi
+   64  pwd
+   65  scp grishkin12@192.168.174.131:/home/fortask8/simple.txt.gz /home/pi
+   66  scp grishkin12@192.168.174.131:/home/grishkin12/fortask8/simple.txt.gz /home/pi
+   67  exit
+   68  mkdir rsync-backup
+   69  ls
+   70  cd rsync-backup/
+   71  ls
+   72  cd
+   73  ls
+   74  cd rsync-backup/
+   75  ls
+   76  exit
+   77  script -ttime_log7grishkin12r task7grishkin12r
+   78  ls
+   79  script -ttime_log8grishkin12r task8grishkin12r
+   80  script -ttime_log9grishkin12r task9grishkin12r
+   81  exit
+   82  sudo groupadd student12r
+   83  sudo gpasswd -a pi student12r
+   84  chmod g+x ~/
+   85  touch file.txt
+   86  chmod g+rw ~/file.txt 
+   87  sudo adduser student12r
+   88  sudo adduser student12r_user
+   89  mkdir papochka
+   90  cd papochka/
+   91  touch file.txt
+   92  chmod g+rw file.txt 
+   93  chown student12r_user  file.txt 
+   94  sudo chown student12r_user  file.txt 
+   95  sudo chgrp ~/pi/file.txt
+   96  sudo chgrp student12r ~/pi/file.txt
+   97  sudo chgrp student12r ~/file.txt
+   98  cd
+   99  ssh student12r@192.168.174.134
+  100  ifconfig
+  101  ssh student12r@192.168.174.134 
+  102  ssh student12r_user@192.168.174.134 
+  103  chgrp student12r ~/file.txt 
+  104  chmod g+rw ~/file.txt 
+  105  ssh student12r_user@192.168.174.134 
+  106  sudo gpasswd student12r_user
+  107  sudo gpasswd -a student12r_user student12r
+  108  chmod g+rw ~/file.txt 
+  109  chgrp student12r ~/file.txt 
+  110  ssh student12r_user@192.168.174.134 
+  111  vi file.txt 
+  112  exit
+  113  mkdir task5
+  114  cd task5/
+  115  mkdir dir1
+  116  cd dir1/
+  117  touch file1.txt
+  118  mkdir dir2
+  119  cd dir2/
+  120  touch file2.txt
+  121  mkdir dir3
+  122  touch file3.txt
+  123  rm file3.txt 
+  124  cd dir3/
+  125  touch file3.txt
+  126  mkdir dir4
+  127  cd dir4/
+  128  touch file4.txt
+  129  touch file4a.txt
+  130  cd ..
+  131  tree
+  132  ln -s ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  133  unlink ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  134  tree
+  135  cd dir1/
+  136  tree
+  137  cd dir2/dir3/dir4/
+  138  touch file4a.txt 
+  139  cd ..
+  140  ln -s ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  141  cd dir2/
+  142  ln ~/task5/dir1/dir2/dir3/file3.txt
+  143  cd dir3/
+  144  ln ~/task5/dir1/dir2/dir3/dir4/file4.txt
+  145  cd
+  146  tree
+  147  cd task5/
+  148  tree
+  149  cd dir1/
+  150  vi file4a.txt
+  151  cat file4a.txt
+  152  cat ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  153  rm dir2/dir3/dir4/file4.txt
+  154  tree
+  155  unlink dir2/dir3/file3.txt
+  156  tree
+  157  rm dir2/dir3/dir4/file4a.txt 
+  158  tree
+  159  cd
+  160  cd task5/
+  161  rm -r dir1
+  162  exit
+  163  script -ttime_log6grishkin12r task6grishkin12r
+  164  script -ttime_log5grishkin12r task5grishkin12r
+  165  cat packages1.txt
+  166  cat
+  167  tr 'aeiou'
+  168  tr 'aeiou' 'AEIOU'
+  169  cat packages1.txt > packages1.catfile
+  170  cat packages1.catfile 
+  171  diff packages1.txt packages1.catfile 
+  172  ls -l packages1*
+  173  cat packages2.txt >> packages1.catfile
+  174  cat packages1.catfile 
+  175  ssh grishkin12@192.168.174.131
+  176  exit
+  177  cd
+  178  ls
+  179  mkdir lab2
+  180  cd lab2/
+  181  script -ttime_log21grishkin12r task21grishkin12r
+  182  git
+  183  git status 
+  184  git clone pi@raspberry:~ $ script -ttime_log6grishkin12r task6grishkin12r
+  185  Script started, file is task6grishkin12r
+  186  pi@raspberry:~ $ sudo groupadd student12r
+  187  pi@raspberry:~ $ sudo gpasswd -a pi student12r
+  188  Adding user pi to group student12r
+  189  pi@raspberry:~ $ chmod g+x ~/
+  190  pi@raspberry:~ $ touch file.txt
+  191  pi@raspberry:~ $ chmod g+rw ~/file.txt 
+  192  pi@raspberry:~ $ sudo adduser student12r
+  193  adduser: The group `student12r' already exists.
+  194  pi@raspberry:~ $ sudo adduser student12r_user
+  195  Adding user `student12r_user' ...
+  196  Adding new group `student12r_user' (1002) ...
+  197  Adding new user `student12r_user' (1001) with group `student12r_user' ...
+  198  Creating home directory `/home/student12r_user' ...
+  199  Copying files from `/etc/skel' ...
+  200  New password: 
+  201  Retype new password: 
+  202  passwd: password updated successfully
+  203  Changing the user information for student12r_user
+  204  Enter the new value, or press ENTER for the default
+  205  Full Name []: 
+  206  Room Number []: 
+  207  Work Phone []: 
+  208  Home Phone []: 
+  209  Other []: 
+  210  Is the information correct? [Y/n] y
+  211  pi@raspberry:~ $ mkdir papochka
+  212  pi@raspberry:~ $ cd papochka/
+  213  pi@raspberry:~/papochka $ touch file.txt
+  214  pi@raspberry:~/papochka $ chmod g+rw file.txt 
+  215  pi@raspberry:~/papochka $ chown student12r_user  file.txt 
+  216  chown: changing ownership of 'file.txt': Operation not permitted
+  217  pi@raspberry:~/papochka $ sudo chown student12r_user  file.txt 
+  218  pi@raspberry:~/papochka $ sudo chgrp ~/pi/file.txt
+  219  chgrp: missing operand after ‘/home/pi/pi/file.txt’
+  220  Try 'chgrp --help' for more information.
+  221  pi@raspberry:~/papochka $ sudo chgrp student12r ~/pi/file.txt
+  222  chgrp: cannot access '/home/pi/pi/file.txt': No such file or directory
+  223  pi@raspberry:~/papochka $ sudo chgrp student12r ~/file.txt
+  224  pi@raspberry:~/papochka $ cd
+  225  pi@raspberry:~ $ ssh student12r@192.168.174.134
+  226  The authenticity of host '192.168.174.134 (192.168.174.134)' can't be established.
+  227  ECDSA key fingerprint is SHA256:igvncd5Anz1mYuln2uPf+WGbLKlyAz0occJYxcjTD7w.
+  228  Are you sure you want to continue connecting (yes/no)? yes
+  229  Warning: Permanently added '192.168.174.134' (ECDSA) to the list of known hosts.
+  230  student12r@192.168.174.134's password: 
+  231  Permission denied, please try again.
+  232  student12r@192.168.174.134's password: 
+  233  Permission denied, please try again.
+  234  student12r@192.168.174.134's password: 
+  235  student12r@192.168.174.134: Permission denied (publickey,password).
+  236  pi@raspberry:~ $ ifconfig
+  237  eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+  238          inet 192.168.232.133  netmask 255.255.255.0  broadcast 192.168.232.255
+  239          inet6 fe80::955d:1247:9888:86f4  prefixlen 64  scopeid 0x20<link>
+  240          ether 00:0c:29:d9:4b:f9  txqueuelen 1000  (Ethernet)
+  241          RX packets 4729  bytes 328657 (320.9 KiB)
+  242          RX errors 0  dropped 0  overruns 0  frame 0
+  243          TX packets 249  bytes 27368 (26.7 KiB)
+  244          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+  245  eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+  246          inet 192.168.174.134  netmask 255.255.255.0  broadcast 192.168.174.255
+  247          inet6 fe80::597c:f558:1956:21ec  prefixlen 64  scopeid 0x20<link>
+  248          ether 00:0c:29:d9:4b:03  txqueuelen 1000  (Ethernet)
+  249          RX packets 12603  bytes 5367142 (5.1 MiB)
+  250          RX errors 0  dropped 0  overruns 0  frame 0
+  251          TX packets 8640  bytes 5362180 (5.1 MiB)
+  252          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+  253  lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+  254          inet 127.0.0.1  netmask 255.0.0.0
+  255          inet6 ::1  prefixlen 128  scopeid 0x10<host>
+  256          loop  txqueuelen 1000  (Local Loopback)
+  257          RX packets 39  bytes 5930 (5.7 KiB)
+  258          RX errors 0  dropped 0  overruns 0  frame 0
+  259          TX packets 39  bytes 5930 (5.7 KiB)
+  260          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+  261  pi@raspberry:~ $ ssh student12r@192.168.174.134 
+  262  student12r@192.168.174.134's password: 
+  263  Permission denied, please try again.
+  264  student12r@192.168.174.134's password: 
+  265  Permission denied, please try again.
+  266  student12r@192.168.174.134's password: 
+  267  student12r@192.168.174.134: Permission denied (publickey,password).
+  268  pi@raspberry:~ $ ssh student12r_user@192.168.174.134 
+  269  student12r_user@192.168.174.134's password: 
+  270  Linux raspberry 4.19.0-8-amd64 #1 SMP Debian 4.19.98-1 (2020-01-26) x86_64
+  271  The programs included with the Debian GNU/Linux system are free software;
+  272  the exact distribution terms for each program are described in the
+  273  individual files in /usr/share/doc/*/copyright.
+  274  Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+  275  permitted by applicable law.
+  276  student12r_user@raspberry:~ $ cd ..
+  277  student12r_user@raspberry:/home $ pi
+  278  -bash: pi: command not found
+  279  student12r_user@raspberry:/home $ cd pi/
+  280  student12r_user@raspberry:/home/pi $ vi file.txt 
+  281  student12r_user@raspberry:/home/pi $ cd papochka/
+  282  student12r_user@raspberry:/home/pi/papochka $ vi file.txt 
+  283  student12r_user@raspberry:/home/pi/papochka $ logout
+  284  Connection to 192.168.174.134 closed.
+  285  pi@raspberry:~ $ chgrp student12r ~/file.txt 
+  286  pi@raspberry:~ $ chmod g+rw ~/file.txt 
+  287  pi@raspberry:~ $ ssh student12r_user@192.168.174.134 
+  288  student12r_user@192.168.174.134's password: 
+  289  Linux raspberry 4.19.0-8-amd64 #1 SMP Debian 4.19.98-1 (2020-01-26) x86_64
+  290  The programs included with the Debian GNU/Linux system are free software;
+  291  the exact distribution terms for each program are described in the
+  292  individual files in /usr/share/doc/*/copyright.
+  293  Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+  294  permitted by applicable law.
+  295  Last login: Sat Sep  5 17:11:37 2020 from 192.168.174.134
+  296  student12r_user@raspberry:~ $ cd ..
+  297  student12r_user@raspberry:/home $ cd pi/
+  298  student12r_user@raspberry:/home/pi $ vi file.txt 
+  299  student12r_user@raspberry:/home/pi $ logout
+  300  Connection to 192.168.174.134 closed.
+  301  pi@raspberry:~ $ sudo gpasswd student12r_user
+  302  Changing the password for group student12r_user
+  303  New Password: 
+  304  Re-enter new password: 
+  305  They don't match; try again
+  306  New Password: 
+  307  Re-enter new password: 
+  308  pi@raspberry:~ $ 
+  309  pi@raspberry:~ $ 
+  310  pi@raspberry:~ $ sudo gpasswd -a student12r_user student12r
+  311  Adding user student12r_user to group student12r
+  312  pi@raspberry:~ $ chmod g+rw ~/file.txt 
+  313  pi@raspberry:~ $ chgrp student12r ~/file.txt 
+  314  pi@raspberry:~ $ ssh student12r_user@192.168.174.134 
+  315  student12r_user@192.168.174.134's password: 
+  316  Linux raspberry 4.19.0-8-amd64 #1 SMP Debian 4.19.98-1 (2020-01-26) x86_64
+  317  The programs included with the Debian GNU/Linux system are free software;
+  318  the exact distribution terms for each program are described in the
+  319  individual files in /usr/share/doc/*/copyright.
+  320  Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+  321  permitted by applicable law.
+  322  Last login: Sat Sep  5 17:14:50 2020 from 192.168.174.134
+  323  student12r_user@raspberry:~ $ cd ..
+  324  student12r_user@raspberry:/home $ cd pi/
+  325  student12r_user@raspberry:/home/pi $ vi file.txt 
+  326  student12r_user@raspberry:/home/pi $ logout
+  327  Connection to 192.168.174.134 closed.
+  328  pi@raspberry:~ $ vi file.txt 
+  329  pi@raspberry:~ $ exit
+  330  exit
+  331  Script done, file is task6grishkin12r
+  332  pi@raspberry:~ $ script -ttime_log5grishkin12r task5grishkin12r
+  333  Script started, file is task5grishkin12r
+  334  pi@raspberry:~ $ mkdir task5
+  335  pi@raspberry:~ $ cd task5/
+  336  pi@raspberry:~/task5 $ mkdir dir1
+  337  pi@raspberry:~/task5 $ cd dir1/
+  338  pi@raspberry:~/task5/dir1 $ touch file1.txt
+  339  pi@raspberry:~/task5/dir1 $ mkdir dir2
+  340  pi@raspberry:~/task5/dir1 $ cd dir2/
+  341  pi@raspberry:~/task5/dir1/dir2 $ touch file2.txt
+  342  pi@raspberry:~/task5/dir1/dir2 $ mkdir dir3
+  343  pi@raspberry:~/task5/dir1/dir2 $ touch file3.txt
+  344  pi@raspberry:~/task5/dir1/dir2 $ rm file3.txt 
+  345  pi@raspberry:~/task5/dir1/dir2 $ cd dir3/
+  346  pi@raspberry:~/task5/dir1/dir2/dir3 $ touch file3.txt
+  347  pi@raspberry:~/task5/dir1/dir2/dir3 $ mkdir dir4
+  348  pi@raspberry:~/task5/dir1/dir2/dir3 $ cd dir4/
+  349  pi@raspberry:~/task5/dir1/dir2/dir3/dir4 $ touch file4.txt
+  350  pi@raspberry:~/task5/dir1/dir2/dir3/dir4 $ touch file4a.txt
+  351  pi@raspberry:~/task5/dir1/dir2/dir3/dir4 $ cd ..
+  352  pi@raspberry:~/task5/dir1/dir2/dir3 $ cd ..
+  353  pi@raspberry:~/task5/dir1/dir2 $ cd ..
+  354  pi@raspberry:~/task5/dir1 $ cd ..
+  355  pi@raspberry:~/task5 $ tree
+  356  .
+  357  └── dir1
+  358      ├── dir2
+  359      │   ├── dir3
+  360      │   │   ├── dir4
+  361      │   │   │   ├── file4a.txt
+  362      │   │   │   └── file4.txt
+  363      │   │   └── file3.txt
+  364      │   └── file2.txt
+  365      └── file1.txt
+  366  4 directories, 5 files
+  367  pi@raspberry:~/task5 $ ln -s ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  368  pi@raspberry:~/task5 $ unlink ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  369  pi@raspberry:~/task5 $ tree
+  370  .
+  371  ├── dir1
+  372  │   ├── dir2
+  373  │   │   ├── dir3
+  374  │   │   │   ├── dir4
+  375  │   │   │   │   └── file4.txt
+  376  │   │   │   └── file3.txt
+  377  │   │   └── file2.txt
+  378  │   └── file1.txt
+  379  └── file4a.txt -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+  380  4 directories, 5 files
+  381  pi@raspberry:~/task5 $ cd dir1/
+  382  pi@raspberry:~/task5/dir1 $ tree
+  383  .
+  384  ├── dir2
+  385  │   ├── dir3
+  386  │   │   ├── dir4
+  387  │   │   │   └── file4.txt
+  388  │   │   └── file3.txt
+  389  │   └── file2.txt
+  390  └── file1.txt
+  391  3 directories, 4 files
+  392  pi@raspberry:~/task5/dir1 $ cd dir2/dir3/dir4/
+  393  pi@raspberry:~/task5/dir1/dir2/dir3/dir4 $ touch file4a.txt 
+  394  pi@raspberry:~/task5/dir1/dir2/dir3/dir4 $ cd ..
+  395  pi@raspberry:~/task5/dir1/dir2/dir3 $ cd ..
+  396  pi@raspberry:~/task5/dir1/dir2 $ cd ..
+  397  pi@raspberry:~/task5/dir1 $ ln -s ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  398  pi@raspberry:~/task5/dir1 $ cd dir2/
+  399  pi@raspberry:~/task5/dir1/dir2 $ ln ~/task5/dir1/dir2/dir3/file3.txt
+  400  pi@raspberry:~/task5/dir1/dir2 $ cd dir3/
+  401  pi@raspberry:~/task5/dir1/dir2/dir3 $ ln ~/task5/dir1/dir2/dir3/dir4/file4.txt
+  402  pi@raspberry:~/task5/dir1/dir2/dir3 $ cd
+  403  pi@raspberry:~ $ tree
+  404  .
+  405  ├── archive.tar.gz
+  406  ├── Desktop
+  407  ├── Documents
+  408  ├── Downloads
+  409  ├── file.txt
+  410  ├── grishkin
+  411  ├── logs.txt
+  412  ├── log.txt
+  413  ├── MagPi
+  414  │   └── MagPi90.pdf
+  415  ├── Music
+  416  ├── papochka
+  417  │   └── file.txt
+  418  ├── Pictures
+  419  ├── ps.log
+  420  ├── Public
+  421  ├── rsync-backup
+  422  │   ├── answer1.txt
+  423  │   └── answer.txt
+  424  ├── simple.txt.gz
+  425  ├── task3grishkin12r
+  426  ├── task5
+  427  │   └── dir1
+  428  │       ├── dir2
+  429  │       │   ├── dir3
+  430  │       │   │   ├── dir4
+  431  │       │   │   │   ├── file4a.txt
+  432  │       │   │   │   └── file4.txt
+  433  │       │   │   ├── file3.txt
+  434  │       │   │   └── file4.txt
+  435  │       │   ├── file2.txt
+  436  │       │   └── file3.txt
+  437  │       ├── file1.txt
+  438  │       └── file4a.txt -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+  439  ├── task5grishkin12r
+  440  ├── task6grishkin12r
+  441  ├── task7grishkin12r
+  442  ├── task8grishkin12r
+  443  ├── task9grishkin12r
+  444  ├── Templates
+  445  ├── time_log3grishkin12r
+  446  ├── time_log5grishkin12r
+  447  ├── time_log6grishkin12r
+  448  ├── time_log7grishkin12r
+  449  ├── time_log8grishkin12r
+  450  ├── time_log9grishkin12r
+  451  └── Videos
+  452  17 directories, 30 files
+  453  pi@raspberry:~ $ cd task5/
+  454  pi@raspberry:~/task5 $ tree
+  455  .
+  456  └── dir1
+  457      ├── dir2
+  458      │   ├── dir3
+  459      │   │   ├── dir4
+  460      │   │   │   ├── file4a.txt
+  461      │   │   │   └── file4.txt
+  462      │   │   ├── file3.txt
+  463      │   │   └── file4.txt
+  464      │   ├── file2.txt
+  465      │   └── file3.txt
+  466      ├── file1.txt
+  467      └── file4a.txt -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+  468  4 directories, 8 files
+  469  pi@raspberry:~/task5 $ cd dir1/
+  470  pi@raspberry:~/task5/dir1 $ vi file4a.txt
+  471  pi@raspberry:~/task5/dir1 $ cat file4a.txt
+  472  sadasfaf
+  473  pi@raspberry:~/task5/dir1 $ cat ~/task5/dir1/dir2/dir3/dir4/file4a.txt
+  474  sadasfaf
+  475  pi@raspberry:~/task5/dir1 $ rm dir2/dir3/dir4/file4.txt
+  476  pi@raspberry:~/task5/dir1 $ tree
+  477  .
+  478  ├── dir2
+  479  │   ├── dir3
+  480  │   │   ├── dir4
+  481  │   │   │   └── file4a.txt
+  482  │   │   ├── file3.txt
+  483  │   │   └── file4.txt
+  484  │   ├── file2.txt
+  485  │   └── file3.txt
+  486  ├── file1.txt
+  487  └── file4a.txt -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+  488  3 directories, 7 files
+  489  pi@raspberry:~/task5/dir1 $ unlink dir2/dir3/file3.txt
+  490  pi@raspberry:~/task5/dir1 $ tree
+  491  .
+  492  ├── dir2
+  493  │   ├── dir3
+  494  │   │   ├── dir4
+  495  │   │   │   └── file4a.txt
+  496  │   │   └── file4.txt
+  497  │   ├── file2.txt
+  498  │   └── file3.txt
+  499  ├── file1.txt
+  500  └── file4a.txt -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+  501  3 directories, 6 files
+  502  pi@raspberry:~/task5/dir1 $ rm dir2/dir3/dir4/file4a.txt 
+  503  pi@raspberry:~/task5/dir1 $ tree
+  504  .
+  505  ├── dir2
+  506  │   ├── dir3
+  507  │   │   ├── dir4
+  508  │   │   └── file4.txt
+  509  │   ├── file2.txt
+  510  │   └── file3.txt
+  511  ├── file1.txt
+  512  └── file4a.txt -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+  513  3 directories, 5 files
+  514  pi@raspberry:~/task5/dir1 $ cd
+  515  pi@raspberry:~ $ cd task5/
+  516  pi@raspberry:~/task5 $ rm -r dir1
+  517  pi@raspberry:~/task5 $ exit
+  518  exit
+  519  Script done, file is task5grishkin12r
+  520  pi@raspberry:~ $ 
+  521  logout
+  522  mkdir examples
+  523  pwd
+  524  ls -ls examples/log.txt
+  525  cd examples/
+  526  touch log.txt
+  527  ls -ls log.txt
+  528  awk '/bash/ {print} examples/*
+  529  awk '/QUIT|SETDATE/' /usr/include/protocols/*
+  530  cat myfile 
+  531  awk'{print $1}' myfile
+  532  awk '{print $1}' myfile
+  533  awk '{print $3}' myfile
+  534  awk '/foo/{print toupper($0); }'
+  535  awk '{print $1, $2, $5}' list_students 
+  536  ssh grishkin12@192.168.174.131
+  537  exit
+  538  cd
+  539  cd lab2/
+  540  ls
+  541  sed '/book/ p' books
+  542  sed -n '/book/ p' books
+  543  sed -n '2,5 p' books
+  544  touch records
+  545  vi records 
+  546  cat records 
+  547  sed -n -f records books 
+  548  sed -f appends books
+  549  ssh grishkin12@192.168.174.131
+  550  exit
+  551  mkdir lab2
+  552  cd lab2/
+  553  script -ttime_log22grishkin12r task22grishkin12r
+  554  script -ttime_log23grishkin12r task23grishkin12r
+  555  exit
+  556  script -ttime_log24grishkin12r task24grishkin12r
+  557  cd lab2/
+  558  script -ttime_log241grishkin12r task241grishkin12r
+  559  a=879
+  560  echo "The value of \"a\" is $a."
+  561  expor full_name="John Lee"
+  562  export full_name="John Lee"
+  563  echo $full_name 
+  564  export short_name="John"
+  565  export short_name
+  566  echo $short_name 
+  567  export foo=""
+  568  exho${foo:-one}
+  569  exho ${foo:-one}
+  570  echo ${foo:-one}
+  571  echo foo
+  572  echo ${foo:=one}
+  573  export foo="this is a test"
+  574  echo foo
+  575  echo ${foo:+bar}
+  576  ssh grishkin12@192.168.174.131
+  577  exit
+  578  echo sp{el, il, al}l
+  579  spell spill spall
+  580  echo sp{el,il,al}l
+  581  cat ~/message.txt
+  582  touch ~/message.txt
+  583  cat ~/message.txt
+  584  echo #SHELL
+  585  echo $SHELL
+  586  echo $(date)
+  587  history
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m historyecho $(date)[1PSHELL#SHELLcat ~/message.txt[2@touch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho sp{el,il,al}l[1Pspell spill spallecho sp{el, il, al}lxit[Kssh grishkin12@192.168.174.131[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pecho ${foo:+bar}ssh grishkin12@192.168.174.131
+grishkin12@192.168.174.131's password: 
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-47-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+10 updates can be installed immediately.
+1 of these updates is a security update.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Tue Sep 15 03:48:42 2020 from 192.168.174.134
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ logout[1Putscript -ttime_log241_2grishkin12u task241_2grishkin12u[1P[1P[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2grishkin12u[1P2grishkin12u
+Script started, file is task242grishkin12u
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo $()d)a)t)e)
+Tue 15 Sep 2020 04:15:59 AM PDT
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Area^[K: $[]$]X] ]*] ]$]Y][C
+bash: * : syntax error: operand expected (error token is "* ")
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Area: $[$X * $Y][C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KX=5
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ Y=6
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ Y=6X=5echo Area: $[$X * $Y]
+Area: 30
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Yout[Kr cost^ \5[K$5,00
+Your cost^ $5,00
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Your cost^ \$5,00[C[1P \$5,00: \$5,00
+Your cost: $5,00
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo ''$'d'a't'e'
+$date
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ log[K[K[Kexit
+exit
+Script done, file is task242grishkin12u
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ logout
+Connection to 192.168.174.131 closed.
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+exit
+
+Script done on 2020-09-15 12:20:06+01:00 [COMMAND_EXIT_CODE="0"]

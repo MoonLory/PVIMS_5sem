@@ -1,0 +1,111 @@
+Script started on 2020-09-22 06:16:16-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="104" LINES="38"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cat script33.sh 
+#! /bin/bash
+trap "ls >> pwd.txt && whoami >>pwd.txt" TERM
+while (true)
+do
+	echo a
+	sleep 1
+done
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sudo time -n[K[Knice -m [K[Kn  [K19 updatedb
+[sudo] password for grishkin12: 
+nice: ‘updatedb’: No such file or directory
+Command exited with non-zero status 127
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 1912maxresident)k
+0inputs+0outputs (0major+82minor)pagefaults 0swaps
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sudo time nice -n 19 updatedb[1P updatedb[1P updatedb5 updatedb
+nice: ‘updatedb’: No such file or directory
+Command exited with non-zero status 127
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 2100maxresident)k
+0inputs+0outputs (0major+85minor)pagefaults 0swaps
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at now + 5 minute
+
+Command 'at' not found, but can be installed with:
+
+sudo apt install at
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ps >> ps.txt
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ps >> ps.txtat now + 5 minute ps >>ps.xt[K[Ktxt ps.txt
+
+Command 'at' not found, but can be installed with:
+
+sudo apt install at
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at now + 5 minute ps >> ps.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18P[C[C[C[C[C[C[C[C[C[C[C[Cat now + 5 minutesudo time nice -n 5 updatedb[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K apt install at
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 7%Reading package lists... 7%Reading package lists... 9%Reading package lists... 9%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 30%Reading package lists... 48%Reading package lists... 48%Reading package lists... 68%Reading package lists... 68%Reading package lists... 70%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libasn1-8-heimdal:i386 libavahi-client3:i386 libavahi-common-data:i386 libavahi-common3:i386
+  libbrotli1:i386 libbsd0:i386 libdbus-1-3:i386 libexif12:i386 libexpat1:i386 libffi7:i386
+  libfontconfig1:i386 libfprint-2-tod1 libfreetype6:i386 libgdbm-compat4:i386 libgdbm6:i386
+  libgmp10:i386 libgnutls30:i386 libgphoto2-port12:i386 libgssapi-krb5-2:i386 libgssapi3-heimdal:i386
+  libhcrypto4-heimdal:i386 libheimbase1-heimdal:i386 libheimntlm0-heimdal:i386 libhogweed5:i386
+  libhx509-5-heimdal:i386 libicu66:i386 libieee1284-3:i386 libjbig0:i386 libjpeg-turbo8:i386
+  libjpeg8:i386 libk5crypto3:i386 libkeyutils1:i386 libkrb5-26-heimdal:i386 libkrb5-3:i386
+  libkrb5support0:i386 libltdl7:i386 libnettle7:i386 libnghttp2-14:i386 libp11-kit0:i386 libpci3:i386
+  libperl5.30:i386 libpng16-16:i386 libpsl5:i386 libroken18-heimdal:i386 librtmp1:i386
+  libsensors5:i386 libsqlite3-0:i386 libssl1.1:i386 libstdc++6:i386 libtasn1-6:i386 libtiff5:i386
+  libusb-1.0-0:i386 libwebp6:i386 libwind0-heimdal:i386 libwrap0:i386 libxau6:i386 libxcb1:i386
+  libxdmcp6:i386 libxml2:i386
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libfl2
+Suggested packages:
+  default-mta | mail-transport-agent
+The following NEW packages will be installed:
+  at libfl2
+0 upgraded, 2 newly installed, 0 to remove and 31 not upgraded.
+Need to get 50.1 kB of archives.
+After this operation, 241 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libfl2 amd64 2.6.4-6.2 [11.5 kB]
+[33m0% [1 libfl2 0 B/11.5 kB 0%][0m[33m                            28% [Working][0m             Get:2 http://us.archive.ubuntu.com/ubuntu focal/main amd64 at amd64 3.1.23-1ubuntu1 [38.7 kB]
+[33m28% [2 at 0 B/38.7 kB 0%][0m[33m                         100% [Working][0m              Fetched 50.1 kB in 1s (66.6 kB/s)
+
+7[0;37r8[1ASelecting previously unselected package libfl2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 221101 files and directories currently installed.)
+Preparing to unpack .../libfl2_2.6.4-6.2_amd64.deb ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................] 87[38;0f[42m[30mProgress: [ 11%][49m[39m [#########.........................................................................] 8Unpacking libfl2:amd64 (2.6.4-6.2) ...
+7[38;0f[42m[30mProgress: [ 22%][49m[39m [##################................................................................] 8Selecting previously unselected package at.
+Preparing to unpack .../at_3.1.23-1ubuntu1_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 33%][49m[39m [###########################.......................................................] 8Unpacking at (3.1.23-1ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 44%][49m[39m [####################################..............................................] 8Setting up libfl2:amd64 (2.6.4-6.2) ...
+7[38;0f[42m[30mProgress: [ 56%][49m[39m [#############################################.....................................] 87[38;0f[42m[30mProgress: [ 67%][49m[39m [######################################################............................] 8Setting up at (3.1.23-1ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 78%][49m[39m [###############################################################...................] 8Created symlink /etc/systemd/system/multi-user.target.wants/atd.service → /lib/systemd/system/atd.service.
+7[38;0f[42m[30mProgress: [ 89%][49m[39m [########################################################################..........] 8Processing triggers for systemd (245.4-4ubuntu3.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9) ...
+
+7[0;38r8[1A[J]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sudo apt install atat now + 5 minute ps >> ps.txt
+syntax error. Last token seen: p
+Garbled time
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at now + 5 minute ps >> ps.txt[K[K[K[K[K[K[K[K[K[K[K[K[K
+warning: commands will be executed using /bin/sh
+at> ps >> ps.txt
+at> ^[[A^[[A        ^C]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at
+Garbled time
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at now + 5 minute
+warning: commands will be executed using /bin/sh
+at> ^[[A^[[A^[[A            at now + 5 minute
+at> ps >> ps.txt
+at> ^C]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at 4pm
+warning: commands will be executed using /bin/sh
+at> at ls nomw +    w +5 minuts e
+at> ^C]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at 4pmnow + 5 minute[C[C[C[1@l[1@s[1@ 
+syntax error. Last token seen: l
+Garbled time
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at ls now + 5 minute4pm[Kls now + 5 minute[1P[1P[1P
+warning: commands will be executed using /bin/sh
+at> ^C]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ at 4pm
+warning: commands will be executed using /bin/sh
+at> killall -9 firefox -bin^[[D^[[D^[[D                 -bin
+at> exit
+at> ^C]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ 
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-09-22 06:39:20-07:00 [COMMAND_EXIT_CODE="1"]

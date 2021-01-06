@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab9_task1</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Log out</string>
+    <string name="logsuccess">Login finished successfully</string>
+    <string name="logfailed">Credentials are not valid</string>
+    <string name="hello">Hello, </string>
+</resources>

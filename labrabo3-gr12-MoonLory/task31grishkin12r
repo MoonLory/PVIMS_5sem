@@ -1,0 +1,980 @@
+Script started on 2020-09-22 10:29:31+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m screa[Kea[Kn -S tty1
+[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;24r[H[2J[H[2J[1m[32mpi@raspberry[0m:[1m[34m~ $[0m [H[2J[1m[32mpi@raspberry[0m:[1m[34m~ $[11B[0m[7m   0 bash                                                                       [12B  --                                                                            [1;18H[27m[H[2J[1m[32mpi@raspberry[0m:[1m[34m~ $[11B[0m[7m   0 bash                                                                       [12B  --                                                                            [1;18H[27m[1m[32m[0m[1m[34m[0m[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m[12B[1;18H[12B[H[2J[1m[32mpi@raspberry[0m:[1m[34m~ $[11B[0m[7m   0 bash                                                                       [12B   1 bash                                                                       [11A[27m[1m[32m[0m[1m[34m[0m[1m[32mpi@raspberry[0m:[1m[34m~ $[0m [10B[7mSet window's title to: [27m[K[7mbash[27m    [7mt[27m[7mt[27m[7my[27m[7m2[27m                                                                                [13;18H[11B[K[7m   1 tty2                                                                       [13;18H[12A[27m[10B[7mSet window's title to: [27m[K[7mbash[27m    [7mt[27m[7mt[27m[7my[27m[7m1[27m                                                                                [1;18H[11B[K[7m   0 tty1                                                                       [1;18H[12B[12A[27m())w)h)i)l)e) )t)r)u)[K)[K)[K)[K)[K)) [K[K[K[K[K[Kscreenipt -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit[4Dscreen -ls[4D-S tty1[10Dipt -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0msudo apt install screen[1m[32mpi@raspberry[0m:[1m[34m~ $[0m script -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit[4Dscreen[6D[Kexit[4Dscreen -R[K[6D[Kexit[4D(while true; do echo -n A >> log; sleep 1; done)[1m[32mp
+[0m [13;18Hscreenipt -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit[4Dscreen -ls[4D-S tty1[10Dipt -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0msudo apt install screen[1m[32mpi@raspberry[0m:[1m[34m~ $[0m script -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit[4Dscreen[6D[Kexit[4Dscreen -R[K[6D[Kexit[4D(while true; do echo -n A >> log; sleep 1; done)[1m[32mpi@raspberry[0m:[1m[34m~ $[0m (WHILE TRUE; DO ECHO -N a >> log; SLEEP 1; done) [K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log[1m[32mp
+[0m AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[2;1H[14;56HA[2;1H[14;57HA[2;1H[14;58HA[2;1H[14;59HA[2;1H[1m[32m[0m[1m[34m[0m^Z
+[1]+  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[1m[32mpi@raspberry[0m:[1m[34m~ $[0m [14;60H[6;18Hbg[1m[32m[0m[1m[34m[0m[1m[32mp
+[0m[1]+ ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $[0m [14;60HA[10;18H[14;61HA[10;18H[14;62HA[10;18H[14;63HA[10;18H[14;64HA[10;18H[14;65HA[10;18H[14;66HA[10;18H[14;67HA[10;18H[14;68HA[10;18Hjobs[14;69HA[10;22H[1m[32m[0m[1m[34m[0m[H[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[K[1]+ ( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[14;70H[0mA[11;18H[14;71HA[11;18H[14;72HA[11;18H[14;73HA[11;18H[14;74HA[11;18H[14;75HA[11;18H[14;76HA[11;18H[14;77HA[11;18H[14;78HA[11;18H[14;79HA[11;18Hjobs[14;80HA[11;22H[4D[Kbg(while true; do echo -n A >> log; sleep 1; done)[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mscreen
+
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[14;80HAA
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[11;24H[6D(while true; do echo -n A >> log; sleep 1; done))en[15;2HA[11;63Hod ;1 peels ;gol >> [15;3HA[11;43H[15;4HA[11;43H[15;5HA[11;43H[K >> log; sleep 1; done)[23D[KB >> log; sleep 1; done)[23D[15;6HA[11;43H[H[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[K[1]+ ( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(while true; do echo -n B >> log; sleep 1; done)
+[K[15;7HB[4A[15;8HA[4A[15;9HB[4A[15;10HA[4A[15;11HB[4A[15;12HA[4A[15;13HB[4A[15;14HA[4A[15;15HB[4A[15;16HA[4A[15;17HB[4A[15;18HA[4A[15;19HB[4A[15;20HA[4A[15;21HB[4A[15;22HA[4A[15;23HB[4A[15;24HA[4A[15;25HB[4A[15;26HA[4A[15;27HB[4A[15;28HA[4A^[15;29HBA[4A[15;30HAA[4A[15;31HBA[4A[15;32HAA[4A[15;33HBA[4A[15;34HAA[4A[15;35HBA[4AB[15;36HA[11;3H[15;37HB[11;3H[15;38HA[11;3H[15;39HB[11;3H[15;40HA[11;3H^[15;41HB[11;4H[15;42HA[11;4HC[15;43HB[11;5H[15;44HA[11;5H[H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[K[1]+ ( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(while true; do echo -n B >> log; sleep 1; done)
+[K^B^C
+[K[15;45HB[4A[15;46HA[4A[15;47HB[4A[15;48HA[4A[15;49HB[4A[15;50HA[4A[15;51HB[4A[15;52HA[4A[15;53HB[4A[15;54HA[4A[15;55HB[4A[15;56HA[4A[15;57HB[4A[15;58HA[4A[15;59HB[4A[15;60HA[4A[15;61HB[4A[15;62HA[4A[15;63HB[4A[15;64HA[4A[15;65HB[4A[15;66HA[4A[15;67HB[4A[15;68HA[4A[15;69HB[4A[15;70HA[4A[15;71HB[4A[15;72HA[4A[15;73HB[4A[15;74HA[4A[15;75HB[4A[15;76HA[4A[15;77HB[4A[15;78HA[4A[15;79HB[4A[15;80HA[4A
+
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[14;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[15;80HAB
+[K
+[K
+[K
+[K
+[K
+[K
+[K[12A [5BA[5A  [5BB[5A[16;4HA[5A[16;5HB[5A[16;6HA[5A[16;7HB[5A[16;8HA[5A[16;9HB[5A[16;10HA[5A[16;11HB[5A[16;12HA[5A[16;13HB[5A[16;14HA[5A[16;15HB[5A[16;16HA[5A[16;17HB[5A[16;18HA[5A[16;19HB[5A[16;20HA[5A[16;21HB[5A[16;22HA[5A[16;23HB[5A[16;24HA[5A[16;25HB[5A[16;26HA[5A[16;27HB[5A[16;28HA[5A[16;29HB[5A[16;30HA[5A[16;31HB[5A[16;32HA[5A[16;33HB[5A[16;34HA[5A[16;35HB[5A^[[A[16;36HA[11;5H^[[A[16;37HB[11;9H^[[A[16;38HA[11;13H[16;39HB[11;13H[16;40HA[11;13H [16;41HB[11;12H         [16;42HA[11;3H  [16;43HB[5A[16;44HA[5A[16;45HB[5A[16;46HA[5A[16;47HB[5A[16;48HA[5A[16;49HB[5A[16;50HA[5A[1m[32m[0m[1m[34m[0m[H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(while true; do echo -n B >> log; sleep 1; done)
+[K^B^C
+[K^Z
+[K[2]+  Stopped[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[16;51H[0mA[11;18H[16;52HA[11;18H(while true; do echo -n B >> log; sleep 1; done)[16;53HA[11;66H)[16;54HA[11;65Henod ;1 peels ;gol [16;55HA[11;46H>> [16;56HA[11;43H[K >> log; sleep 1; done)[23D[KC >> log; sleep 1; done)[23D[16;57HA[11;43H[H[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(while true; do echo -n B >> log; sleep 1; done)
+[K^B^C
+[K^Z
+[K[2]+  Stopped[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(while true; do echo -n C >> log; sleep 1; done)
+[K[16;58HC[5A[16;59HA[5A[16;60HC[5A[16;61HA[5A[16;62HC[5A[16;63HA[5A[16;64HC[5A[1m[32m[0m[1m[34m[0m[H[K^B^C
+[K^Z
+[K[2]+  Stopped[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(while true; do echo -n C >> log; sleep 1; done)
+[K^Z
+[K[3]+  Stopped[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[16;65H[0mA[11;18H[16;66HA[11;18Hb[16;67HA[11;19Hg[16;68HA[11;20H[1m[32m[0m[1m[34m[0m[H[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(while true; do echo -n C >> log; sleep 1; done)
+[K^Z
+[K[3]+  Stopped[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[K[3]+ ( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[16;69H[0mC[11;18H[16;70HA[11;18H[16;71HC[11;18H[16;72HA[11;18H[16;73HC[11;18H[16;74HA[11;18H[16;75HC[11;18H[16;76HA[11;18H[16;77HC[11;18H[16;78HA[11;18Hb[16;79HC[11;19Hg[1m[32m[0m[1m[34m[0m[H[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[K[3]+ ( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[K[2]+ ( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[16;80H[0mB[11;18H
+
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[14;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[15;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[16;80HBA
+[K
+[K
+[K
+[K
+[K
+[K[11;18H[17;2HC[11;18H[17;3HB[11;18H[17;4HA[11;18H[17;5HC[11;18H[17;6HB[11;18H[17;7HA[11;18H[17;8HC[11;18H[17;9HB[11;18H[17;10HA[11;18H[17;11HC[11;18H[17;12HB[11;18H[17;13HA[11;18H[17;14HC   [6A[6BB  [6A[6BA [6A[6BC[6A[6BB[6A [6BA[6A  [6BC[6A   [6BB[11;18H[17;22HA[11;18Hj[17;23HC[11;19Ho[17;24HB[11;20Hbs   [6BA[11;22H[17;26HC[11;22H[1m[32m[0m[1m[34m[0m[H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]   Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]-  Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]+  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[17;27H[0mB[11;18H[17;28HA[11;18H[17;29HC[11;18H[17;30HB[11;18H[17;31HA[11;18H[17;32HC[11;18H[17;33HB[11;18H[17;34HA[11;18H[17;35HC[11;18H[17;36HB[11;18H[17;37HA[11;18H[17;38HC[11;18H[17;39HB[11;18H[17;40HA[11;18H[17;41HC[11;18H[17;42HB[11;18H[17;43HA[11;18H[17;44HC[11;18H[17;45HB[11;18H[17;46HA[11;18H[17;47HC[11;18H[17;48HB[11;18H[17;49HA[11;18H[1;4r[H[2J[1m[32mpi@raspberry[0m:[1m[34m~ $
+[0m[7m   0 tty1                                                                       
+[27mBABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[7m   1 tty2                                                                       [1;18H[27m[1m[32m[0m[1m[34m[0m[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[3;50H[0mC[1;18H[3;51HB[1;18H[3;52HA[1;18H[3;53HC[1;18H[3;54HB[1;18H[3;55HA[1;18H[3;56HC[1;18H[3;57HB[1;18H[3;58HA[1;18H[3;59HC[1;18H[3;60HB[1;18H[1;33r[H[2J[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[2]+ ( while true; do[3;5Hecho -n B >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[1]   Running[17C( while true; do[7;5Hecho -n A >> log; sleep 1;
+done ) &
+[2]-  Running[17C( while true; do[42D
+echo -n B >> log; sleep 1;
+done ) &
+[3]+  Running[17C( while true; do[42D
+echo -n C >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $
+[0m[7m   0 tty1                                                                       [13B[27m[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACACAAAACACACACACACB
+[7m   1 tty2                                                                       [15;18H[27m[1m[32m[0m[1m[34m[0m[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[32;61H[0mA[15;18H[32;62HC[15;18H[32;63HB[15;18H[32;64HA[15;18H[32;65HC[15;18H[32;66HB[15;18H[1;37r[H[2J[4Cecho -n C >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[2]+ ( while true; do[5;5Hecho -n B >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[1]   Running[17C( while true; do[9;5Hecho -n A >> log; sleep 1;
+done ) &
+[2]-  Running[17C( while true; do[42D
+echo -n B >> log; sleep 1;
+done ) &
+[3]+  Running[17C( while true; do[42D
+echo -n C >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $
+[0m[7m   0 tty1                                                                       [15B[27m[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBAACACACACACACB
+[7m   1 tty2                                                                       [17;18H[27m[1m[32m[0m[1m[34m[0m[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[36;67H[0mA[17;18H[36;68HC[17;18H[36;69HB[17;18H[36;70HA[17;18H[36;71HC[17;18H[36;72HB[17;18H[36;73HA[17;18H[36;74HC[17;18H[36;75HB[17;18H[36;76HA[17;18H[36;77HC[17;18H[1;40r[H[2J[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[3]+ ( while true; do[3;5Hecho -n C >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbg
+[2]+ ( while true; do[7;5Hecho -n B >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[1]   Running[17C( while true; do[42D
+echo -n A >> log; sleep 1;
+done ) &
+[2]-  Running[17C( while true; do[42D
+echo -n B >> log; sleep 1;
+done ) &
+[3]+  Running[17C( while true; do[42D
+echo -n C >> log; sleep 1;
+done ) &
+[1m[32mpi@raspberry[0m:[1m[34m~ $
+[0m[7m   0 tty1                                                                       [16B[27m[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBACBACBACBACACB
+[7m   1 tty2                                                                       [19;18H[27m[1m[32m[0m[1m[34m[0m[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[39;78H[0mB[19;18H[39;79HA[19;18H[39;80HC[19;18H
+
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[36;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[37;80HABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBACBACBACBACBAC
+[K[38;80HCB[19;18H[39;2HA[19;18H[39;3HC[19;18H[39;4HB[19;18H[39;5HA[19;18Hjobs[4D[Kbg(while true; do echo -n C >> log; sleep 1; done)[24DB >> log; sleep 1; done) [K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs[4D[Kbg(while true; do echo -n A >> log; sleep 1; done)[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mscreen[39;6HC[19;24H[39;7HB[19;24H[39;8HA[19;24H[39;9HC[19;24H[39;10HB[19;24H[39;11HA[19;24H[39;12HC[19;24H[6D(while true; do echo -n A >> log; sleep 1; done)[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbgjobs[4D(while true; do echo -n B >> log; sleep 1; done)[24DC >> log; sleep 1; done) [K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbgjobs[4D[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[39;13HBA[19;18H[39;15HC  [20A[20BB [20A[20BA[20Ajobs[4D[Kbg(while true; do echo -n C >> log; sleep 1; done)[24DB >> log; sleep 1; done) [39;18HC[19;66H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs[4D[Kbg(while true; do echo -n A >> log; sleep 1; done)[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mscreen[39;19HB[19;24H[6D(while true; do echo -n A >> log; sleep 1; done)[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mbgjobs[4D(while true; do echo -n B >> log; sleep 1; done)[39;20HA[19;66H[39;21HC[19;66H[39;22HB[19;66H[39;23HA[19;66H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs[4D[Kbg(while true; do echo -n A >> log; sleep 1; done)[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mscreenipt -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit[4Dscreen -ls[4D-S tty1[10Dipt -ttime_log31grishkin12r task31grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0msudo apt install screen[1m[32mpi@raspberry[0m:[1m[34m~ $[0m script -ttime_log31grishkin12r task31grishkin12r[39;24HC[19;66H[39;25HB[19;66H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mscreen -R[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0m(WHILE TRUE; DO ECHO -N a >> log; SLEEP 1; done)[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log[11Dscript -ttime_log243grishkin12r task243grishkin12r[31D2grishkin12r task242grishkin12r[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit[39;26HA[19;22H[39;27HC[19;22H[39;28HB[19;22H[39;29HA[19;22H[39;30HC[19;22H[39;31HB[19;22H[39;32HA[19;22H[39;33HC[19;22H[39;34HB[19;22H[39;35HA[19;22H[39;36HC[19;22H[39;37HB[19;22H[39;38HA[19;22H[39;39HC[19;22H[K[K[39;40HB[19;20H[K[K[39;41HA[19;18H[?5h[?5l[39;42HC[19;18H[39;43HB[19;18H[39;44HA[19;18H[39;45HC[19;18H[39;46HB[19;18H[39;47HA[19;18H[39;48HCBACBA^[[A^[[A^[[A^[[A^[[A^[[A[18A[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[35;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[36;80HABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBACBACBACBACBAC
+[K[37;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA^[[A^[[A^[[A^[[A^[[A^[[A^[[
+[K[38;80H[A^[[AC^[[A^[[A^[[A^[[ABACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB[39;80H[18A[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[34;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[35;80HABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBACBACBACBACBAC
+[K[36;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA^[[A^[[A^[[A^[[A^[[A^[[A^[[
+[K[37;80H[A^[[AC^[[A^[[A^[[A^[[ABACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[38;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC[39;80H[18A[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[33;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[34;80HABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBACBACBACBACBAC
+[K[35;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA^[[A^[[A^[[A^[[A^[[A^[[A^[[
+[K[36;80H[A^[[AC^[[A^[[A^[[A^[[ABACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[37;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[38;80HCBACBACBACB[19;18H[39;11HA[19;18H[39;12HC[19;18H[39;13HB[19;18H[39;14HA[19;18H[39;15HC  [20Aki[39;16HB[19;20Hll[39;17HA[19;22H [39;18HC[19;23H-l[39;19HB[19;25H[39;20HA[19;25H[39;21HC[19;25H[39;22HB  [20A[20BA [20A[20BC[20A[20BB[20A [20BA[20A  [20BC[19;25H[39;28HB[19;25H[39;29HA[19;25H[39;30HC[19;25H[39;31HB[19;25H[39;32HA[19;25H[39;33HC[19;25H[39;34HB[19;25H[39;35HA[19;25H[39;36HC[19;25H[39;37HB[19;25H[39;38HA[19;25H[39;39HC[19;25H[39;40HB[19;25H[39;41HA[19;25H[39;42HC[19;25H[39;43HB[19;25H[1m[32m[0m[1m[34m[0m[H[Kdone ) &
+[K[3]+  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -l
+[K 1) SIGHUP[7C2) SIGINT[7C3) SIGQUIT[6C4) SIGILL[7C5) SIGTRAP
+[K 6) SIGABRT[6C7) SIGBUS[7C8) SIGFPE[7C9) SIGKILL[5C10) SIGUSR1
+[K11) SIGSEGV[5C12) SIGUSR2[5C13) SIGPIPE[5C14) SIGALRM[5C15) SIGTERM
+[K16) SIGSTKFLT   17) SIGCHLD[5C18) SIGCONT[5C19) SIGSTOP[5C20) SIGTSTP
+[K21) SIGTTIN[5C22) SIGTTOU[5C23) SIGURG[6C24) SIGXCPU[5C25) SIGXFSZ
+[K26) SIGVTALRM   27) SIGPROF[5C28) SIGWINCH[4C29) SIGIO[7C30) SIGPWR
+[K31) SIGSYS[6C34) SIGRTMIN[4C35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[39;44H[0mA[19;18H[39;45HC[19;18H[39;46HB[19;18H[39;47HA[19;18H[39;48HC[19;18H[39;49HB[19;18H[39;50HA[19;18H[39;51HC[19;18H[39;52HB[19;18H[39;53HA[19;18H[39;54HC[19;18H[39;55HB[19;18H[39;56HA[19;18H[39;57HC[19;18H[39;58HB[19;18H[39;59HA[19;18H[39;60HC[19;18H[39;61HB[19;18H[39;62HA[19;18H[39;63HC[19;18H[39;64HB[19;18H[39;65HA[19;18H[39;66HC[19;18H[39;67HB[19;18H[39;68HA[19;18H[39;69HC[19;18H[39;70HB[19;18H[39;71HA[19;18H[39;72HC[19;18H[39;73HB[19;18H[39;74HA[19;18H[39;75HC[19;18H[39;76HB[19;18H[39;77HA[19;18H[39;78HC[19;18H[39;79HB[19;18H[39;80HA[19;18H
+
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[32;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[33;80HABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBACBACBACBACBAC
+[K[34;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA^[[A^[[A^[[A^[[A^[[A^[[A^[[
+[K[35;80H[A^[[AC^[[A^[[A^[[A^[[ABACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[36;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[37;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[38;80HAC[19;18H[39;2HB[19;18H[39;3HA[19;18H[39;4HC[19;18H[39;5HB[19;18H[39;6HA[19;18H[39;7HC[19;18H[39;8HB[19;18H[39;9HA[19;18H[39;10HC[19;18H[39;11HB[19;18H[39;12HA[19;18H[39;13HC[19;18H[39;14HB[19;18H[39;15HA  [20A[20BC [20A[20BB[20A[20BA[20A [20BC[20A  [20BB[19;18H[39;21HA[19;18H[39;22HC[19;18H[39;23HB[19;18H[39;24HA[19;18H[39;25HC[19;18H[39;26HB[19;18H[39;27HA[19;18H[39;28HC[19;18H[39;29HBACBACBACBACBAC^C[1m[32m[0m[1m[34m[0m[18A[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[31;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[32;80HABABABABABABABABABABABABABABABABABABABABABABABABABCBACBACBACBACBACBACBACBACBACBAC
+[K[33;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA^[[A^[[A^[[A^[[A^[[A^[[A^[[
+[K[34;80H[A^[[AC^[[A^[[A^[[A^[[ABACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[35;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[36;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[37;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -l[1m[32m[0m[1m[34m[0m[18A[KA^[[AC^[[A^[[A^[[A^[[ABACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[21;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[22;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[23;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -l
+[K 1) SIGHUP[7C2) SIGINT[7C3) SIGQUIT[6C4) SIGILL[7C5) SIGTRAP
+[K 6) SIGABRT[6C7) SIGBUS[7C8) SIGFPE[7C9) SIGKILL[5C10) SIGUSR1
+[K11) SIGSEGV[5C12) SIGUSR2[5C13) SIGPIPE[5C14) SIGALRM[5C15) SIGTERM
+[K16) SIGSTKFLT   17) SIGCHLD[5C18) SIGCONT[5C19) SIGSTOP[5C20) SIGTSTP
+[K21) SIGTTIN[5C22) SIGTTOU[5C23) SIGURG[6C24) SIGXCPU[5C25) SIGXFSZ
+[K26) SIGVTALRM   27) SIGPROF[5C28) SIGWINCH[4C29) SIGIO[7C30) SIGPWR
+[K31) SIGSYS[6C34) SIGRTMIN[4C35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[20A[0mkill -19 %1[1m[32m[0m[1m[34m[0m[H[K[3]+  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -l
+[K 1) SIGHUP[7C2) SIGINT[7C3) SIGQUIT[6C4) SIGILL[7C5) SIGTRAP
+[K 6) SIGABRT[6C7) SIGBUS[7C8) SIGFPE[7C9) SIGKILL[5C10) SIGUSR1
+[K11) SIGSEGV[5C12) SIGUSR2[5C13) SIGPIPE[5C14) SIGALRM[5C15) SIGTERM
+[K16) SIGSTKFLT   17) SIGCHLD[5C18) SIGCONT[5C19) SIGSTOP[5C20) SIGTSTP
+[K21) SIGTTIN[5C22) SIGTTOU[5C23) SIGURG[6C24) SIGXCPU[5C25) SIGXFSZ
+[K26) SIGVTALRM   27) SIGPROF[5C28) SIGWINCH[4C29) SIGIO[7C30) SIGPWR
+[K31) SIGSYS[6C34) SIGRTMIN[4C35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -19 %1
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs[1m[32m[0m[1m[34m[0m[H[K31) SIGSYS[6C34) SIGRTMIN[4C35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -19 %1
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Stopped[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K[2]   Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[20B[0mkill -l[7Dtail -f log[18A[KACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[21;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[22;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -l
+[K 1) SIGHUP[7C2) SIGINT[7C3) SIGQUIT[6C4) SIGILL[7C5) SIGTRAP
+[K 6) SIGABRT[6C7) SIGBUS[7C8) SIGFPE[7C9) SIGKILL[5C10) SIGUSR1
+[K11) SIGSEGV[5C12) SIGUSR2[5C13) SIGPIPE[5C14) SIGALRM[5C15) SIGTERM
+[K16) SIGSTKFLT   17) SIGCHLD[5C18) SIGCONT[5C19) SIGSTOP[5C20) SIGTSTP
+[K21) SIGTTIN[5C22) SIGTTOU[5C23) SIGURG[6C24) SIGXCPU[5C25) SIGXFSZ
+[K26) SIGVTALRM   27) SIGPROF[5C28) SIGWINCH[4C29) SIGIO[7C30) SIGPWR
+[K31) SIGSYS[6C34) SIGRTMIN[4C35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[K[18A[K26) SIGVTALRM   27) SIGPROF[5C28) SIGWINCH[4C29) SIGIO[7C30) SIGPWR
+[K31) SIGSYS[6C34) SIGRTMIN[4C35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[30;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[31;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[32;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[33;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[34;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[35;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[36;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[37;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[38;80HBCBCBCBCBCBCBCBCBCBCBCBCBC^C[1m[32m[0m[1m[34m[0m[18A[K31) SIGSYS[6C34) SIGRTMIN[4C35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[29;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[30;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[31;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[32;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[33;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[34;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[35;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[36;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[37;80HBCBCBCBCBCBCBCBCBCBCBCBCBC^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[20A[0mkill -18 %1[1m[32m[0m[1m[34m[0m[H[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -19 %1
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Stopped[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K[2]   Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -18 %1
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[20B[0mjobs[1m[32m[0m[1m[34m[0m[18A[K38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[28;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[29;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[30;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[31;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[32;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[33;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[34;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[35;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[36;80HBCBCBCBCBCBCBCBCBCBCBCBCBC^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[20A[0maaa[K[K[K[?5h[?5ljobs[1m[32m[0m[1m[34m[0m[H[Kdone )
+[K[2]   Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -18 %1
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill %2%33% %3[1m[32m[0m[1m[34m[0m[H[K[2]   Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill -18 %1
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill %2 %3
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs[1m[32m[0m[1m[34m[0m[H[Kdone ) &
+[K[2]   Running[17C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone ) &
+[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill %2 %3
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg[H[K[3]-  Running[17C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill %2 %3
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C[1m[32m[0m[1m[34m[0m[H[K[4Cecho -n C >> log; sleep 1;
+[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill %2 %3
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs[1m[32m[0m[1m[34m[0m[H[Kdone ) &
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill %2 %3
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[20B[0mjobs[4Dtail -f log[18A[K43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+[K48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+[K53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+[K58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+[K63) SIGRTMAX-1  64) SIGRTMAX
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[27;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[28;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[29;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[30;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[31;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[32;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[33;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[34;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[35;80HBCBCBCBCBCBCBCBCBCBCBCBCBC^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[K[18A[KACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[21;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[22;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[23;80HBCBCBCBCBCBCBCBCBCBCBCBCBC^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[27;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[28;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[29;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[30;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[31;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[32;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[33;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[34;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[35;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[36;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[37;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[38;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC[18A[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[23;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[24;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[25;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[26;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[27;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[28;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[29;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[30;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[31;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[32;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[33;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[34;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[35;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[36;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[37;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[38;80HBACBACBACBACBACBACBACBACBACBACBACBACBAAAAAAAAAAAAAAAAAAAAAAAAA^C[1m[32m[0m[1m[34m[0m[18A[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+[KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[K[22;80HAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[23;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[24;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[25;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[26;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[27;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[28;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[29;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[30;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[31;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[32;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[33;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[34;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[35;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[36;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[37;80HBACBACBACBACBACBACBACBACBACBACBACBACBAAAAAAAAAAAAAAAAAAAAAAAAA^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[20A[0mrm [?5h[?5ll[?5h[?5log[?5h[?5l[K[K[K[K[K[K[?5h[?5lrm log[H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mkill %2 %3
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32m[0m[1m[34m[0m[1m[32mpi@raspberry[0m:[1m[34m~ $[0m ls[H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31m[0m[1m[31marchive.tar.gz[0m  pi_term             task8grishkin12r[H[K[1]+  Running[17C( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34m[0m[1m[34mDesktop[0m         ps.log              task9grishkin12r[H[K[4Cecho -n A >> log; sleep 1;
+[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34m[0m[1m[34m[0m[1m[34m[0m[1m[34mDocuments[0m       [1m[34mPublic[0m              [1m[34mTemplates[H[0m[Kdone ) &
+[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34m[0m[1m[34m[0m[1m[34mDownloads[0m       [1m[34mrsync-backup[0m        time_log242grishkin12r[H[K[2]   Terminated[14C( while true; do
+[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[K[1m[31m[0mfile.txt        [1m[31msimple.txt.gz[0m       time_log243grishkin12r[H[K[4Cecho -n B >> log; sleep 1;
+[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34m[0m[1m[34mgrishkin[0m        task242grishkin12r  time_log24grishkin12r[H[Kdone )
+[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34m[0m[1m[34mlab2[0m            task243grishkin12r  time_log31grishkin12r[H[K[3]-  Terminated[14C( while true; do
+[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt        task24grishkin12r   time_log3grishkin12r[H[K[4Cecho -n C >> log; sleep 1;
+[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt         task31grishkin12r   time_log5grishkin12r[H[Kdone )
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt[9Ctask31grishkin12r   time_log5grishkin12r
+[K[1m[34m[0m[1m[34mMagPi[0m           task3grishkin12r    time_log6grishkin12r[H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mfg
+[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt[9Ctask31grishkin12r   time_log5grishkin12r
+[K[1m[34mMagPi[11C[0mtask3grishkin12r[4Ctime_log6grishkin12r
+[K[1m[34m[0mmessage.txt     [1m[34mtask5[0m               time_log7grishkin12r[H[K( while true; do
+[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt[9Ctask31grishkin12r   time_log5grishkin12r
+[K[1m[34mMagPi[11C[0mtask3grishkin12r[4Ctime_log6grishkin12r
+[Kmessage.txt[5C[1m[34mtask5[15C[0mtime_log7grishkin12r
+[K[1m[34m[0m[1m[34mMusic[0m           task5grishkin12r    time_log8grishkin12r[H[K[4Cecho -n A >> log; sleep 1;
+[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt[9Ctask31grishkin12r   time_log5grishkin12r
+[K[1m[34mMagPi[11C[0mtask3grishkin12r[4Ctime_log6grishkin12r
+[Kmessage.txt[5C[1m[34mtask5[15C[0mtime_log7grishkin12r
+[K[1m[34mMusic[11C[0mtask5grishkin12r[4Ctime_log8grishkin12r
+[K[1m[34m[0m[1m[34mpapochka[0m        task6grishkin12r    time_log9grishkin12r[H[Kdone )
+[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt[9Ctask31grishkin12r   time_log5grishkin12r
+[K[1m[34mMagPi[11C[0mtask3grishkin12r[4Ctime_log6grishkin12r
+[Kmessage.txt[5C[1m[34mtask5[15C[0mtime_log7grishkin12r
+[K[1m[34mMusic[11C[0mtask5grishkin12r[4Ctime_log8grishkin12r
+[K[1m[34mpapochka[8C[0mtask6grishkin12r[4Ctime_log9grishkin12r
+[K[1m[34m[0m[1m[34m[0m[1m[34mPictures[0m        task7grishkin12r    [1m[34mVideos[H[0m[K^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mjobs
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt[9Ctask31grishkin12r   time_log5grishkin12r
+[K[1m[34mMagPi[11C[0mtask3grishkin12r[4Ctime_log6grishkin12r
+[Kmessage.txt[5C[1m[34mtask5[15C[0mtime_log7grishkin12r
+[K[1m[34mMusic[11C[0mtask5grishkin12r[4Ctime_log8grishkin12r
+[K[1m[34mpapochka[8C[0mtask6grishkin12r[4Ctime_log9grishkin12r
+[K[1m[34mPictures[8C[0mtask7grishkin12r[4C[1m[34mVideos
+[0m[K[1m[32m[0m[1m[34m[0m[1m[32mpi@raspberry[0m:[1m[34m~ $[0m exit[H[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mrm log
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mls
+[K[1m[31marchive.tar.gz[2C[0mpi_term[13Ctask8grishkin12r
+[K[1m[34mDesktop[9C[0mps.log[14Ctask9grishkin12r
+[K[1m[34mDocuments[7CPublic[14CTemplates
+[0m[K[1m[34mDownloads[7Crsync-backup[8C[0mtime_log242grishkin12r
+[Kfile.txt[8C[1m[31msimple.txt.gz[7C[0mtime_log243grishkin12r
+[K[1m[34mgrishkin[8C[0mtask242grishkin12r  time_log24grishkin12r
+[K[1m[34mlab2[12C[0mtask243grishkin12r  time_log31grishkin12r
+[Klogs.txt[8Ctask24grishkin12r   time_log3grishkin12r
+[Klog.txt[9Ctask31grishkin12r   time_log5grishkin12r
+[K[1m[34mMagPi[11C[0mtask3grishkin12r[4Ctime_log6grishkin12r
+[Kmessage.txt[5C[1m[34mtask5[15C[0mtime_log7grishkin12r
+[K[1m[34mMusic[11C[0mtask5grishkin12r[4Ctime_log8grishkin12r
+[K[1m[34mpapochka[8C[0mtask6grishkin12r[4Ctime_log9grishkin12r
+[K[1m[34mPictures[8C[0mtask7grishkin12r[4C[1m[34mVideos
+[0m[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit
+[Kexit
+[K[H[2J[19B[7m  --                                                                            
+[27m[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mtail -f log
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAAAAAAAAAAAAAAAAAAAAAAAAA^C
+[1m[32mpi@raspberry[0m:[1m[34m~ $
+[0m[7m   1 tty2                                                                       [27m[H[39;18Hexit[18A[KAAAAAABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABA
+[K[21;80HABABABABABABABABABABABABABABABABABABABABABABABABABAAAAAAAACACACACAAAACACACACACACB
+[K[22;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[23;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[24;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[25;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[26;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[27;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBCBCBCBCBCBCBCBCBCB
+[K[28;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[29;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+[K[30;80HBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[31;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[32;80HBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+[K[33;80HCBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+[K[34;80HACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+[K[35;80HBACBACBACBACBACBACBACBACBACBACBACBACBAAAAAAAAAAAAAAAAAAAAAAAAA^C
+[K[1m[32mpi@raspberry[0m:[1m[34m~ $[C[0mexit
+[Kexit
+[K[?1l>[40;1H
+[?1049l[23;0;0t[screen is terminating]
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+exit
+
+Script done on 2020-09-22 10:44:25+01:00 [COMMAND_EXIT_CODE="0"]

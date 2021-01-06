@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etConsNum"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etConsFIO"
+        app:layout_constraintTop_toBottomOf="@+id/etConsFIO" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="116dp"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etConsFIO"
+        app:layout_constraintTop_toBottomOf="@+id/etConsFIO" />
+
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etConsFIO"
+        app:layout_constraintTop_toBottomOf="@+id/etConsFIO" />
+
+    <EditText
+        android:id="@+id/aSum"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etConsFIO"
+        app:layout_constraintTop_toBottomOf="@+id/etConsFIO" />
+
+    <EditText
+        android:id="@+id/etAddr"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="172dp"
+        android:ems="10"
+        android:hint="@string/addr"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etConsFIO"
+        app:layout_constraintTop_toBottomOf="@+id/etConsFIO" />
+
+    <EditText
+        android:id="@+id/etConsCard"
+        android:layout_width="262dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/card"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etConsFIO"
+        app:layout_constraintTop_toBottomOf="@+id/etConsFIO" />
+
+    <Button
+        android:id="@+id/shwBtn"
+        android:layout_width="218dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:text="@string/show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chgBtn"
+        android:layout_width="215dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/change"
+        app:layout_constraintEnd_toEndOf="@+id/addBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addBtn" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/shwBtn"
+        app:layout_constraintTop_toBottomOf="@+id/shwBtn" />
+
+    <EditText
+        android:id="@+id/etConsFIO"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="@string/Fio"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="210dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/etConsNum"
+        app:layout_constraintTop_toBottomOf="@+id/etConsNum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

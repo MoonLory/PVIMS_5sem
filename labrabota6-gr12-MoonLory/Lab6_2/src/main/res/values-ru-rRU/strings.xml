@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Find number</string>
+    <string name="number_edit_text_hint">Введите число</string>
+    <string name="info_text_view_init">от 1 до 200</string>
+    <string name="button_play_text">Проверить</string>
+    <string name="button_win_text">Проверить ещё</string>
+    <string name="no_input">Введите!</string>
+    <string name="error_less_than_1">меньше 1</string>
+    <string name="error_more_than_100">Больше 200</string>
+    <string name="history">История</string>
+    <string name="win">Угадал! Еще?</string>
+    <string name="error_more">Большое</string>
+    <string name="error_less">Маленькое</string>
+    <string name="error_more_than_200">Больше 200</string>
+</resources>

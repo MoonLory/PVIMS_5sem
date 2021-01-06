@@ -1,0 +1,197 @@
+Script started on 2020-09-05 17:58:16+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mk [Kdir taask[K[K[Ksk5
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd task5/
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m mkdir task[K[K[K[Kdir1/[K
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m cd dir1/
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m touch file1.txt
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m touch file1.txt[7Pcd dir1/mkdir dir1[K2
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m mkdir dir2touch file1.txt[7Pcd dir1/[1P/2/
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m cd dir2/mkdir dir2touch file1.txt[1P.txt2.txt
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m touch file2.txt[7Pcd dir2/mkdir dir2[K3
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m mkdir dir3touch file2.txt[1P.txt3.txt
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m touch file3.txt[5Pmkdir dir3touch file2.txt[7Pcd dir2/[1P/3/[C[K[K[K[K[K[K[K[Krm file3.txt 
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m rm file3.txt touch file3.txt[5Pmkdir dir3touch file2.txt[7Pcd dir2/[1P/3/
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3 $[00m t[Kcd dir3/rm file3.txt touch file3.txt
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3 $[00m touch file3.txt[7Pcd dir3/rm file3.txt [5Pcd dir3/rm file3.txt touch file3.txt[5Pmkdir dir3[K4
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3 $[00m mkdir dir4touch file3.txt[7Pcd dir3/[1P/4/
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3/dir4[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3/dir4 $[00m cd dir4/mkdir dir4touch file3.txt[1P.txt4.txt
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3/dir4[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3/dir4 $[00m touch file4.txt[7Pcd dir4/mkdir dir4touch file3.txt[7Pcd dir3/rm file3.txt touch file3.txt[5Pmkdir dir3touch file2.txt[7Pcd dir2/mkdir dir2touch file1.txt[7Pcd dir1/mkdir dir1[2Pcd dir1/touch file1.txt[5Pmkdir dir2[2Pcd dir2/touch file2.txt[1P.txt4.txta.txt
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3/dir4[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3/dir4 $[00m cd ..
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3 $[00m cd ..
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m cd ..
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m cd ..
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m tree
+[01;34m.[00m
+└── [01;34mdir1[00m
+    ├── [01;34mdir2[00m
+    │   ├── [01;34mdir3[00m
+    │   │   ├── [01;34mdir4[00m
+    │   │   │   ├── file4a.txt
+    │   │   │   └── file4.txt
+    │   │   └── file3.txt
+    │   └── file2.txt
+    └── file1.txt
+
+4 directories, 5 files
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m ln -s `/[K[K~/t[KP[Ktask5.[K/dir1/dir2/dir3/dir4/file4a.txt
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m unlinln -s ~/task5/dir1/dir2/dir3/dir4/file4a.txt[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m tree
+[01;34m.[00m
+├── [01;34mdir1[00m
+│   ├── [01;34mdir2[00m
+│   │   ├── [01;34mdir3[00m
+│   │   │   ├── [01;34mdir4[00m
+│   │   │   │   └── file4.txt
+│   │   │   └── file3.txt
+│   │   └── file2.txt
+│   └── file1.txt
+└── [40;31;01mfile4a.txt[00m -> [00m/home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt[00m
+
+4 directories, 5 files
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m rm[K[Kd[Kcd r[Kdir1/
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m rm t[K[K[K[Kunlink [K[K[K[K[K[K[Ktree
+[01;34m.[00m
+├── [01;34mdir2[00m
+│   ├── [01;34mdir3[00m
+│   │   ├── [01;34mdir4[00m
+│   │   │   └── file4.txt
+│   │   └── file3.txt
+│   └── file2.txt
+└── file1.txt
+
+3 directories, 4 files
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m treecd dir1/[4Ptreeunlink ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pln -s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctree[Kcd ..touch file4a.txt[1P.txt[7Pcd dir4/mkdir dir4touch file3.txt[7Pcd dir3/[K[K[K[Kir2/dir3/dir4/
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3/dir4[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3/dir4 $[00m tu[Kouch file4.txt [1@a
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3/dir4[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3/dir4 $[00m cd ..
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3 $[00m cd ..
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m cd..[K[K ..
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m cd ..[K[K[K[K[Kcd ..touch file4a.txt cd dir2/dir3/dir4/tree[Kcd dir1/[4Ptreeunlink ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pln -s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m cd dir2/
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m cd dir2/ln -s ~/task5/dir1/dir2/dir3/dir4/file4a.txt[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pfile4a.txt[1Pfile4a.txt[1Pfile4a.txt[1Pfile4a.txt[1Pfile4a.txt[C[C[C[C[C[1Pa.txt[C[1P.txt3.txt
+]0;pi@raspberry: ~/task5/dir1/dir2[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2 $[00m cd dir3/
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3 $[00m cd dir3/ln ~/task5/dir1/dir2/dir3/file3.txt[C[C[C[C/file3.txtd/file3.txti/file3.txtr/file3.txt4/file3.txt[C[C[C[C[C[C[1P.txt4.txt
+]0;pi@raspberry: ~/task5/dir1/dir2/dir3[01;32mpi@raspberry[00m:[01;34m~/task5/dir1/dir2/dir3 $[00m cd
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m reee[K[K[K[Ktree
+[01;34m.[00m
+├── [01;31marchive.tar.gz[00m
+├── [01;34mDesktop[00m
+├── [01;34mDocuments[00m
+├── [01;34mDownloads[00m
+├── file.txt
+├── [01;34mgrishkin[00m
+├── logs.txt
+├── log.txt
+├── [01;34mMagPi[00m
+│   └── MagPi90.pdf
+├── [01;34mMusic[00m
+├── [01;34mpapochka[00m
+│   └── file.txt
+├── [01;34mPictures[00m
+├── ps.log
+├── [01;34mPublic[00m
+├── [01;34mrsync-backup[00m
+│   ├── answer1.txt
+│   └── answer.txt
+├── [01;31msimple.txt.gz[00m
+├── task3grishkin12r
+├── [01;34mtask5[00m
+│   └── [01;34mdir1[00m
+│       ├── [01;34mdir2[00m
+│       │   ├── [01;34mdir3[00m
+│       │   │   ├── [01;34mdir4[00m
+│       │   │   │   ├── file4a.txt
+│       │   │   │   └── file4.txt
+│       │   │   ├── file3.txt
+│       │   │   └── file4.txt
+│       │   ├── file2.txt
+│       │   └── file3.txt
+│       ├── file1.txt
+│       └── [01;36mfile4a.txt[00m -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+├── task5grishkin12r
+├── task6grishkin12r
+├── task7grishkin12r
+├── task8grishkin12r
+├── task9grishkin12r
+├── [01;34mTemplates[00m
+├── time_log3grishkin12r
+├── time_log5grishkin12r
+├── time_log6grishkin12r
+├── time_log7grishkin12r
+├── time_log8grishkin12r
+├── time_log9grishkin12r
+└── [01;34mVideos[00m
+
+17 directories, 30 files
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd task5/
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m tree
+[01;34m.[00m
+└── [01;34mdir1[00m
+    ├── [01;34mdir2[00m
+    │   ├── [01;34mdir3[00m
+    │   │   ├── [01;34mdir4[00m
+    │   │   │   ├── file4a.txt
+    │   │   │   └── file4.txt
+    │   │   ├── file3.txt
+    │   │   └── file4.txt
+    │   ├── file2.txt
+    │   └── file3.txt
+    ├── file1.txt
+    └── [01;36mfile4a.txt[00m -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+
+4 directories, 8 files
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m vi fil[K[K[K[K[K[Kcd dir1/
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m vi file4a.TX[K[Ktxt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"file4a.txt" 0 lines, 0 characters[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[?25l[ms[?25h[?25la[?25h[?25ld[?25h[?25la[?25h[?25ls[?25h[?25lf[?25h[?25la[?25h[?25lf[?25h[?2004h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"file4a.txt" 1 line, 9 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m catvi file4a.txt[1P file4a.txt[1P file4a.txtc file4a.txta file4a.txtt file4a.txt
+sadasfaf
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m cat file4a.txt[C[1Pvi[C[C[C[C[C[C[C[C[C[C[C[5Pcd dir1/[4Ptreecd task5/[5Ptree[2Pcdln ~/task5/dir1/dir2/dir3/dir4/file4.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd dir3/[Kln ~/task5/dir1/dir2/dir3/dir4/file4.txt[C[C[C[C[Ca.txt[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct ~/task5/dir1/dir2/dir3/dir4/file4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+sadasfaf
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m rm dir2/dir3/dir4/file4.txt
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m rm[K[Ktree
+[01;34m.[00m
+├── [01;34mdir2[00m
+│   ├── [01;34mdir3[00m
+│   │   ├── [01;34mdir4[00m
+│   │   │   └── file4a.txt
+│   │   ├── file3.txt
+│   │   └── file4.txt
+│   ├── file2.txt
+│   └── file3.txt
+├── file1.txt
+└── [01;36mfile4a.txt[00m -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+
+3 directories, 7 files
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m unlink dir 2[K[K2/dir3/dir4/[K[K[K[K[K[K/file3.txt
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m tree
+[01;34m.[00m
+├── [01;34mdir2[00m
+│   ├── [01;34mdir3[00m
+│   │   ├── [01;34mdir4[00m
+│   │   │   └── file4a.txt
+│   │   └── file4.txt
+│   ├── file2.txt
+│   └── file3.txt
+├── file1.txt
+└── [01;36mfile4a.txt[00m -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt
+
+3 directories, 6 files
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m treeunlink dir2/dir3/file3.txttree[K[C[K[K[K[Krm dir2/dir3/dir4/file4a.txt 
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m tree
+[01;34m.[00m
+├── [01;34mdir2[00m
+│   ├── [01;34mdir3[00m
+│   │   ├── [01;34mdir4[00m
+│   │   └── file4.txt
+│   ├── file2.txt
+│   └── file3.txt
+├── file1.txt
+└── [40;31;01mfile4a.txt[00m -> [00m/home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt[00m
+
+3 directories, 5 files
+]0;pi@raspberry: ~/task5/dir1[01;32mpi@raspberry[00m:[01;34m~/task5/dir1 $[00m cd
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd task5/
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m rm -r dir1/[K
+]0;pi@raspberry: ~/task5[01;32mpi@raspberry[00m:[01;34m~/task5 $[00m exit
+exit
+
+Script done on 2020-09-05 18:10:15+01:00 [COMMAND_EXIT_CODE="0"]

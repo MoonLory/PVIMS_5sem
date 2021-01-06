@@ -1,0 +1,64 @@
+Script started on 2020-09-06 13:56:33-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ mkdir rsync-backup
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cp /home/grishkin12/task[K[K[K[Kanswer.txt /home/grishkin12/[K[K[K[K[K[K[K[Kshkin12/rsync-backup/
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cp [K[K[Kcd rsync-backup/
+]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ cp answer.txt answer.txt [1@1
+]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ ls
+answer1.txt  answer.txt
+]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ rsync -avzhe ssh rsync-backup/ pi@192.168.131.130:/home/pi/rsync-backup[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.1[1P30:/home/pi/rsync-backup[A]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.13[1P0:/home/pi/rsync-backup[A]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7.130:/home/pi/rsync-backup[A]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4.130:/home/pi/rsync-backup[C[C[C[C[1P:/home/pi/rsync-backup[C[C[C1:/home/pi/rsync-backup[C[C[C[C[1P:/home/pi/rsync-backup[C[C[C4:/home/pi/rsync-backup[C[C[C[C[C[C[C[C[C[C[C[C
+pi@192.168.174.134's password: 
+sending incremental file list
+rsync: change_dir "/home/grishkin12/rsync-backup//rsync-backup" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  9.14 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1207) [sender=3.1.3]
+]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ ci[K[Kvi answer.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[29;1H"answer.txt" 17 lines, 206 characters[1;1Hanswer.txt
+Desktop
+Documents
+Downloads
+grishkin
+Music
+Pictures
+Public
+snap
+task3grishkin12u
+task4grishkin12u
+task7grishkin12u
+Templates
+time_log3grishkin12u
+time_log4grishkin12u
+time_log7grishkin12u
+Videos
+[94m~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[mVideoo[?25l[17;6H[K[17;5H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[17;5H[?25h[?25l[17;5H[K[17;4H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[17;4H[K[17;3H[?25h[?25l[17;3H[K[17;2H[?25h[?25l[29;1H[K[29;1H:[?2004h[?25hwq[?25l[?2004l"answer.txt" 17 lines, 202 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ vi answer.txtrsync -avzhe ssh rsync-backup/ pi@192.168.174.134:/home/pi/rsync-backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+pi@192.168.174.134's password: 
+sending incremental file list
+rsync: change_dir "/home/grishkin12/rsync-backup//rsync-backup" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  9.14 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1207) [sender=3.1.3]
+]0;grishkin12@ubuntu: ~/rsync-backup[01;32mgrishkin12@ubuntu[00m:[01;34m~/rsync-backup[00m$ exit
+exit
+
+Script done on 2020-09-06 14:07:56-07:00 [COMMAND_EXIT_CODE="23"]

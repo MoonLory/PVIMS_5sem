@@ -1,0 +1,166 @@
+Script started on 2020-09-05 22:12:57+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m mkdir examples
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m pwd
+/home/pi/lab2
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m ls -ls examples/lag.txt[1Pg.txtog.txt[C[C[C[C[C
+ls: cannot access 'examples/log.txt': No such file or directory
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m ls -ls examples/log.txt[1@c[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd examples/
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m touch log.txt
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m touch log.txt[1Pcd examples/ls -ls examples/log.txt[1Plog.txt[1Plog.txt[1Plog.txt[1Pog.txt[1Plog.txt[1Plog.txt[1Plog.txt[1Plog.txt[1Plog.txt
+0 -rw-r--r-- 1 pi pi 0 Sep  5 22:14 log.txt
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m awk '/con[K[K[Kbash/ {}p}t}i}n}t}[1P}[1P}[1P}[1P}r}i}n}t}[C examplee[Ks/*
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m S[Kawk '/QUIT|SETDATE/"[K' /usr/include/protocols/*
+#define	TSP_QUIT		13	/* reject candidature if master is up */
+#define	TSP_SETDATE		22	/* New from date command */
+#define	TSP_SETDATEREQ		23	/* New remote for above */
+  "SLAVEUP", "ELECTION", "ACCEPT", "REFUSE", "CONFLICT", "RESOLVE", "QUIT",
+  "TEST", "SETDATE", "SETDATEREQ", "LOOP" };
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m cat myfile 
+This is a test.
+This is a second test.
+This is a third test.
+This is a fourth test.
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m awk'{print $1}' myfile
+bash: awk{print $1}: command not found
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m awk'{print $1}' myfile[1@ 
+This
+This
+This
+This
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m awk '{print $1}' myfile[1P[1@3
+a
+the
+the
+the
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m awk '/foo/{print toupper($0); }'
+This line contains bar/ .
+^[[A^[[B        This line contains d foo.
+THIS LINE CONTAINS FOO.
+^C
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m awk '/foo/{print toupper($0); }'[9P{print $3}' myfile[K[K[K[K[K[K[C[1@$[1@1[1@,[1@ [C[1@$[1@2[1@,[1@ [C[C[1P[1@5[C[C[Clist_students 
+Astashko Ivan 6
+Buz Evgen 9
+Kravchen Leo 4
+Koshkin Vova 7
+Lipin Fedor 4
+Penov Nikolay 5
+Yashin Petr 8
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m ssh [35@awk '{print $1, $2, $5}' list_students[C[7P/foo/{print toupper($0); }'[9P{print $3}' myfile1[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcat myfile awk '/QUIT|SETDATE/' /usr/include/protocols/*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pbash/ {print} examples/*[16Pls -ls log.txt[1Ptouch[C[C[C[C[C[C[C[C[1Pcd examples/ls -ls examples/log.txtpwd[Kmkdir examples[8Plogoutpi@raspberry:~ $ Script done, file is task5grishkin12r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpi@raspberry:~/task5 $ exitrm -r dir1[7P $ cd task5//task5/dir1 $ cd[8P3 directories, 5 files└── file4a.txt -> /home/pi/task5/dir1/dir2/dir3/dir4/file4a.txt[A]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m ├── file1.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C│   └── file3.txt├── file2.txt│   └── file4.txt[5P├── dir4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh ubu[K[K[Kgrishkin12@192.168.174.131
+ssh: connect to host 192.168.174.131 port 22: No route to host
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m ssh grishkin12@192.168.174.131
+grishkin12@192.168.174.131's password: 
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-47-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+9 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Mon Sep 14 03:37:50 2020 from 192.168.174.134
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ ifconfig git push[C[5Ppushgit push ifconfig[C[Kif[K[Kcd examples/
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ cat list_students 
+Асташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Липин Федор ПИ 2 4
+Пенов Николай ПМ 1 5
+Яшин Петр КБ 4 8
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ cat list_students [6Pd examples/[3Pifconfig git push[C[5Ppushgit commit -m 'add task2.1'status[K[1Padd .statuscommit -m 'add task2.1'push[Kgit push ifconfig[Ccd examples/at list_students [Kawk '{print $1,$2,$5}' list_students
+Асташко Иван 6
+Бузун Евгений 9
+Кравченя Леонид 4
+Кошкин Владимир 7
+Липин Федор 4
+Пенов Николай 5
+Яшин Петр 8
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '{print $1,$2,$5}' list_students[1@/[1@8[1@/[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@0[C
+Яшин Петр КБ 4 8
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '/8/ {print $0}' list_students[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@([1@)[1@$[1@5[1@=[1@=[1@4
+Кравченя Леонид ПМ 1 4
+Липин Федор ПИ 2 4
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '($5==4)' list_students[7@/8/ {print $0}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P($5==4)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@&[1@&[1@([1@)[C[C[C[C[C[1P[1@3[C[C[C[1@'[1@'[1@R[1P[1@r[1P[C[2@^[[2@[D[1P[1P[2P[1P[C[1@'[2@КБ[C[C[C[C[C[C[C[C[1@$[1@4[1@=[1@=[1@1
+awk: 1: unexpected character 0xd0
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '($3==4'КБ')&&($4==1)' list_students[1P
+awk: 1: unexpected character 0xd0
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '($3=='КБ')&&($4==1)' list_students[1P[1@"[C[C[C[1P[1@"
+Бузун Евгений КБ 1 9
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '($3=="КБ")&&($4==1)' list_students[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@l[1@e[1@n[1@g[1@t[1@h[1@([1@$[1@@[1P[1@2[C[1@)[1@>[1@5[C[C[1@{[1@}[1@p[1@r[1@i[1@n[1@t[C[C[C[C[C[C[C[C[C[C[C
+Асташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Липин Федор ПИ 2 4
+Пенов Николай ПМ 1 5
+Яшин Петр КБ 4 8
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '(length($2)>5){print}' list_students[C[C[1@ [C[C
+Асташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Липин Федор ПИ 2 4
+Пенов Николай ПМ 1 5
+Яшин Петр КБ 4 8
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '(length($2)>5) {print}' list_students[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@r[1@i[1@n[1@t[1@ [1@N[1@R[1@,[1@ [1@$[1@0[C[C[C[C[C[C[C[C[C
+awk: line 1: syntax error at or near print
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk 'print NR, $0' list_students[1@{[C[C[C[C[C[C[C[C[C[C[C[C[1@}
+1 Асташко Иван ПИ 1 6
+2 Бузун Евгений КБ 1 9
+3 Кравченя Леонид ПМ 1 4
+4 Кошкин Владимир ИН 1 7
+5 Липин Федор ПИ 2 4
+6 Пенов Николай ПМ 1 5
+7 Яшин Петр КБ 4 8
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '{print NR, $0}' list_students[C[C[C[C[C[C[C[1P[1@2[1@)[1@([C[1P[1P[1@t[1@o[1@u[1@p[1@p[1@e[1@r[C[1P
+Иван
+Евгений
+Леонид
+Владимир
+Федор
+Николай
+Петр
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '{print toupper ($2)}' list_students[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@u[1@m[1@ [1@+[1@=[1@ [1@$[1@5[C[C[C list_studentsE list_studentsN list_studentsD list_students[C list_students{ list_students} list_students[1@p[1@r[1@i[1@n[1@t[1@ [1@([1@)[1@"[1@"[1@SU")} list_students [A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM")} list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=")} list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,)} list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C )} list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs)} list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu)} list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm)} list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csum)} list_stu[1Pdents[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+-bash: syntax error near unexpected token `('
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '{sum += $5}' END {print ("SUM=",sum)} list_students[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C END {print ("SUM=",sum)} list_stud[1Pents[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' list_students[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+SUM= 43
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '{sum += $5} END {print ("SUM=",sum)}' list_students[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K'{sum += $5}' END {print ("SUM=",sum)} list_students[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C list_stud[1Pents[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C list_stude[1Pnts[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C list_studen[1Pts[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C list_student[1Ps[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C list_students[K[A]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C list_students [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P list_students
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P list_students[1P list_students[1P list_students[1P list_students[1P list_students[1P list_students[1Plist_students[1P list_students[1P list_students[1P list_students[1P list_students[1P list_students[1P list_students[1Plist_students[1P list_students[1P list_students[1P list_students[1Plist_students[1P list_students[1P list_students[1P list_students[1P list_students[1Plist_students[1P list_students[1P list_students[1Plist_students[1P list_students[1P list_students[1P list_students[1P list_students' list_students[1@$[1@1[1@ [1@`[1@ [1@/[1@/[C[1@R[1@h[1@f[1@d[1@x[1@t[1@y[1@z[1P[1P[1P[1P[1P[1P[1P[1P[8@кравченя[1P[1P[1P[1P[1P[1P[1P[1P[8@Кравченя[C[C[1@)[1@(
+awk: 1: unexpected character '`'
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '($1 ` /Кравченя/)' list_students[C[C[1P[1@~
+Кравченя Леонид ПМ 1 4
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ awk '($1 ~ /Кравченя/)' list_students[1P[1@[[1@][C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[6@Ллипин[1@][1P[C[1@]
+Липин Федор ПИ 2 4
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ cat colours.csv 
+name,color,amount
+apple,red,4
+banana,yellow,6
+strawberry,red,3
+grape,purple,10
+apple,green,8
+plum,purple,2
+kiwi,brown,4
+potato,brown,9
+pineapple,yellow,5
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ cat colours.csv [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk '($1 ~ /[Лл]ипин/)' list_studentsКравченя[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K-F"," '$3>6 {print $1,$2}' colours.csv > outpu t.txt
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ cat l[Koutput.txt 
+name color
+grape purple
+apple green
+potato brown
+]0;grishkin12@ubuntu: ~/examples[01;32mgrishkin12@ubuntu[00m:[01;34m~/examples[00m$ lod[Kgout
+Connection to 192.168.174.131 closed.
+]0;pi@raspberry: ~/lab2/examples[01;32mpi@raspberry[00m:[01;34m~/lab2/examples $[00m exit
+exit
+
+Script done on 2020-09-05 23:12:18+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,161 @@
+Script started on 2020-09-05 12:29:24+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cal
+   September 2020     
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4 [7m 5[27m  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30           
+                      
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m date
+Sat 05 Sep 2020 12:29:31 PM BST
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m who
+pi       tty7         2020-09-05 14:03 (:0)
+pi       tty1         2020-09-05 14:03
+pi       pts/1        2020-09-05 11:05 (192.168.174.1)
+pi       pts/2        2020-09-05 11:26 (192.168.174.131)
+pi       pts/4        2020-09-05 12:28 (192.168.174.131)
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m whoami
+pi
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m tee [K[K[K[Kls | tee.[K logs/[K.txt
+Desktop
+Documents
+Downloads
+log.txt
+MagPi
+Music
+Pictures
+Public
+task3grishkin12r
+Templates
+time_log3grishkin12r
+Videos
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vim[K [Km lag[K[Kogs.txt
+bash: vim: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vim logs.txt[1P logs.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;30r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[30;1H"logs.txt" 12 lines, 119 characters[1;1HDesktop
+Documents
+Downloads
+log.txt
+MagPi
+Music
+Pictures
+Public
+task3grishkin12r
+Templates
+time_log3grishkin12r
+Videos
+[94m~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [1;1H[?25h[mDeskto[2;7H[3;7H[4;7H
+MagP
+Musi[7;7H[8;6H[9;7H[10;7H[11;7H[12;6H[?25l[12;6H[K[12;5H[?25h[?25l[30;1H[K[30;1H:[?2004h[?25h-wk[?25l[30;4H[K[30;4H[?25hq[?25l[97m[41mE140: Use ! to write partial buffer[?2004h[12;5H[?25h[mde[?25l[12;5H[K[12;4H[?25hd[?2004l[?25l[13;1H[K[13;1H[?25h[?25lx[?25h[?25lx[?25h[?25l[?25h[?25l[?25h[?2004h[?25l[13;1H[K[13;1H[?25h[?2004l[?25l[13;29r[13;1H[L[1;30r[13;1HD[30;1H[K[13;2H[?25h[?2004h[?2004l[?25l[13;29r[13;1H[L[1;30r[13;1HA[?25h[?2004h[?2004l[?25l[13;29r[13;1H[L[1;30r[13;1HA[?25h[?2004h[?2004l[?25l[13;29r[13;1H[L[1;30r[13;1HB[?25h[?2004h
+
+
+
+[16;1H[?25l[16;1H[K[16;1H[?25h[15;1H[?25l[15;1H[K[15;1H[?25h[14;1H[?25l[14;1H[K[14;1H[?25h[13;1H[?25l[13;1H[K[13;1H[?25h[12;1HVid[?25l[30;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[12;4H[?25h[?25l[30;1H[K[30;1H:[?2004h[?25hqa[?25l[97m[41mE37: No write since last change[m
+[97m[41mE162: No write since last change for buffer "logs.txt"[?2004h[m
+[32mPress ENTER or type command to continue[?25h[m[1;1H[2L[?25l[1;1HDesktop
+Documents[30;1H[K[12;4H[?25hdVid[?2004l[?25l[13;29r[13;1H[L[1;30r[13;1H[?25h[?2004h[?25l[30;1H:[?2004h[?25hq[?25l[30;2H[K[30;2H[?25hwa[?25l[30;3H[K[30;3H[?25hq[?25l[?2004l"logs.txt" 18 lines, 123 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cp -help
+cp: invalid option -- 'h'
+Try 'cp --help' for more information.
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cp--help
+bash: cp--help: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cp--help[K[K[K[K[K[K --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  log.txt  [01;34mMusic[0m     [01;34mPublic[0m            [01;34mTemplates[0m             [01;34mVideos[0m
+[01;34mDocuments[0m  logs.txt   [01;34mMagPi[0m    [01;34mPictures[0m  task3grishkin12r  time_log3grishkin12r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mkdir grishkin
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  logs.txt  [01;34mMagPi[0m  [01;34mPictures[0m  task3grishkin12r  time_log3grishkin12r
+[01;34mDocuments[0m  [01;34mgrishkin[0m   log.txt   [01;34mMusic[0m  [01;34mPublic[0m    [01;34mTemplates[0m         [01;34mVideos[0m
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cp lsgs[K[K[Kp[Kos[Kgs.txt grishkin/
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd grishkin/
+]0;pi@raspberry: ~/grishkin[01;32mpi@raspberry[00m:[01;34m~/grishkin $[00m ls
+logs.txt
+]0;pi@raspberry: ~/grishkin[01;32mpi@raspberry[00m:[01;34m~/grishkin $[00m unlink logs.txt 
+]0;pi@raspberry: ~/grishkin[01;32mpi@raspberry[00m:[01;34m~/grishkin $[00m ls
+]0;pi@raspberry: ~/grishkin[01;32mpi@raspberry[00m:[01;34m~/grishkin $[00m exit
+exit
+
+Script done on 2020-09-05 12:36:04+01:00 [COMMAND_EXIT_CODE="0"]

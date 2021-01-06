@@ -1,0 +1,164 @@
+Script started on 2020-09-15 03:48:57-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ vi .bashrcm .bashrc[6Palias c='clear'
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias c='clear'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ vi bash[K[K[K[K.bashrc 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H".bashrc" 117 lines, 3771 characters[1;1H# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;[8;7H*) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[23;1Hshopt -s checkwinsize[24;1H[K[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# If set, the pattern "**" used in a pathname expansion context will[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# match all files and zero or more directories and subdirectories.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#shopt -s globstar[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# make less more friendly for non-text input files, see lesspipe(1)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# set variable identifying the chroot you work in (used in the prompt below)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hdebian_chroot=$(cat /etc/debian_chroot)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# set a fancy prompt (non-color, unless we know we "want" color)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hcase "$TERM" in[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hxterm-color|*-256color) color_prompt=yes;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hesac[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# uncomment for a colored prompt, if the terminal has the capability; turned[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# off by default to not distract the user: the focus in a terminal window[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# should be on the output of commands, not on the prompt[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#force_color_prompt=yes[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -n "$force_color_prompt" ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hif [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# We have color support; assume it's compliant with Ecma-48[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# (ISO/IEC-6429). (Lack of such support is extremely rare, and such[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H# a case would tend to support setf rather than setaf.)[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hcolor_prompt=yes[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Helse[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hcolor_prompt=[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ "$color_prompt" = yes ]; then[?25h[?25l[1;23r[1;1H[2M[1;24r[22;5HPS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\00[23;1H33[01;34m\]\w\[\033[00m\]\$ '[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Helse[?25h[?25l[1;23r[23;1H
+[1;24r[23;5HPS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hunset color_prompt force_color_prompt[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# If this is an xterm set the title to user@host:dir[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hcase "$TERM" in[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hxterm*|rxvt*)[?25h[?25l[1;23r[23;1H
+[1;24r[23;5HPS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H*)[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H;;[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hesac[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# enable color support of ls and also add handy aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -x /usr/bin/dircolors ]; then[?25h[?25l[1;23r[1;1H[2M[1;24r[22;5Htest -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircoo[23;1Hlors -b)"[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Halias ls='ls --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H#alias dir='dir --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H#alias vdir='vdir --color=auto'[?25h[?25l[1;23r[1;1H[2M[1;24r[23;5Halias grep='grep --color=auto'[22;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;5Halias fgrep='fgrep --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Halias egrep='egrep --color=auto'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# colored GCC warnings and errors[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quu[23;1Hote=01'[22;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# some more ls aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias ll='ls -alF'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias la='ls -A'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Halias l='ls -CF'[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Add an "alert" alias for long running commands.  Use like so:[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#   sleep 10; alert[?25h[?25l[1;23r[1;1H[3M[1;24r[21;1Halias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echoo[22;1H error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\''[23;1H')"'[21;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Alias definitions.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# You may want to put all your additions into a separate file like[?25h[22;1H[21;1H[18;1H[17;1H[16;1H[15;1H
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[23;1H# ~/.bash_aliases, instead of adding them here directly.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# See /usr/share/doc/bash-doc/examples in the bash-doc package.[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hif [ -f ~/.bash_aliases ]; then[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H. ~/.bash_aliases[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfi[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[22;1H[?25h
+[?25l
+:[?2004h[?25hq![?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ vi .bashrc [K[K[K_a[K[Krc+[K_al[K[K[K[K[K_al[K[K[K[K[K[K[K[K[K[K[Kecho $PS1
+\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo $PS1[K[K[K[K[K[K[K[K[Kps1=Linux -> '[1@'
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ PS!='\h $'
+PS!=\h $: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ PS!='\h $'[C[C[C '
+PS!=\h $ : command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ PS!='\h $ '[C[C[C[C[C[C[C[C[C[1P'ps1='Linux -> '[6Pecho $PS1ps1='Linux -> '[C[1P[1P[1@P[1@S
+Linux -> hi
+
+Command 'hi' not found, but can be installed with:
+
+sudo snap install hi
+
+Linux -> ^C
+Linux -> exit
+
+Script done on 2020-09-15 03:53:53-07:00 [COMMAND_EXIT_CODE="130"]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guess_The_Number</string>
+    <string name="behind">Undershoot!</string>
+    <string name="ahead">Too far!</string>
+    <string name="hit">Exactly!</string>
+    <string name="input_value">Input value</string>
+    <string name="play_more">Play again</string>
+    <string name="try_to_guess">Try guess number (1 &#8211; 100)</string>
+    <string name="error">Invalid input!</string>
+    <string name="info_button">Author Info</string>
+    <string name="info_author">Egor Shilkin</string>
+    <string name="cancel">Ok!</string>
+</resources>

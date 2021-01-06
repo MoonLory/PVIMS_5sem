@@ -1,0 +1,174 @@
+Script started on 2020-09-06 02:22:25+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cd
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd lab2/
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m ls
+books              packages2.txt      time_log21grishkin12r
+[0m[01;34mexamples[0m           task21grishkin12r  time_log22grishkin12r
+packages1.catfile  task22grishkin12r  time_log23grishkin12r
+packages1.txt      task23grishkin12r
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m sed '/book/ p' books
+Book one.
+The second book.
+The second book.
+The third.
+This is book four.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+This is book seven.
+Eighth and last.]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m sed '/book/ p' books[1@-[1@n[1@ 
+The second book.
+This is book four.
+This is book seven.
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m sed -n '/book/ p' books[1P[1P[1P[1P[1P[1P[1@2[1@,[1@5
+The second book.
+The third.
+This is book four.
+Five.
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m touch records
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m vi records 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"records" 0 lines, 0 characters[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[?25l[m[2;1H[K[2;1H[?25h[?25l2[?25h[?25l[?25h[?25l:[?25h[?25lw[?25h[?25lq[?25h[?25l[3;1H[K[3;1H[?25h[?25l`[?25h[?25l[?25h[?2004h[?25l[3;1H[K[3;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwwq[?25l[24;4H[K[24;4H[?25h[?25l[24;3H[K[24;3H[?25hq[?25l[?2004l"records" 3 lines, 6 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m vi records 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"records" 3 lines, 6 characters[2;1H:wq
+
+[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[?25l[m[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"records" 3 lines, 6 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m cat vi [K[K[Krecords 
+2,5 p]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m sed -n -f records books 
+The second book.
+The third.
+This is book four.
+Five.
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m sed -f appends books
+Book one.
+My favorite book.
+The second book.
+My favorite book.
+The third.
+My favorite book.
+This is book four.
+My favorite book.
+Five.
+My favorite book.
+This is the sixth.
+My favorite book.
+This is book seven.
+My favorite book.
+Eighth and last.
+My favorite book.
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m sed -f appends booksn -f records books [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcat record[C[C[1Pvi[C[C[C[C[C[C[C[C[Ctouch recordssed -n '2,5 p' books[3@/book/[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd lab2/[Kexitssh grishkin12@192.168.174.131[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '{print $1, $2, $5}' list_students [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pssh grishkin12@192.168.174.131
+grishkin12@192.168.174.131's password: 
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-47-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+10 updates can be installed immediately.
+1 of these updates is a security update.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Mon Sep 14 11:25:47 2020 from 192.168.174.134
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ logoutcat output.txt [9Plogout[Kcd [K[K[Klogoutcat output.txt awk -F"," '$3>6 {print $1,$2}' colours.csv > output.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18P'($1 ~ /[Лл]ипин/)' list_studentsКравченя[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K'{sum += $5}' END {print ("SUM=",sum)} list_students[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K'($1 ` /Кравченя/)' list_students~[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Лл]ипин[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-F"," '$3>6 {print $1,$2}' colours.csv > output.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat output.txt [K[9Plogout[Kscp pi@192.168.174.14[K34 [K: /home/pi/[1P/home/pi/[C[C[C[C[C[C[C[C[Clab2/books /grishkin12[C/grishkin12h/grishkin12m/grishkin12e/grishkin12ome/grishkin12 [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+pi@192.168.174.134's password: 
+books                                           0%    0     0.0KB/s   --:-- ETAbooks                                         100%  118    21.9KB/s   00:00    
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.174.134:/home/pi/lab2/books /home/grishkin12 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12[1P /home/grishkin12[1P /home/grishkin12[1P /home/grishkin12a /home/grishkin12[1P /home/grishkin12r /home/grishkin12e /home/grishkin12c /home/grishkin12o /home/grishkin12r /home/grishkin12 [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /home/grishkin12[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs /home/grishkin12[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+pi@192.168.174.134's password: 
+records                                         0%    0     0.0KB/s   --:-- ETArecords                                       100%    5     3.0KB/s   00:00    
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.174.134:/home/pi/lab2/records /home/grishkin12[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/grishkin12[K[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/grishkin12 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12[1P /home/grishkin12[1P /home/grishkin12[1P /home/grishkin12a /home/grishkin12p /home/grishkin12p /home/grishkin12e /home/grishkin12n /home/grishkin12 [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /home/grishkin12[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs /home/grishkin12[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+pi@192.168.174.134's password: 
+appends                                         0%    0     0.0KB/s   --:-- ETAappends                                       100%   20    12.4KB/s   00:00    
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ scp pi@192.168.174.134:/home/pi/lab2/appends /home/grishkin12[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crecor
+[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/grishkin12[K[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/grishkin12 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12[1P /home/grishkin12[1P /home/grishkin12[1P /home/grishkin12i /home/grishkin12n /home/grishkin12s /home/grishkin12r /home/grishkin12e /home/grishkin12 [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/grishkin12e /home/grishkin12r /home/grishkin12 [A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct /home/grishkin12[A]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+pi@192.168.174.134's password: 
+insert                                          0%    0     0.0KB/s   --:-- ETAinsert                                        100%   20    13.0KB/s   00:00    
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ cd [K[K[K^C
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ Book one.
+
+Command 'Book' not found, did you mean:
+
+  command 'look' from deb bsdmainutils (11.1.2ubuntu3)
+
+Try: sudo apt install <deb name>
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ The second book.
+
+Command 'The' not found, did you mean:
+
+  command 'the' from deb the (3.3~rc1-3build1)
+  command 'he' from deb node-he (1.2.0-1)
+
+Try: sudo apt install <deb name>
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ The third.
+
+Command 'The' not found, did you mean:
+
+  command 'he' from deb node-he (1.2.0-1)
+  command 'the' from deb the (3.3~rc1-3build1)
+
+Try: sudo apt install <deb name>
+
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ This is book four.
+This: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ Five.
+Five.: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ This is the sixth.
+This: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ This is book seven.
+This: command not found
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ Eighth and last.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksed - n[K[Kn -f records books
+The second book.
+The third.
+This is book four.
+Five.
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sed -f appenda[Ks books
+Book one.
+My favorite book.
+The second book.
+My favorite book.
+The third.
+My favorite book.
+This is book four.
+My favorite book.
+Five.
+My favorite book.
+This is the sixth.
+My favorite book.
+This is book seven.
+My favorite book.
+Eighth and last.
+My favorite book.
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sed -f onsert[1Pnsertinsert[C[C[C[C[C books
+Book one.
+The second book.
+The third.
+SKARBONKA.
+This is book four.
+Five.
+SKARBONKA.
+This is the sixth.
+SKARBONKA.
+This is book seven.
+Eighth and last.]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ sed -n 's/book/novel/ p' books
+The second novel.
+This is novel four.
+This is novel seven.
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ logu[Kout
+Connection to 192.168.174.131 closed.
+]0;pi@raspberry: ~/lab2[01;32mpi@raspberry[00m:[01;34m~/lab2 $[00m exit
+exit
+
+Script done on 2020-09-06 02:49:09+01:00 [COMMAND_EXIT_CODE="0"]

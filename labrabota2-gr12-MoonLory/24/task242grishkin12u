@@ -1,0 +1,19 @@
+Script started on 2020-09-15 04:15:47-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo $()d)a)t)e)
+Tue 15 Sep 2020 04:15:59 AM PDT
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Area^[K: $[]$]X] ]*] ]$]Y][C
+bash: * : syntax error: operand expected (error token is "* ")
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Area: $[$X * $Y][C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KX=5
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ Y=6
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ Y=6X=5echo Area: $[$X * $Y]
+Area: 30
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Yout[Kr cost^ \5[K$5,00
+Your cost^ $5,00
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo Your cost^ \$5,00[C[1P \$5,00: \$5,00
+Your cost: $5,00
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ echo ''$'d'a't'e'
+$date
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ log[K[K[Kexit
+exit
+
+Script done on 2020-09-15 04:20:00-07:00 [COMMAND_EXIT_CODE="0"]

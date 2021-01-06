@@ -1,0 +1,331 @@
+Script started on 2020-09-07 11:46:47-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ history
+    1  sudo apt-get install ssh
+    2  sudo apt-get install ssh-server
+    3  sudo apt-get install openssh-server
+    4  sudo apt-get install openssh
+    5  sudo apt install openssh-server
+    6  sudo service ssh start
+    7  sudo apt install openssh-server
+    8  apt-get update
+    9  sudo apt install openssh-server
+   10  sudo apt-get update
+   11  sudo apt install openssh-server
+   12  sudo apt-get install openssh-server
+   13  sudo apt-get openssh-server
+   14  sudo apt install openssh-server
+   15  sudo apt-get install ssh
+   16  ssh
+   17  ssh pi@192.168.232.130
+   18  ssh
+   19  ifconfig
+   20  sudo apt install net-tools
+   21  ifconfig
+   22  exit
+   23  help
+   24  ls
+   25  cd
+   26  ls
+   27  pwd
+   28  mkdir hopheilalalei
+   29  rm
+   30  ls
+   31  rmdir hopheilalalei/
+   32  ls
+   33  history
+   34  exit
+   35  script -a task3grishkin12u -ttime_log timelog3grishkin12u
+   36  ssh pi@192.168.232.130
+   37  exit
+   38  ls
+   39  mkdir grishkin
+   40  cd grishkin/
+   41  git version
+   42  git clone https://github.com/fpmi-pmvs2020/labrabota1-gr12-MoonLory.git
+   43  ls
+   44  cd
+   45  ls
+   46  cp task3grishkin12u grishkin/labrabota1-gr12-MoonLory
+   47  cp time_log grishkin/labrabota1-gr12-MoonLory
+   48  exit
+   49  git --version
+   50  clear history
+   51  clear
+   52  history
+   53  exit
+   54  help
+   55  ls
+   56  cd
+   57  ls
+   58  mkdir hopheilalaley
+   59  cd hopheilalaley/
+   60  rmdir
+   61  cd
+   62  rm
+   63  rmdir hopheilalaley/
+   64  ls
+   65  history
+   66  exit
+   67  help
+   68  ls
+   69  cd
+   70  pwd -help
+   71  pwd 
+   72  mkder papka
+   73  mkdir papka
+   74  rm
+   75  ls
+   76  rmdir papka/
+   77  history
+   78  exit
+   79  ls
+   80  mkdir grishkin
+   81  ls
+   82  git version
+   83  cd grishkin/
+   84  git clone https://github.com/fpmi-pmvs2020/labrabota1-gr12-MoonLory.git
+   85  pwd
+   86  cp home/grishkin12/
+   87  cd
+   88  ls
+   89  /grishkin
+   90  cd grishkin/
+   91  cp /home/grishkin12/task3grishkin12u /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+   92  cd labrabota1-gr12-MoonLory/
+   93  ls
+   94  cd
+   95  ls
+   96  scp --help
+   97  scp pi@192.168.131.134:/home/pi/task3grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+   98  scp pi@192.168.174.134:/home/pi/task3grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+   99  scp pi@192.168.174.134:/home/pi/time_log3grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+  100  exit
+  101  ssh pi@192.168.274.134
+  102  ssh pi@192.168.174.134
+  103  man pidof
+  104  top
+  105  man fuser
+  106  ls | tee answer.txt
+  107  vi answer.txt 
+  108  man vmstat > andrei_grishkin_man_vmstat.txt
+  109  man lsof > andrei_grishkin_man_lsof.txt
+  110  man lsof
+  111  lsof
+  112  lsof > andrei_grishkin_man_lsof.txt
+  113  rn andrei_grishkin_man_lsof.txt andrei_grishkin_lsof.txt 
+  114  rename andrei_grishkin_man_lsof.txt andrei_grishkin_lsof.txt 
+  115  mv andrei_grishkin_man_lsof.txt andrei_grishkin_lsof.txt 
+  116  ls
+  117  logout
+  118  scp pi@192.168.174.134:/home/pi/task7grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+  119  scp pi@192.168.174.134:/home/pi/time_log7grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+  120  scp pi@192.168.174.134:/home/pi/ps /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+  121  scp pi@192.168.174.134:/home/pi/ps.log /home/grishkin12/grishkin/labrabota1-gr12-MoonLory/
+  122  exit
+  123  gzip
+  124  gzip -h
+  125  mkdir fortask8
+  126  cd fortask8/
+  127  touch simple.txt
+  128  ls
+  129  vi simple.txt 
+  130  gzip simple.txt 
+  131  ls
+  132  pwd
+  133  mkdir task8
+  134  cd task8/
+  135  cd
+  136  tar
+  137  tar --help
+  138  tar /home/grishkin12/fortask8
+  139  tar --totals --create --verbose --file archive.tar /home/grishkin12/fortask8/simple.txt.gz /home/grishkin12/fortask8/task8 /home/grishkin12/fortask8/simple.txt
+  140  gzip archive.tar 
+  141  scp archive.tar.gz pi@192.168.174.134:/home/pi
+  142  exit
+  143  cd
+  144  exit
+  145  mkdir rsync-backup
+  146  cp /home/grishkin12/answer.txt /home/grishkin12/rsync-backup/
+  147  cd rsync-backup/
+  148  cp answer.txt answer1.txt 
+  149  ls
+  150  rsync -avzhe ssh rsync-backup/ pi@192.168.174.134:/home/pi/rsync-backup
+  151  vi answer.txt
+  152  rsync -avzhe ssh rsync-backup/ pi@192.168.174.134:/home/pi/rsync-backup
+  153  exit
+  154  sudo groupadd student12u
+  155  sudo gpasswd -a grishkin12 student12u
+  156  chmod g+x ~/
+  157  touch copy.txt
+  158  l
+  159  chmod g+rw ~/copy.txt
+  160  sudo useradd student12u
+  161  sudo useradd user_student12u
+  162  chmod --help
+  163  sudo userdel user_student12u
+  164  exit
+  165  sudo adduser student12u
+  166  sudo adduser student12u_user
+  167  sudo gpasswd -a student12u_user student12u
+  168  mkdir papka
+  169  cd papka/
+  170  touch file.txt
+  171  chmod g+rw ~/papka/file.txt 
+  172  sudo chown file.txt student12u_user
+  173  sudo chown student12u_user file.txt 
+  174  ssh student12u_user@192.168.174.131
+  175  ifconfig
+  176  exit
+  177  clear
+  178  history
+  179  script -ttime_log3grishkin12u task3grishkin12u
+  180  ifcon
+  181  script -ttime_log7grishkin12u task7grishkin12u
+  182  git status
+  183  ls
+  184  cd grishkin/
+  185  cd labrabota1-gr12-MoonLory/
+  186  git status
+  187  git add .
+  188  git status
+  189  git rm ps.log
+  190  git restore
+  191  git restore --stage ps.log
+  192  git status
+  193  git restore --stage answer.txt andrei_grishkin_lsof.txt andrei_grishkin_man_vmstat.txt
+  194  git status
+  195  git commit -m "add 7 task"
+  196  git push
+  197  git status
+  198  cd
+  199  mkdir simple
+  200  cd simple/
+  201  mkdir lvl1
+  202  cd lvl1/
+  203  touch lvl1.txt
+  204  vi lvl1.txt 
+  205  mkdir lvl2
+  206  cd lvl2/
+  207  cp /home/grishkin12/simple/lvl1/lvl1.txt  
+  208  cp /home/grishkin12/simple/lvl1/lvl1.txt  /home/grishkin12/simple/lvl1/lvl2
+  209  ls
+  210  ls
+  211  mkdir lvl3
+  212  cd lvl3/
+  213  cp /home/grishkin12/simple/lvl1/lvl1.txt  /home/grishkin12/simple/lvl1/lvl2/lvl3
+  214  mv lvl1.txt lvl3.txt 
+  215  mkdir lvl4
+  216  cd lvl4/
+  217  cp /home/grishkin12/simple/lvl1/lvl1.txt  /home/grishkin12/simple/lvl1/lvl2/lvl3/lvl4
+  218  mv lvl1.txt lvl4.txt 
+  219  cp lvl1.txt 
+  220  cp lvl4.txt 
+  221  cp lvl4.txt lvl4_1.txt 
+  222  ls
+  223  ln
+  224  ln --help
+  225  cd
+  226  ls
+  227  script -ttime_log8grishkin12u task8grishkin12u
+  228  cd grishkin/
+  229  cd labrabota1-gr12-MoonLory/
+  230  ls
+  231  scp pi@192.168.174.134:/home/pi/task8grishkin12r home/grishkin12/grishkin/labrabota1-gr12-MoonLory
+  232  pwd
+  233  scp pi@192.168.174.134:/home/pi/task8grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory
+  234  scp pi@192.168.174.134:/home/pi/time_log8grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory
+  235  git status
+  236  git add .
+  237  git status
+  238  git commit -m "add 8 task"
+  239  git status
+  240  git push
+  241  script -ttime_log9grishkin12u task9grishkin12u
+  242  cd
+  243  script -ttime_log9grishkin12u task9grishkin12u
+  244  cd rsync-backup/
+  245  rsync -avzhe ssh rsync-backup/ pi@192.168.174.134:/home/pi/rsync-backup
+  246  rsync -avzhe ssh pi@192.168.174.134:/home/pi/rsync-backup
+  247  rsync -avzhe ssh answer.txt pi@192.168.174.134:/home/pi/rsync-backup
+  248  cd 
+  249  rsync -avzhe ssh rsync-backup/ pi@192.168.174.134:/home/pi/rsync-backup
+  250  scp pi@192.168.174.134:/home/pi/task9grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory
+  251  scp pi@192.168.174.134:/home/pi/time_log9grishkin12r /home/grishkin12/grishkin/labrabota1-gr12-MoonLory
+  252  git status
+  253  cd grishkin/
+  254  cd labrabota1-gr12-MoonLory/
+  255  git status
+  256  git add .
+  257  git status
+  258  git commit -m "add 9 task"
+  259  git status
+  260  git 
+  261  git status
+  262  git restore --stage
+  263  git restore 
+  264  git add . 
+  265  git status
+  266  git commit -m "add 9 task ub"
+  267  git status
+  268  git push
+  269  cd
+  270  script -ttime_log6grishkin12u task6grishkin12u
+  271  script -ttime_log6grishkin12u_2 task6grishkin12u_2
+  272  script -ttime_log3grishkin12u task3grishkin12u
+  273  ssh pi@192.168.174.134
+  274  script -ttime_log4grishkin12u task4grishkin12u
+  275  git add task3grishkin12r  task3grishkin12u task4grishkin12u time_log3grishkin12r time_log3grishkin12u time_log4grishkin12u
+  276  cd grishkin/
+  277  cd labrabota1-gr12-MoonLory/
+  278  git add task3grishkin12r  task3grishkin12u task4grishkin12u time_log3grishkin12r time_log3grishkin12u time_log4grishkin12u
+  279  git status
+  280  git commit -m "add 3 and 4 tasks"
+  281  git config --global user.email "grishkinandrei@gmail.com"
+  282  git config --global user.name "MoonLory"
+  283  git status
+  284  git commit -m "add 3 and 4 tasks"
+  285  git push
+  286  exit
+  287  sudo groupadd student12u
+  288  sudo gpasswd -a grishkin12 student12u
+  289  chmod g+x ~/
+  290  chmod g+rw ~/copy.txt 
+  291  sudo adduser student12u -g student12u_user
+  292  sudo adduser student12u_user
+  293  cd ..
+  294  ls
+  295  cd grishkin12/
+  296  sudo gpasswd -a student12u_user student12u
+  297  cd papka/
+  298  chmod g+rw file.txt 
+  299  sudo chmod g+rw file.txt 
+  300  sudo chgrp student12u ~/copy.txt 
+  301  sudo chown student12u_user file.txt
+  302  ssh student12u_user@192.168.174.131
+  303  cat file.txt 
+  304  exit
+  305  history
+  306  tree
+  307  exit
+  308  tree
+  309  vi file4a.txt 
+  310  cat file4a.txt 
+  311  cat dir2/dir3/dir4/file4a.txt 
+  312  vi dir2/file3.txt 
+  313  cat dir2/file3.txt 
+  314  cat dir2/dir3/file3.txt 
+  315  rm dir2/dir3/dir4/file4.txt 
+  316  tree
+  317  rm dir2/dir3/dir4/file4a.txt 
+  318  unlink dir2/dir3/file3.txt 
+  319  tree
+  320  cd ..
+  321  rm -d dir1
+  322  rm -r dir1
+  323  ls
+  324  exit
+  325  history
+]0;grishkin12@ubuntu: ~[01;32mgrishkin12@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-09-07 11:48:19-07:00 [COMMAND_EXIT_CODE="0"]

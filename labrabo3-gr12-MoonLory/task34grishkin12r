@@ -1,0 +1,51 @@
+Script started on 2020-09-22 11:14:38+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="40"]
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod +x 34[K[K./c[K341[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;31marchive.tar.gz[0m  [01;34mPublic[0m              task9grishkin12r
+[01;34mDesktop[0m         [01;34mrsync-backup[0m        [01;34mTemplates[0m
+[01;34mDocuments[0m       script341           time_log242grishkin12r
+[01;34mDownloads[0m       [01;31msimple.txt.gz[0m       time_log243grishkin12r
+file.txt        task242grishkin12r  time_log24grishkin12r
+[01;34mgrishkin[0m        task243grishkin12r  time_log31grishkin12r
+[01;34mlab2[0m            task24grishkin12r   time_log32grishkin12r
+logs.txt        task31grishkin12r   time_log34grishkin12r
+log.txt         task32grishkin12r   time_log3grishkin12r
+[01;34mMagPi[0m           task34grishkin12r   time_log5grishkin12r
+message.txt     task3grishkin12r    time_log6grishkin12r
+[01;34mMusic[0m           [01;34mtask5[0m               time_log7grishkin12r
+[01;34mpapochka[0m        task5grishkin12r    time_log8grishkin12r
+[01;34mPictures[0m        task6grishkin12r    time_log9grishkin12r
+pi_term         task7grishkin12r    [01;34mVideos[0m
+ps.log          task8grishkin12r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls[K[Kchmod + x[K[Kx ./[K[Kscript341 
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m scr
+scratch       scratch.old   screendump    scriptreplay  
+scratch2      screen        script        scrot         
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m scr
+scratch       scratch.old   screendump    scriptreplay  
+scratch2      screen        script        scrot         
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m script341[K[K[K[K[K[K[K[K[K./script341 
+./script341: line 4: count: command not found
+./script341: line 5: while:: command not found
+./script341: line 6: syntax error near unexpected token `do'
+./script341: line 6: `	do'
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script341 
+./script341: line 4: count: command not found
+./script341: line 5: true:: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script341 
+./script341: line 5: true:: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script341 
+1
+2
+3
+4
+5
+^Cyou hit Ctrl+c
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script341 [7@chmod +x [C[C[C[C[C[C[C[C[C[C[1P 2 
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod +x script342 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P./script341[C[1P 2 
+./script342: line 3: syntax error near unexpected token `done'
+./script342: line 3: `(while true; wc ans.txt >> ans.txt; sleep 1; done) &'
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script342 
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+exit
+
+Script done on 2020-09-22 11:28:12+01:00 [COMMAND_EXIT_CODE="0"]
